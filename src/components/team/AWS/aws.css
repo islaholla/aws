@@ -1,0 +1,44 @@
+.aws .break.solution{
+  background-color: white;
+  color: #000;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.aws .break.paragraf{
+  background-color: white;
+  color: #000;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 4rem 0;
+}
+.aws .break.paragraf p{
+  margin-top: 0;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+}
+.paragraf{
+  background-color: #FF9900;
+  margin-top: -1.4rem;
+  padding: 4rem;
+  color: white;
+}
+.paragraf li{
+ list-style: disc;
+ margin-left: 2rem;
+}
+.paragraf ul{
+margin-top: 1rem;
+}
+.paragraf.bg-white{
+  background-color: white;
+  color: #000;
+}
+.paragraf p{
+  line-height: 21px;
+ width: 80%;
+ margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+.hero-team {
+  background-image: url("../../../../public/images/test1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* z-index: -1; */
+  width: 100%;
+  height: 100vh;
+  padding-top: 14%;
+  padding-right: 50px;
+  color: #000;
+}
+.hero-team #heading h3 {
+  color: #FF9900;
+}
+.hero-team #heading h1 {
+  color: #1B2737  ;
+}
+.hero-team #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.hero-team .container{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.hero-team .teks{
+  width: 55%;
+}
+.hero-team .yt{
+  display: flex;
+  justify-content: start;
+}
+.hero-team .yt iframe{
+  border-radius: 10px;
+
+}
+@media screen and (max-width: 768px) {
+  .margin {
+    height: 40vh;
+  }
+  .hero-team {
+    background-position: right;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  .hero-team .row {
+    width: 100%;
+  }
+}
