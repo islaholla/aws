@@ -345,19 +345,19 @@ export const priceSolution = [
   {
     id  :"2",
     name: "Elasticity",
-    price:  "./images/team/image1.jpg",
+    price:  "./images/team/awselasticity.jpg",
     desc: ["With cloud computing, you don’t have to over-provision resources up front to handle peak levels of business activity in the future. Instead, you provision the amount of resources that you actually need. You can scale these resources up or down to instantly grow and shrink capacity as your business needs change.    "],
   },
   {
     id  :"3",
     name: "Cost savings",
-    price:  "./images/team/image1.jpg",
+    price:  "./images/team/awscostsaving.png",
     desc: ["The cloud allows you to trade fixed expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it. Plus, the variable expenses are much lower than what you would pay to do it yourself because of the economies of scale.    "],
   },
   {
     id  :"4",
     name: "Deploy globally in minutes",
-    price:  "./images/team/image1.jpg",
+    price:  "./images/team/awsinminute.jpg",
     desc: ["With the cloud, you can expand to new geographic regions and deploy globally in minutes. For example, AWS has infrastructure all over the world, so you can deploy your application in multiple physical locations with just a few clicks. Putting applications in closer proximity to end users reduces latency and improves their experience.    "],
   },
 ]

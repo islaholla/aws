@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../../../components/image/msi x aws.png"
+import { Link } from "react-router-dom"
 
 const Head = () => {
   return (
@@ -8,7 +9,7 @@ const Head = () => {
         <div className='container flexSB'>
           <div className='logo'>
             <div className="wrap-logo">
-              <img src={logo} alt="" />
+              <Link to='/'> <img src={logo} alt="" /></Link>
             </div>
           </div>
 
