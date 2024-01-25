@@ -1,6 +1,7 @@
 import React from "react"
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
+import { Link } from "react-router-dom"
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
             <p>Migrating to the Cloud will provide an opportunity for your company to access technology that allows you to innovate faster, more competitive and open up greater business opportunities.</p>
             <div className='button'>
               <button className='primary-btn'>
-                Claim Exclusive Offer <i className='fa fa-long-arrow-alt-right'></i>
+                <Link to='/contact'>Claim Exclusive Offer <i className='fa fa-long-arrow-alt-right'></i></Link>
               </button>
             </div>
           </div>

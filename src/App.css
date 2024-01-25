@@ -248,3 +248,7 @@ justify-content: center;
 
  margin: 5rem;
 }
+
+button a, .button a{
+  color: #fff;
+}
