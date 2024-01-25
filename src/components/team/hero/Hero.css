@@ -28,6 +28,8 @@
   justify-content: space-between;
   align-items: center;
   display: flex;
+  gap: 3rem;
+
 }
 .hero-team .teks{
   width: 55%;
@@ -41,13 +43,23 @@
 
 }
 @media screen and (max-width: 768px) {
+  iframe{
+    margin-bottom: 1rem;
+  }
+  .hero-team .container{
+    flex-direction: column;
+    margin: 0 auto;
+
+  }
   .margin {
     height: 40vh;
   }
   .hero-team {
-    background-position: right;
-    padding-top: 50%;
-    height: 80vh;
+    position: relative;
+    background-position: end;
+    margin: 0 auto;
+
+    height: 110vh;
   }
   .hero-team .row {
     width: 100%;

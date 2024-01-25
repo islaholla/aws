@@ -34,6 +34,12 @@ footer {
   background-color: #1B2737;
   color: white;
 }
+.box.link a{
+  color: white;
+}
+.box.link a:hover{
+  color: #FF9900;
+}
 footer .sosmed{
   display: flex;
   gap: 1rem;
@@ -46,6 +52,9 @@ footer .container {
   grid-gap: 3rem;
 }
 @media screen and (max-width: 768px) {
+  .newletter .right {
+    margin-top: 1rem;
+}
   footer .container {
     grid-template-columns: repeat(2, 1fr);
   }

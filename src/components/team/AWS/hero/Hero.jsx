@@ -8,10 +8,10 @@ const Hero = () => {
   const lok = `Home / ${location.pathname.split("/")[1]}`
   return (
     <>
-      <section className='hero-sdp'>
+      <section className='hero-sdp aws'>
         <div className='container '>
         <div className='row yt'>
-          <img width="500" height="315" src={hero}/>
+          <img src={hero}/>
           </div>
           <div className='row teks'>
             <Heading subtitle={lok} title='MIGRATE WITH CONFIDENCE' />
@@ -19,9 +19,6 @@ const Hero = () => {
             <div className='button'>
               <button className='primary-btn'>
                 Connect with Expert <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
-              <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
               </button>
             </div>
           </div>

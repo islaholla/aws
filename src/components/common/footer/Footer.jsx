@@ -1,6 +1,7 @@
 import React from "react"
 import "./footer.css"
 import logo from "../../../components/image/logo-msi.PNG"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -47,35 +48,21 @@ const Footer = () => {
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
-              <li>Contact us</li>
+            <li >
+            <a href='/'>Home</a>
+            </li>
+            <li>
+              <a target="_blank" href='https://www.mastersystem.co.id/about-us'>About</a>
+            </li>
+              <li><a href="/solutions">Solution</a></li>
+              <li><a href="/solutions/sdp">Windows Solutions</a></li>
+              <li><a href="/solutions/aws">AWS</a></li>
+              <li><a href="/journal">Success Story</a></li>
+              <li><a href="/contact">Contact us</a></li>
             </ul>
           </div>
           
-          {/* <div className='box'>
-            <h3>Recent Post</h3>
-            {blog.slice(0, 3).map((val) => (
-              <div className='items flexSB'>
-                <div className='img'>
-                  <img src={val.cover} alt='' />
-                </div>
-                <div className='text'>
-                  <span>
-                    <i className='fa fa-calendar-alt'></i>
-                    <label htmlFor=''>{val.date}</label>
-                  </span>
-                  <span>
-                    <i className='fa fa-user'></i>
-                    <label htmlFor=''>{val.type}</label>
-                  </span>
-                  <h4>{val.title.slice(0, 40)}...</h4>
-                </div>
-              </div>
-            ))}
-          </div> */}
+         
          
         </div>
       </footer>

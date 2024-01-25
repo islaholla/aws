@@ -13,7 +13,7 @@ import Aws from "./components/team/AWS/Aws";
 import DetailBlog from "./components/detailBlog/DetailBlog";
 function App() {
   return (
-    <>
+    <div className="body">
       <BrowserRouter>
         <Header />
         <Routes>
@@ -29,7 +29,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
-    </>
+    </div>
   )
 }
 

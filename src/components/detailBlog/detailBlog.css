@@ -78,6 +78,9 @@
 }
 /*----------awrapper------------*/
 @media screen and (max-width: 768px) {
+  .aboutHome .left  {
+    height:200px;
+  }
   .aboutHome .container {
     flex-direction: column-reverse;
   }

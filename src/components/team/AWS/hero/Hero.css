@@ -1,4 +1,4 @@
-.hero-sdp {
+.hero-sdp.aws {
   background-image: url(../../../../../public/images/test1.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -9,7 +9,7 @@
   /* z-index: -1; */
   width: 100%;
   height: 100vh;
-  padding-top: 16%;
+  padding-top: 20%;
   padding-right: 50px;
   color: #000;
 }
@@ -36,18 +36,37 @@
   display: flex;
   justify-content: start;
 }
+.hero-sdp .yt img{
+  width: 500px;
+  height: 315px;
+}
 .hero-sdp .yt iframe, .hero-sdp img{
   border-radius: 10px;
 
 }
 @media screen and (max-width: 768px) {
+  .paragraf{
+    padding: 2rem;
+    padding-top: 3rem;
+
+  }
+  .hero-sdp #heading {
+    margin-top: 1rem;
+}
+  .hero-sdp .yt img{
+    width: 354px;
+    height: 190px;
+  }
+  .hero-sdp .container {
+   flex-direction: column;
+}
   .margin {
     height: 40vh;
   }
-  .hero-sdp {
+  .hero-sdp, .hero-sdp.aws{
     background-position: right;
-    padding-top: 50%;
-    height: 80vh;
+    position: relative;
+    height: 100vh;
   }
   .hero-sdp .row {
     width: 100%;

@@ -72,6 +72,9 @@ header ul li a:hover {
 }
 /*--------header------------*/
 @media screen and (max-width: 768px) {
+  .aws{
+    margin-top: -2rem;
+  }
   .start {
     clip-path: none;
   }
@@ -138,9 +141,7 @@ header ul li a:hover {
  .windows{
   margin-top: -2rem;
 }
- .aws{
-  margin-top: -2rem;
-}
+
 .aws  ul,.windows ul{
   margin-left: 6.5rem;
  

@@ -14,13 +14,10 @@ const Hero = () => {
               <button className='primary-btn'>
                 Claim Exclusive Offer <i className='fa fa-long-arrow-alt-right'></i>
               </button>
-              <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
             </div>
           </div>
           <div className='row youtube'>
-          <iframe width="570" height="335" src="https://www.youtube.com/embed/DtDmdcVNBdU?si=Z6rQylfyTHg2HTT-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe src="https://www.youtube.com/embed/DtDmdcVNBdU?si=Z6rQylfyTHg2HTT-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
         </div>
       </section>

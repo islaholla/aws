@@ -20,9 +20,6 @@ const Hero = () => {
               <button className='primary-btn'>
                 Claim Exclusive Offer <i className='fa fa-long-arrow-alt-right'></i>
               </button>
-              <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
             </div>
           </div>
        

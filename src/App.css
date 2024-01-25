@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.body{
+  overflow: hidden;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f8f8f8;
@@ -153,7 +156,34 @@ p {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;
 }
+iframe{
+  width: 570px;
+  height: 335px;
+}
 @media screen and (max-width: 768px) {
+  .flexSB {
+    flex-direction: column;
+  }
+  .row {
+    width: 100%;
+  }
+  .aboutHome.card .left {
+   display: none;
+}
+  #heading h1 {
+    font-size: 30px;
+
+  }
+  .margin{
+    display: none;
+  }
+  iframe{
+    width: 570px;
+    height: 235px;
+  }
+  .row.youtube{
+    margin-top: 2rem;
+  }
   .aboutHome.card,.aboutHome.card .container {
       margin: 0 !important;
   }
@@ -166,6 +196,7 @@ p {
     background-position: center;
     padding-top: 50%;
     height: 80vh;
+    position: relative;
   }
 }
 
