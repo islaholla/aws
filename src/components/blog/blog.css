@@ -1,9 +1,18 @@
 .blog img {
+  border-radius: 10px;
   width: 100%;
   height: 100%;
 }
 .blog .text {
   text-align: center;
+}
+h2.submenuTitle{
+font-size: 2.5vw;
+margin: 0 auto;
+text-align: center;
+width: 80%;
+font-weight: 400;
+margin-bottom: 2rem
 }
 .blog h1 {
   font-weight: 500;

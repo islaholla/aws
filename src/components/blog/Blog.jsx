@@ -8,7 +8,7 @@ const Blog = () => {
     <>
       <Back title='Success Story' />
       <section className='blog padding'>
-        <h1 className="title">Our Success Story</h1>
+        <h2 className="submenuTitle">Read our customers' journey in implementing AWS solutions and see how it has impacted their businesses</h2>
         <div className='container grid2'>
           <BlogCard />
         </div>

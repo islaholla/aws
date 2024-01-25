@@ -25,7 +25,7 @@ height: 50px;
 /*--------head------------*/
 /*--------header------------*/
 header {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.66);
   margin: 0 30px;
   position: relative;
   z-index: 1;
@@ -135,10 +135,14 @@ header ul li a:hover {
   display: flex;
 
 }
-.dropdown-menu, .aws ,.windows{
+.dropdown-menu,.dropdown-menu .aws ,.windows{
   position: absolute;
 }
  .windows{
+  margin-top: -2rem;
+  height: 50px;
+}
+.dropdown-menu .aws{
   margin-top: -2rem;
 }
 

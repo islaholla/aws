@@ -7,6 +7,7 @@ const DropdownMenu = () => {
 
   const handleMouseEnter = () => {
     isDropdownVisible ? setDropdownVisible(false) : setDropdownVisible(true)
+    console.log(isDropdownVisible);
   };
   const compatancy = () => {
     isShow ? setShow(false) : setShow(true)
@@ -17,7 +18,7 @@ const DropdownMenu = () => {
       <ul>
         <Link onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseEnter}>SDP
-            {isDropdownVisible && <div className="windows"> <ul><Link to="/solutions/sdp">Windows Solution</Link></ul></div>}
+            {isDropdownVisible && <div className="windows"> <ul><Link to="/solutions/aws">Windows Solution</Link></ul></div>}
 
         </Link>
         
@@ -26,8 +27,8 @@ const DropdownMenu = () => {
         {isShow && 
         <div className="aws">
               <ul>
-              <Link to="/solutions/aws">AWS</Link>
-              <a>Cloud Migration</a>
+              <Link to="/solutions/sdp">AWS Migration</Link>
+              <a aria-disabled="true" >AWS Storage</a>
               </ul>
         </div>
       }
