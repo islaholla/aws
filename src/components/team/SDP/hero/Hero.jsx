@@ -1,6 +1,6 @@
 import React from "react"
 import "./Hero.css"
-import { useLocation } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import Heading from "../../../common/heading/Heading"
 import hero from "../../../../components/image/header microsite 4.jpg"
 
@@ -17,8 +17,8 @@ const Hero = () => {
           <div className='row teks'>
             <Heading subtitle={lok} title='OPTIMIZE CURRENT WINDOWS LICENSES TO CUT COSTS BEFORE MIGRATING TO AWS' />
             <div className='button'>
-              <button className='primary-btn'>
-                Claim Exclusive Offer <i className='fa fa-long-arrow-alt-right'></i>
+            <button className='primary-btn'>
+                <Link to='/contact'>Claim Exclusive Offer <i className='fa fa-long-arrow-alt-right'></i></Link>
               </button>
             </div>
           </div>
