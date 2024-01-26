@@ -29,6 +29,7 @@
 }
 .price ul{
   margin-top: 1rem;
+  padding-left: 2rem;
 }
 .price li {
   list-style: disc;
