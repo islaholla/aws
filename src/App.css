@@ -79,7 +79,7 @@ button:hover ,.button{
   text-transform: uppercase;
 }
 #heading h1 {
-  font-size: 45px;
+  font-size: 32px;
   margin: 20px 0;
   text-transform: capitalize;
 }
@@ -211,13 +211,12 @@ iframe{
   padding: 5rem 0;
   text-align: center;
   color: #fff;
-  margin-bottom: 3rem;
 }
 
 .break h2{
-  font-size: 26px;
-  width: 80%;
-  margin: 0 auto;
+  font-size: 21px;
+  text-align: center;
+  padding: 0 2rem;
 }
 .homeAbout {
   width: 80%;
@@ -251,4 +250,16 @@ justify-content: center;
 
 button a, .button a{
   color: #fff;
+}
+/* media querry */
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+  #heading h1 {
+    font-size: 45px;
+  }
+  .break h2{
+    font-size: 26px;
+  }
 }

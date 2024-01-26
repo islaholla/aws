@@ -1,5 +1,5 @@
 .price .items {
-  padding: 30px;
+  padding: 10px;
   /* text-align: center; */
 }
 .price .priceCard li{
@@ -11,7 +11,7 @@
   margin: 20px 0;
 }
 .wrap-image {
-  width: 240px;
+  width: 200px;
   margin: 0 auto;
 }
 .wrap-image img{
@@ -36,7 +36,6 @@
 }
 .price.price-solution  li {
   list-style: none;
-  text-align:justify ;
 }
 /*--------------faq-------------*/
 .faq .container {
@@ -71,5 +70,17 @@
   .price .items {
     padding: 30px;
     text-align: center;
+  }
+}
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+  .price .items {
+    padding: 30px;
+    /* text-align: center; */
+  }
+  .wrap-image {
+    width: 240px;
   }
 }

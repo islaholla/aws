@@ -40,6 +40,11 @@
   border-radius: 10px;
 
 }
+@media screen and (max-width: 1400px) {
+  .hero-sdp .container{
+    gap: 3rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;
@@ -52,4 +57,10 @@
   .hero-sdp .row {
     width: 100%;
   }
+}
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+
 }
