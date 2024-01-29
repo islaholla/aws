@@ -2,7 +2,7 @@ import React from "react"
 import "./Hero.css"
 import { Link, useLocation } from "react-router-dom"
 import Heading from "../../../common/heading/Heading"
-import hero from "../../../../components/image/website-hosting-concept-with-cloud.jpg"
+import hero from "../../../../components/image/storage.jpg"
 const Hero = () => {
   const location = useLocation()
   const lok = `Home / ${location.pathname.split("/")[1]}`

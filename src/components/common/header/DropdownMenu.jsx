@@ -7,7 +7,7 @@ const DropdownMenu = () => {
       <ul>
         <Link to='/solutions/aws'>Windows Migration</Link>
         <Link to='/solutions/sdp'> AWS Migration</Link>
-        <Link>AWS Storage Services</Link>
+        <Link to='/solutions/storage'>AWS Storage Services</Link>
       </ul>
     </div>
   );
