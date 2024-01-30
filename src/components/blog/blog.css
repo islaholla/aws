@@ -17,7 +17,7 @@ margin-bottom: 2rem
 .blog h1 {
   font-weight: 500;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 38px;
   margin: 20px 0;
   transition: 0.5s;
 }
@@ -42,7 +42,7 @@ margin-bottom: 2rem
   color: grey;
 }
 .blog {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 h1.title{
   font-size: 42px;

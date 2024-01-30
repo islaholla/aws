@@ -243,6 +243,28 @@ export const online = [
     course: "17 Courses",
   },
 ]
+export const bridge = [
+  {
+    cover: "./images/team/Immersion day Badge.png",
+    name: "Manage Cloud Financing",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/awspublicsectorsolutionprovider.png",
+    name: "Adapt to the Unique Behavior of the Application",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/tiered badge.png",
+    name: "Determining the Right Size",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t4.webp",
+    name: "Licensing Management ",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+]
 export const team = [
   {
     cover: "./images/team/t1.webp",
