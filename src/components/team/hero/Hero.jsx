@@ -2,7 +2,7 @@ import React from "react"
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
 import { Link, useLocation } from "react-router-dom"
-
+import hero from '../../../components/image/saas-concept-collage (2)-min.jpg'
 const Hero = () => {
   const location = useLocation()
   const lok = `Home / ${location.pathname.split("/")[1]}`
@@ -11,7 +11,9 @@ const Hero = () => {
       <section className='hero-team'>
         <div className='container '>
         <div className='row yt'>
-          <iframe width="550" height="315" src="https://www.youtube.com/embed/yWS_EKyojV0?si=DUcmHdlnxoYZDGvt"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div className="wrap-image">
+        <img  src={hero}/>
+        </div>
           </div>
           <div className='row teks'>
             <Heading subtitle={lok} title='CLOUD COMPUTING WITH AWS' />

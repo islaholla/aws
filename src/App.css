@@ -84,8 +84,8 @@ button:hover ,.button{
   text-transform: capitalize;
 }
 p {
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 25px;
+  font-size: 16px;
 }
 
 .back {
@@ -164,7 +164,7 @@ p {
 }
 iframe{
   width: 570px;
-  height: 335px;
+  height: 235px;
 }
 @media screen and (max-width: 768px) {
   .flexSB {
@@ -252,10 +252,51 @@ button a, .button a{
   color: #fff;
 }
 /* media querry */
+.sdp .price ul ,.aws-page  .price ul{
+  margin-top: 1rem;
+  padding-left: 0;
+}
+.home .wrap-image-home{
+  margin: 0 auto;
+  width: 1000px;
+  padding-top: 4rem;
+}
+.home .wrap-image-home img{
+  width: 100%;
+  object-fit: cover;
+}
 
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { 
+  .home .wrap-image-home{
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 5rem;
+  }
+  #heading {
+  text-align: center;
+  padding: 40px 0;
+}
+#heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #FF9900;
+  text-transform: uppercase;
+}
+#heading h1 {
+  font-size: 32px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+  iframe{
+    width: 570px;
+    height: 335px;
+  }
   #heading h1 {
     font-size: 45px;
   }

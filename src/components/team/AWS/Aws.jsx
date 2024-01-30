@@ -5,6 +5,7 @@ import Hprice from "./Hprice"
 import { priceSolution } from "../../../dummydata"
 import Hparagraf from "./Hparagraf"
 import Hero from "./hero/Hero"
+import Sukses from "../../common/success/Sucess"
 
 
 const Aws = () => {
@@ -19,6 +20,9 @@ const Aws = () => {
         Migrate with AWS—leveraging our unmatched experience and proven solutions to drive success at every step of your journey. From lifting and shifting workloads to moving entire data centers, AWS provides the organizational, operational, and technical capabilities you need for a successful migration. And with the deepest set of migration and modernization services—including many that are purpose-built for specific industries—you can start realizing the business value of AWS quickly and comprehensively.</p>
       </div>
       <Hprice price = {priceSolution}/>
+      <Sukses/>
+      <br />
+      <br />
       <div className="teks-collab">
       <BreakSection judul="What are the benefits of cloud migration?"/>
       <div className="paragraf bg-white">

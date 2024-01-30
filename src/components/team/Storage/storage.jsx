@@ -5,6 +5,7 @@ import Hprice from "./Hprice"
 import { priceSolution } from "../../../dummydata"
 import Hero from "./hero/Hero"
 import BlogS from "../blog/blogS"
+import Sukses from "../../common/success/Sucess"
 
 
 const Storage = () => {
@@ -24,6 +25,9 @@ const Storage = () => {
      <BlogS/>
 
       <div className="teks-collab">
+        <br /><br />
+        <Sukses/>
+        <br /> <br />
       <BreakSection judul="Types of AWS Storage Services"/>
       <div className="paragraf bg-white">
         <p>Now, we will see the different aws storage types in aws which are given below:

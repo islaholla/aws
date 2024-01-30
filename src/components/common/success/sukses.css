@@ -1,3 +1,73 @@
 .break-sukses{
+    background-color: #FF9900;
+    padding: 2rem 2rem;
+    text-align: start;
+    color: #fff;
     display: flex;
+    width: 70%;
+    justify-content: end;
+    /* margin-left: 20%; */
+    display: flex;
+    height: 200px;
+   border-radius: 15px;
+   position: relative;
+   gap: 3rem;
+   margin: 2rem auto;
+    align-items: center;
+}
+.break-sukses button{
+    margin-top: 20px;
+    padding: .5rem .5rem;
+    border-radius: 12px;
+}
+.break-sukses p {
+    line-height: 20px;
+    font-size: 16px;
+}
+.break-sukses a{
+    color: #1B2737;
+
+}
+.break-sukses a:hover{
+    color: #fff;
+}
+.break-sukses button:hover {
+    background-color: #FF9900;
+    color: #fff;
+  }
+.break-sukses .wrap-image{
+    margin-left: -2rem;
+    width: 660px;
+}
+.break-sukses .wrap-image img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+@media (max-width:751px)  { 
+    .break-sukses .wrap-image{
+        width: 100%;
+
+    display: none;
+} }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+    .break-sukses button{
+        margin-top: 20px;
+        padding: 1rem 1rem;
+        
+    }
+    .break-sukses p {
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .break-sukses .wrap-image{
+        margin-left: -2rem;
+        width: 580px;
+    }
+    .break-sukses{
+        width: 70%;
+        height: 240px;
+    }
 }
