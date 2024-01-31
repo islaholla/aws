@@ -12,7 +12,8 @@ const AboutCard = () => {
             <div className='items'>
                   <div className='item flexSB'>
                     <div className='text'>
-                      <p>Mastersystem Infotama is an AWS Advanced Tier Partner with an experienced technical team that will help you analyze and prepare for the migration process to the Cloud.</p>
+                    
+                      <p className="about-tes">Mastersystem Infotama is an AWS Advanced Tier Partner with an experienced technical team that will help you analyze and prepare for the migration process to the Cloud.</p>
                     </div>
                   </div>
 
