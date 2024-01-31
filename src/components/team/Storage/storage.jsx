@@ -1,8 +1,6 @@
 import React from "react"
 import './storage.css'
 import BreakSection from "../../common/break/Section"
-import Hprice from "./Hprice"
-import { priceSolution } from "../../../dummydata"
 import Hero from "./hero/Hero"
 import BlogS from "../blog/blogS"
 import Sukses from "../../common/success/Sucess"
@@ -29,8 +27,7 @@ const Storage = () => {
         <br /> <br />
       <BreakSection judul="Types of AWS Storage Services"/>
       <div className="paragraf bg-white">
-        <p>Now, we will see the different aws storage types in aws which are given below:
-        <br /><br />
+        <p>
         <h4>Object Storage</h4> 
         First, aws storage type is the extensive scalability and metadata capabilities of object storage that are frequently tapped into by applications created on the cloud.
 Simple Storage Service (Amazon S3) and Amazon Glacier are excellent object storage options for building modern applications from the ground up that require scale and adaptability.

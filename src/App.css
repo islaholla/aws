@@ -241,10 +241,13 @@ iframe{
     position: relative;
   }
 }
+.teks-collab {
+  MARGIN-TOP: -5REM;
+}
 
 .break{
   background-color: #FF9900;
-  padding: 5rem 0;
+  padding: 2rem 0;
   text-align: center;
   color: #fff;
 }
