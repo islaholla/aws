@@ -24,3 +24,44 @@
   font-weight: 500;
   line-height: 32px;
 }
+.section-windows {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.section-windows .teks{
+ width: 80%;
+}
+.section-windows p{
+ text-align: justify;
+}
+.section-windows h1{
+line-height: 36px;}
+.section-windows .wrap{
+ width: 150px;
+}
+.section-windows .wrap img{
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .section-windows .teks{
+    margin-top: 3rem;
+   }
+  .section-windows {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+      margin-bottom: 4rem;
+      padding-top: 3rem;
+      align-items: center;
+  }
+}
