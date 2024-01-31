@@ -48,3 +48,7 @@
 .blog-solution.storage .img{
   height: 400px;
 }
+
+.blog-solution.storage p {
+  padding-bottom: 2rem;
+}
