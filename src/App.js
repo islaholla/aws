@@ -13,12 +13,14 @@ import Aws from "./components/team/AWS/Aws";
 import DetailBlog from "./components/detailBlog/DetailBlog";
 import Storage from "./components/team/Storage/storage";
 import SuksesStory from "./components/sucessStory/SuksesStory";
+
 function App() {
   return (
     <div className="body">
       <BrowserRouter>
         <Header />
         <Routes>
+
           <Route path='/' element={<Home />} />
          <Route  path='/courses' element={<CourseHome/>} />
           <Route  path='/solutions' element={<Team/>} />

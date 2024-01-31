@@ -1,11 +1,16 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Heading from "../common/heading/Heading"
 import diagram from '../../components/image/diagram.png';
+import { useLocation } from "react-router-dom";
 
 
 
 const Awrapper = () => {
+  const { pathname } = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <>
