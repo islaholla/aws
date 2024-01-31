@@ -83,6 +83,7 @@ button:hover ,.button{
 #heading {
   text-align: center;
   padding: 40px 0;
+  padding-bottom:0;
 }
 #heading h3 {
   font-weight: 600;
