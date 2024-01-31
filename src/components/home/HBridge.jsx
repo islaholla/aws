@@ -10,9 +10,9 @@ const HBridge = () => {
     <>
       <section className='blog'>
         <div className='container'>
-          <Heading subtitle='Mastersystem has proven the quality of its services ' title='by receiving several badges from AWS' />
+          <Heading subtitle='Mastersystem has proven the quality of its services ' title='' />
           <div className='grid3Home'>
-            {bridge.slice(0, 3).map((val,index) => (
+            {bridge.slice(0, 4).map((val,index) => (
               <div key={index} className='items'>
                 <div className='img badge'>
                   <img src={val.cover} alt='' />

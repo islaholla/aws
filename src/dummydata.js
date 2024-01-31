@@ -245,6 +245,11 @@ export const online = [
 ]
 export const bridge = [
   {
+    cover: "./images/AWS level partner 3.png",
+    name: "Licensing Management ",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
     cover: "./images/team/Immersion day Badge.png",
     name: "Manage Cloud Financing",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
@@ -259,11 +264,7 @@ export const bridge = [
     name: "Determining the Right Size",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
-  {
-    cover: "./images/team/t4.webp",
-    name: "Licensing Management ",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
+
 ]
 export const team = [
   {

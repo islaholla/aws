@@ -12,11 +12,11 @@ const Home = () => {
     <div className="home">
       <Hero />
       <HBridge/>
+      <AboutCard />
       <Hprice />
       <Hsection judul="In current traditional situation, there's some challenges that company are usually facing such as:"/>
       <HAboutCard/>
       <Hsection judul="It's very important for you to understand the full picture before start the migration like business agility, the pace of innovation and digital infrastructure."/>
-      <AboutCard />
       <HAbout />
       <div className="wrap-image-home">
         <img src={sertif} alt="" />

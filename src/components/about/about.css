@@ -88,3 +88,8 @@
     height: 50vh;
   }
 }
+
+.aboutHome p{
+margin-top: -4rem;
+text-align: center;
+}
