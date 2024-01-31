@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 const Sukses = (section) => {
   return (
     <div className="break-sukses ">
-    <Link  to='/sukses-story#heading'> <div className="wrap-image"> <img src={image} alt="" /></div></Link>
+    <Link  to='/journal/sukses-story'> <div className="wrap-image"> <img src={image} alt="" /></div></Link>
       <div className="wrap-konten">
       <h2>Success Story
 </h2>
