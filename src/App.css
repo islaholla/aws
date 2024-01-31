@@ -141,6 +141,9 @@ p {
 .margin {
   margin-top: 40.3%;
 }
+.aws-page .margin{
+  margin-top: 35%;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
