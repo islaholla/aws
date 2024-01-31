@@ -13,7 +13,7 @@ const Sukses = (section) => {
 </h2>
      <p>Explore the chapters of our success tale and discover the inspiring milestones that define our remarkable journey – read more about our success story.
      <button className='outline-btn'>
-                <Link to='/contact'>Read More Success Story <i className='fa fa-long-arrow-alt-right'></i></Link>
+                <Link to='/journal'>Read More Success Story <i className='fa fa-long-arrow-alt-right'></i></Link>
         </button>
 </p>
       </div>
