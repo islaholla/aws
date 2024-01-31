@@ -20,6 +20,13 @@
   font-size: 21px;
   font-weight: 600;
 }
+.hprice{
+  margin-bottom: 4rem;
+}
+.note{
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
 .paragraf{
   background-color: #FF9900;
   margin-top: -1.4rem;
@@ -41,4 +48,10 @@ margin-top: 1rem;
   line-height: 21px;
  width: 80%;
  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .note{
+    margin-left: 2rem;
+  }
 }

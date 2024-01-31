@@ -307,6 +307,9 @@ button a, .button a{
   width: 100%;
   object-fit: cover;
 }
+.homeAbout p{
+  text-align: justify;
+}
 
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
