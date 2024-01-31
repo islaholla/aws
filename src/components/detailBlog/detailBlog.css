@@ -23,13 +23,14 @@
   width: 60%;
 }
 .aboutHome .items {
-  margin-top: 50px;
+  margin-top: 0;
 }
 .aboutHome .item {
   background-color: #fff;
-  margin-top: 30px;
+  margin-top: 0;
   padding: 20px;
   transition: 0.5s;
+  padding-top: 0;
 }
 .aboutHome .img {
   width: 200px;
