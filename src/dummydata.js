@@ -507,7 +507,7 @@ export const blog = [
     cover: "../images/sucess/japan.jpg",
   },
   {
-    id: "6",
+    id: "sukses-story",
     type: "admin",
     date: "DEC. 14, 2022",
     com: "3 COMMENTS ",

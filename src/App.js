@@ -28,7 +28,7 @@ function App() {
           <Route  path='/solutions/aws' element={<Sdp/>} />
           <Route  path='/pricing' element={<Pricing/>} />
           <Route  path='/journal' element={<Blog/>} />
-          <Route  path='/sukses-story' element={<SuksesStory/>} />
+          <Route  path='/journal/sukses-story' element={<SuksesStory/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
