@@ -485,7 +485,7 @@ export const blog = [
     title: "Transformasi Website Nissin Food Indonesia Bersama AWS Lightsail ",
     desc: "Mastersystem Bersama AWS Membantu Nissin Foods untuk Mengadopsi Teknologi Workload AWS Lightsail Sebagai Sebuah Solusi yang Dapat Memodernisasi Pengembangan Teknologi    ",
     konten : "Kemajuan teknologi cloud saat ini dimanfaatkan oleh PT. Nissin Food Indonesia untuk memodernisasi website sebagai pintu masuk komunikasi dengan customer agar bisa menghasilkan customer exprience yang lebih maksimal. Mastersystem bersama AWS membantu Nissin Foods mengadopsi teknologi Workload AWS Lightsail sebagai sebuah solusi yang dapat memodernisasi pengembangan teknologi mereka karena penggunaannya yang lebih mudah, harga yang dapat diestimasi, dan skalabilitas yang sederhana. Hasilnya, ketika website di naikan ke AWS cloud, user mendapatkan: Visibilitas terhadap detail penggunaan, Performa yang maksimal, Biaya operasional yang lebih optimal, Kemungkinan terjadi spam yang lebih rendah“Kami menyadari perlunya modernisasi website untuk menjalankan inovasi-inovasi kami kedepan. Solusi yang ditawarkan Mastersystem dan AWS sangatlah membantu operasional kami karena memberikan hasil yang lebih baik dari segi performa dan biaya. Kami juga berencana untuk menaikkan beberapa server lagi ke AWS cloud” – ucap Rico Lanjar Winata, IT Sr. Supervisor Nissin Foods Indonesia.    Kedepannya, Mastersystem dan AWS akan membantu Nissin Food memaksimalkan penggunaan cloud untuk meningkatkan kinerja operasional dan mengakselerasi bisnis dengan solusi cloud lainnya. ",
-    cover: "../images/sucess/nissin.png",
+    cover: "../images/sucess/AWS Success Story Nissin.jpg",
   },
   {
     id: "4",
@@ -513,7 +513,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "IT Hybrid Datacenter & Backup Solution for Asset Management Company",
     konten : "Japan Tobacco International telah berkembang dari perusahaan importir menjadi salah satu perusahaan manufaktur terbesar di industri tembakau Indonesia yang didirikan pada tahun 2010.Dalam kurun waktu 10 tahun, JTI Indonesia telah meraih banyak prestasi sukses, mulai dari mengembangkan rokok kretek pertamanya hingga akuisisi perusahaan manufaktur besar dan kantor distribusinya dengan cakupan nasional. Namun pada proses bisnisnya, JTI Indonesia masih memiliki proses manual yang diulang setiap harinya, seperti mengambil data dari website minimarket Indonesia untuk disimpan di Server Database JTI Indonesia.  Untuk menggantikan proses manual tersebut, JTI Indonesia mencari solusi otomatisasi agar tugas rutin yang biasa dilakukan secara manual bisa dilakukan dengan cepat, mudah dan hemat biaya. Mastersystem Infotama (Mastersystem) sebagai Partner Amazon Web Service (AWS) sekaligus Partner Nintex berkolaborasi untuk membantu kebutuhan JTI Indonesia dengan menyediakan solusi Enterprise Nintex Robotic Process Automation (RPA) yang berjalan di AWS. Untuk meningkatkan akurasi, konsistensi dalam pengolahan data ini, perlu dilakukan peningkatan penggunaan RPA. Dengan RPA, volume tinggi dan pekerjaan manual berulang dapat sepenuhnya diatasi melalui otomatisasi. Sehingga waktu yang sebelumnya digunakan untuk menyelesaikan pekerjaan, dapat dialokasikan untuk pekerjaan lain.", desc: "Mastersystem Infotama (Mastersystem) sebagai Partner Amazon Web Service (AWS) sekaligus Partner Nintex berkolaborasi untuk membantu kebutuhan JTI Indonesia ",
-    cover: "../images/sucess/japan.jpg",
+    cover: "../images/sucess/AWS Success Story Banner.jpg",
   },
 
 ]
