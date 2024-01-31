@@ -412,25 +412,25 @@ export const faq = [
 export const storage = [
   {
     id: 1,
-    title: "Infrastructure as a Service",
-    desc: "You can select from a variety of aws cloud storage classes offered by Amazon S3 depending on the workload’s needs for data access, reliability, and affordability. S3 storage classes were created specifically to offer the most affordable storage for various access patterns.",
+    title: "Variety of AWS cloud storage",
+    desc: "You can select from a variety of AWS cloud storage classes offered by Amazon S3 depending on the workload’s needs for data access, reliability, and affordability. S3 storage classes were created specifically to offer the most affordable storage for various access patterns.",
     cover: "../images/blog/b1.webp",
   },
   {
     id: 2,
-    title: "Software as a Service ",
-    desc: "You can select from a variety of aws cloud storage classes offered by Amazon S3 depending on the workload’s needs for data access, reliability, and affordability. S3 storage classes were created specifically to offer the most affordable storage for various access patterns.",
+    title: "Virtually all use cases ",
+    desc: "You can select from a variety of AWS cloud storage classes offered by Amazon S3 depending on the workload’s needs for data access, reliability, and affordability. S3 storage classes were created specifically to offer the most affordable storage for various access patterns.",
     cover: "../images/blog/b2.webp",
   },
   {
     id: 3,
-    title: "Platform as a Service",
-    desc: "The S3 aws cloud storage classes include S3 Glacier Instant Retrieval for archive data that needs immediate access and S3 Glacier Flexible Retrieval (formerly S3 Glacier) for rarely accessed long-term data that dries up over time.",
+    title: "S3 Glacier Instant Retrieval ",
+    desc: "The S3 AWS cloud storage classes include S3 Glacier Instant Retrieval for archive data that needs immediate access and S3 Glacier Flexible Retrieval (formerly S3 Glacier) for rarely accessed long-term data that dries up over time.",
     cover: "../images/blog/b3.webp",
   },
   {
     id: 4,
-    title: "Platform as a Service",
+    title: "S3 Intelligent-Tiering ",
     desc: "S3 Intelligent-Tiering for data with unknown or changing access patterns, S3 Standard for frequently accessed data, S3 Standard-Infrequent Access (S3 Standard-IA), and S3 One Zone-Infrequent Access (S3 One Zone-IA).",
     cover: "../images/blog/b3.webp",
   }
