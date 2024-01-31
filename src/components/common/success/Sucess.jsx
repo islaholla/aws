@@ -1,5 +1,5 @@
 import React from "react"
-import './Sukses.css'
+import './sukses.css'
 import image from "../../../components/image/matahari.jpg" 
 import { Link } from "react-router-dom"
 
