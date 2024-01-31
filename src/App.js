@@ -12,6 +12,7 @@ import Sdp from "./components/team/SDP/Sdp";
 import Aws from "./components/team/AWS/Aws";
 import DetailBlog from "./components/detailBlog/DetailBlog";
 import Storage from "./components/team/Storage/storage";
+import SuksesStory from "./components/sucessStory/SuksesStory";
 function App() {
   return (
     <div className="body">
@@ -25,6 +26,7 @@ function App() {
           <Route  path='/solutions/aws' element={<Sdp/>} />
           <Route  path='/pricing' element={<Pricing/>} />
           <Route  path='/journal' element={<Blog/>} />
+          <Route  path='/sukses-story' element={<SuksesStory/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />

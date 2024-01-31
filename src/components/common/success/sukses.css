@@ -12,7 +12,7 @@
    border-radius: 15px;
    position: relative;
    gap: 3rem;
-   margin: 2rem auto;
+   margin: 1rem auto;
     align-items: center;
 }
 .break-sukses button{
@@ -37,7 +37,7 @@
   }
 .break-sukses .wrap-image{
     margin-left: -2rem;
-    width: 660px;
+    width: 230px;
 }
 .break-sukses .wrap-image img{
     width: 100%;
