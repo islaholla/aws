@@ -419,7 +419,7 @@ export const storage = [
   {
     id: 2,
     title: "Virtually all use cases ",
-    desc: "You can select from a variety of AWS cloud storage classes offered by Amazon S3 depending on the workload’s needs for data access, reliability, and affordability. S3 storage classes were created specifically to offer the most affordable storage for various access patterns.",
+    desc: "Virtually all use cases, including those with high-performance demands, data residency restrictions, ambiguous or shifting access patterns, or archival storage, are best suited for S3 storage classes.",
     cover: "../images/blog/b2.webp",
   },
   {
