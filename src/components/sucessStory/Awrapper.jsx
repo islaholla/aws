@@ -9,7 +9,7 @@ const Awrapper = () => {
 
   return (
     <>
-      <section className='homeAbout'>
+      <section className='homeAbout' id="sukses_aws">
       <Heading  title='IT Hybrid Datacenter & Backup Solution for Asset Management Company' />
       <div className=" bg-white">    
         <h4>Executive Summary</h4>

@@ -1,13 +1,13 @@
 import React from "react"
 import './sukses.css'
-import image from "../../../components/image/matahari.jpg" 
+import image from "../../../components/image/AWS Success Story Banner.jpg" 
 import { Link } from "react-router-dom"
 
 
 const Sukses = (section) => {
   return (
     <div className="break-sukses ">
-    <Link  to='/sukses-story'> <div className="wrap-image"> <img src={image} alt="" /></div></Link>
+    <Link  to='/sukses-story#heading'> <div className="wrap-image"> <img src={image} alt="" /></div></Link>
       <div className="wrap-konten">
       <h2>Success Story
 </h2>
