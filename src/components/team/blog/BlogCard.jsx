@@ -3,8 +3,8 @@ import { cloud } from "../../../dummydata"
 const BlogCard = () => {
   return (
     <>
-      {cloud.map((val) => (
-        <div className='items shadow'>
+      {cloud.map((val,index) => (
+        <div  key={index} className='items shadow'>
           <div className='img'>
             <img src={val.cover} alt='' />
           </div>
