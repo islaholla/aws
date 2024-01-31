@@ -13,7 +13,7 @@ const Awrapper = () => {
   return (
     <>
       <section className='homeAbout'>
-      <Heading subtitle='Perjalanan Transformasi Digital PT. Matahari Sakti, Implementasikan AWS' title={story.title} />
+      <Heading subtitle='Sukses Story' title={story.title} />
         <p>{story.konten}</p>
       </section>
     </>
