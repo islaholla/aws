@@ -245,22 +245,22 @@ export const online = [
 ]
 export const bridge = [
   {
-    cover: "./images/AWS level partner 3.png",
+    cover: "./images/team/Advanced Tier Services.png",
     name: "Licensing Management ",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/Immersion day Badge.png",
+    cover: "./images/team/Immersion Day (1).png",
     name: "Manage Cloud Financing",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/awspublicsectorsolutionprovider.png",
+    cover: "./images/team/Public Sector.png",
     name: "Adapt to the Unique Behavior of the Application",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/tiered badge.png",
+    cover: "./images/team/Select Tier Training.png",
     name: "Determining the Right Size",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },

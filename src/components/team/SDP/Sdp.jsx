@@ -6,7 +6,7 @@ import BreakSection from "../../common/break/Section"
 import Hprice from "./Hprice"
 import { priceSolution } from "../../../dummydata"
 import Hparagraf from "./Hparagraf"
-import sertif from '../../../components/image/Windows Solution Badge (SDP).png'
+import sertif from '../../../components/image/EC2.png'
 
 const Sdp = () => {
   return (
