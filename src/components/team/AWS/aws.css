@@ -20,9 +20,10 @@
   font-size: 21px;
   font-weight: 600;
 }
-.hprice{
-  margin-bottom: 4rem;
+.aws-page .hprice{
+  min-height: 70vh;
 }
+
 .note{
   margin-left: 5rem;
   margin-top: 2rem;
@@ -54,4 +55,8 @@ margin-top: 1rem;
   .note{
     margin-left: 2rem;
   }
+  .aws-page .hprice{
+    min-height: 125vh;
+  }
+  
 }
