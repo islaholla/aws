@@ -13,6 +13,9 @@ import Aws from "./components/team/AWS/Aws";
 import DetailBlog from "./components/detailBlog/DetailBlog";
 import Storage from "./components/team/Storage/storage";
 import SuksesStory from "./components/sucessStory/SuksesStory";
+import BackupStory from "./components/sucessStory/Backup";
+import AutomatedStory from "./components/sucessStory/Automated";
+import CoalStory from "./components/sucessStory/CoalMining";
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
           <Route  path='/pricing' element={<Pricing/>} />
           <Route  path='/journal' element={<Blog/>} />
           <Route  path='/journal/sukses-story' element={<SuksesStory/>} />
+          <Route  path='/journal/backup-solution' element={<BackupStory/>} />
+          <Route  path='/journal/automated-backup' element={<AutomatedStory/>} />
+          <Route  path='/journal/coal-mining' element={<CoalStory/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
