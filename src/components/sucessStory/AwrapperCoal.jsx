@@ -15,7 +15,7 @@ const AwrapperCoal = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='IT Hybrid Datacenter & Backup Solution for Asset Management Company' />
+        <Heading title='Disaster Recovery Solution for Coal Mining Industry' />
         <div className=" bg-white">
           <h4>Executive Summary</h4>
           The Indonesian coal mining industry and it is continuously looking at new

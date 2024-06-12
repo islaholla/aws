@@ -15,7 +15,7 @@ const AwrapperBackup = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='IT Hybrid Datacenter & Backup Solution for Asset Management Company' />
+        <Heading title='Backup Solution on AWS for IT Solution and Digital Transformation Company' />
         <div className=" bg-white">
           <h4>Executive Summary</h4>
           One of IT solution and Digital transformation Company engage with Mastersystem
