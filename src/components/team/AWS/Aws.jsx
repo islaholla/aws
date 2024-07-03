@@ -40,7 +40,7 @@ const Aws = () => {
         </ul>
         </p>
       </div>
-      <BreakSection judul="Case Study: Cloud Adoption and Migration "/>
+      <BreakSection judul="Case Study: IT Hybrid Data Center & Backup Solution for Asset Management"/>
       <div className="paragraf bg-white">
         <p>    <h3>Business Challenge</h3> Choosing the right cloud solution and managing your cloud migration is a complex undertaking. MSI will partner with you to deliver the expertise you need, so you can avoid common pitfalls and accelerate your return on investment.
         <br /><br />

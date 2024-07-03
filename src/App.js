@@ -16,6 +16,7 @@ import SuksesStory from "./components/sucessStory/SuksesStory";
 import BackupStory from "./components/sucessStory/Backup";
 import AutomatedStory from "./components/sucessStory/Automated";
 import CoalStory from "./components/sucessStory/CoalMining";
+import MigratingBanking from "./components/sucessStory/MigratingBanking";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route  path='/journal/backup-solution' element={<BackupStory/>} />
           <Route  path='/journal/automated-backup' element={<AutomatedStory/>} />
           <Route  path='/journal/coal-mining' element={<CoalStory/>} />
+          <Route  path='/journal/migrating-banking' element={<MigratingBanking/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
