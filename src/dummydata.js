@@ -458,6 +458,16 @@ export const cloud = [
 ]
 export const blog = [
   {
+    id: "success-btpns",
+    type: "admin",
+    date: "JAN. 18, 2021",
+    com: "3 COMMENTS ",
+    title: "BTPNS Awan Datawarehouse Migration",
+    konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
+    desc: "PT Bank BTPN Syariah, need to modernize their current data warehouse system. They choose AWS as their new data warehouse platform due to it’s resilience, scalability and agility.",
+    cover: "../images/sucess/Telkomsel Dunia Games Migration.jpg",
+  },
+  {
     id: "success-telkomsel",
     type: "admin",
     date: "JAN. 18, 2021",
