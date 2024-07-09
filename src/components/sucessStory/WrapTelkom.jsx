@@ -14,7 +14,7 @@ const WrapTelkomsel = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Telkomsel Dunia Games Migrations' />
+        <Heading title='Dunia Games Migrations' />
         <div className=" bg-white">
           <h4>Executive Summary</h4>
           PT Telekomunikasi Selular, trading as Telkomsel, is an Indonesian wireless

@@ -14,7 +14,7 @@ const WrapBtps = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='BTPNS Awan Datawarehouse Migration' />
+        <Heading title='Awan Datawarehouse Migration' />
         <div className=" bg-white">
           <h4>Executive Summary</h4>
           PT Bank BTPN Syariah, need to modernize their current data warehouse
