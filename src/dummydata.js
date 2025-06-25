@@ -458,6 +458,26 @@ export const cloud = [
 ]
 export const blog = [
   {
+    id: "success-bsi",
+    type: "admin",
+    date: "JUN. 25, 2025",
+    com: "3 COMMENTS ",
+    title: "Enhancement and Improvement AWS Landing Zone",
+    konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
+    desc: "A Syariah bank in Indonesia partnered with Mastersystem Infotama, an AWS Partner, to design and implement AWS infrastructure for Identity and Access Management before migrating their applications to the cloud.",
+    cover: "../images/sucess/Aws Microsite - BSI - Case Study.png",
+  },
+  {
+    id: "success-danamon-syariah",
+    type: "admin",
+    date: "JUN. 25, 2025",
+    com: "3 COMMENTS ",
+    title: "Enhancement and Improvement AWS Landing Zone",
+    konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
+    desc: "The Bank accelerated its digital transformation by adopting a secure, scalable  and  manageable  cloud  infrastructure  through  the  implementation  of  AWS Landing Zone.",
+    cover: "../images/sucess/Aws Microsite - Danamon Syariah - MSI Partner AWS Case Study.png",
+  },
+  {
     id: "success-btn",
     type: "admin",
     date: "JUN. 25, 2025",

@@ -21,6 +21,8 @@ import TelekomselSuccess from "./components/sucessStory/TelkomselSukses";
 import BTPNSukses from "./components/sucessStory/BtpsSukses";
 import BRISuccess from "./components/sucessStory/BRISukses";
 import BTNSuccess from "./components/sucessStory/BTNSukses";
+import DanamonSuccess from "./components/sucessStory/DanamonSukses";
+import BSISuccess from "./components/sucessStory/BSISukses";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
           <Route  path='/journal/success-btpns' element={<BTPNSukses/>} />
           <Route  path='/journal/success-bri' element={<BRISuccess/>} />
           <Route  path='/journal/success-btn' element={<BTNSuccess/>} />
+          <Route  path='/journal/success-danamon-syariah' element={<DanamonSuccess/>} />
+          <Route  path='/journal/success-bsi' element={<BSISuccess/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
