@@ -15,7 +15,7 @@ const AwrapperBTN = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Secure Scalable and Cost Effective Testing Environment on AWS Cloud' />
+        <Heading title='AWS Landing Zone for Bank Compliance and Security Governance' />
         <div className=" bg-white">
           <h4>Executive Summary</h4>
           One  of  State  Owned Bank  in  Indonesia  has  a  need  to  meet  Compliance  and  Governance  standards.  Providing  services  that  are  always  there  for  bank  customers and providing convenience for the bank IT team in terms of services,  data center  facilities and also enabling security of server resources in a short  time is the main concern.
@@ -28,9 +28,13 @@ const AwrapperBTN = () => {
           Landing Zone implementation.
           And here is basic compliance and security governance to IT standardization,
           which includes:
+          <br />
           a. Identity & Access Management (Role Authorization)
+          <br />
           b. Resource Organization & Hierarchy Management (Resource Management)
+          <br />
           c. Cost/Billing Management (Financial Management)
+          <br />
           d. Network Architecture (Enterprise Network Design)
 
           <br /> <br />
@@ -61,12 +65,15 @@ const AwrapperBTN = () => {
           via a single sign-on experience.
           In addition to the Management Account, the AWS Organization includes several
           specialized accounts:
+          <br />
           • Audit Account: Used by security and compliance teams to monitor activity
           across accounts using tools such as AWS Security Hub, AWS Config, and
           Amazon GuardDuty.
+          <br />
           • Log Archive Account: Serves as a centralized location for storing logs
           (CloudTrail, VPC Flow Logs) from all accounts for compliance, auditing,
           and troubleshooting.
+          <br />
           • Shared and Network Account: Hosts shared infrastructure services such
           as AWS Direct Connect and Transit Gateway, used across multiple
           workload accounts to ensure consistent and secure network connectivity.
@@ -82,10 +89,15 @@ const AwrapperBTN = () => {
           centralized single sign-on (SSO) and role-based access control (RBAC), the Bank
           has eliminated the operational overhead of managing separate IAM users in each
           account. This has led to:
+          <br />
           • Faster onboarding of teams and users,
+          <br />
           • Improved access governance and compliance,
+          <br />
           • Reduced risk of misconfigured permissions or unauthorized access,
+          <br />
           • Simplified auditability for security and compliance teams.
+          <br />
           Together, these improvements have empowered the Bank to scale securely in the
           cloud, maintain strong security posture, and enhance user productivity while
           adhering to regulatory and operational requirements.

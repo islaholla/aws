@@ -15,7 +15,7 @@ const AwrapperBSI = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Enhancement and Improvement AWS Landing Zone' />
+        <Heading title='Securely Manage Apps from Multiple Business Unit on AWS' />
         <div className=" bg-white">
           <h4>Executive Summary</h4>
           One of Syariah Bank in Indonesia engage with Mastersystem Infotama, a major IT
