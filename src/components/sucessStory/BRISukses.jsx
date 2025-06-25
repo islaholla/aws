@@ -3,7 +3,7 @@ import "./detailBlog.css"
 import Back from "../common/back/Back"
 import AwrapperBRI from "./AwrapperBRI"
 
-const BackupStory = () => {
+const BRISuccess = () => {
   return (
     <>
       <Back title='Success Story' />
