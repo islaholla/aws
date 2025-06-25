@@ -30,7 +30,12 @@ environment that is not only expeditious and cost-effective, but also ensures  o
           <h4>Solution</h4>
           In response to this need, Mastersystem collaborated with Amazon Web Service to
 create a secure, scalable, and cost-effective testing environment tailored to
-customer needs. In the initial phase, addressing the security imperative, the AWS Landing Zone was
+customer needs.      <br /> <br /> 
+          <div className="image-diagram">
+            <img src={diagram} alt="" />
+          </div>
+          <br />
+          In the initial phase, addressing the security imperative, the AWS Landing Zone was
 developed as a foundational element for security within the AWS Cloud. The AWS
 Landing Zone is constructed using multiple AWS Services, which are supporting
 services in its creation. Due to the use of multiple accounts in the creation of this
@@ -52,32 +57,26 @@ advantageous for on-demand environments that are not operational 24/7. The cost
 is incurred only when the license is used and when the environment is turned off,
 there is no cost. The combination of ROSA and EC2 ensures cost-effectiveness and
 time-effectiveness, as they can be completely shut down and rebuilt in a relatively
-short time.      <br /> <br />  <h4>Architecture Diagram</h4>
-          <div className="image-diagram">
-            <img src={diagram} alt="" />
-          </div>
-          <br />
-          When backing up an EC2 instance, AWS Backup ensures comprehensive protection
-          by safeguarding all Amazon Elastic Block Store (Amazon EBS) volumes attached to
-          the instance. These volumes are encapsulated within an Amazon Machine Image
-          (AMI), preserving all original EC2 instance parameters for future recovery. The core
-          functionality lies in the creation of backup plans, customizable frameworks that
-          define backup requirements. These plans include parameters such as backup
-          frequency and retention duration. By applying these plans through resource tagging.
+short time.
           <br /><br />
           <h4>Benefit and Result</h4>
-          The deployment of AWS Backup and AWS CloudWatch has proven to be beneficial in
-          safeguarding the company's digital assets and ensuring the availability and
-          performance of its EC2 instances. By utilizing AWS Backup, the companies were able
-          to automate cross-zone disaster recovery and create backup plans with defined
-          schedules and retention management parameters. With this automate and
-          scheduled backup, the company’s IT team can reduce task from made a manual
-          schedule, monitoring the backup, and delete the old backup and reduced 25% time
-          to manage. This streamlined process allowed the IT team to focus on strategic
-          initiatives rather than manual backup activities. Consequently, the company’s critical
-          applications and databases were fortified, enhancing the company's resilience in the
-          digital landscape. In addition, AWS CloudWatch provided real-time health checks for
-          EC2 instances.
+          Utilizing AWS Landing Zone, AWS Infrastructure, and AWS Managed Service provides
+the Bank with a secure, scalable, and cost-effective AWS environment. This
+combination offers the Bank several advantages that can help accelerate its business.
+The AWS multi-account approach, equipped with AWS Organization, offers the
+Bank several benefits, including the ability to more easily create new AWS accounts
+
+to separate workloads. In the past, creating a new AWS account was a time-
+consuming process that took hour. However, with AWS Organization, the same
+
+process is now completed in a matter of tens of minutes. This results in a time
+efficiency ratio of over 60%.
+The AWS Landing Zone, equipped with the AWS IAM Identity Center, offers a
+number of advantages. Previously, if users did not use the single sign-on method, at
+least five account passwords were required. With the IAM Identity Center,
+
+however, only one password is needed to access various AWS accounts with pre-
+adjusted access rights in the IAM Identity Center via the Permission Set.
 
 
 
