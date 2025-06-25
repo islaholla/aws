@@ -15,7 +15,7 @@ const AwrapperBRI = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Secure Scalable and Cost Effective Testing Environment on AWS Cloud' />
+        <Heading title='AWS IAM Service to Secure AWS Multi Account on Government Owned Bank' />
         <div className=" bg-white">
           <h4>Executive Summary</h4>
           A prominent government-owned bank in Indonesia required an AWS environment  that offered scalability, security, and the ability to be established and dismantled  rapidly to optimize costs. In collaboration with AWS and PT Mastersystem Infotama Tbk, the AWS Landing Zone was developed, providing the fundamental framework  necessary to fulfill these objectives while ensuring security and cost-effectiveness.  By meticulously crafting this Landing Zone, we have successfully developed an AWS
