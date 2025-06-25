@@ -23,6 +23,10 @@ import BRISuccess from "./components/sucessStory/BRISukses";
 import BTNSuccess from "./components/sucessStory/BTNSukses";
 import DanamonSuccess from "./components/sucessStory/DanamonSukses";
 import BSISuccess from "./components/sucessStory/BSISukses";
+import TelcoSuccess from "./components/sucessStory/TelcoSukses";
+import AssetManagementSuccess from "./components/sucessStory/AssetManagementSuccess";
+import GovermentBankSuccess from "./components/sucessStory/GovermentBankSukses";
+import PrivateBankSuccess from "./components/sucessStory/PrivateBankSukses";
 
 function App() {
   return (
@@ -49,6 +53,10 @@ function App() {
           <Route  path='/journal/success-btn' element={<BTNSuccess/>} />
           <Route  path='/journal/success-danamon-syariah' element={<DanamonSuccess/>} />
           <Route  path='/journal/success-bsi' element={<BSISuccess/>} />
+          <Route  path='/journal/success-telco' element={<TelcoSuccess/>} />
+          <Route  path='/journal/success-asset-management' element={<AssetManagementSuccess/>} />
+          <Route  path='/journal/success-goverment-bank' element={<GovermentBankSuccess/>} />
+          <Route  path='/journal/success-private-bank' element={<PrivateBankSuccess/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />

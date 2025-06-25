@@ -360,3 +360,13 @@ margin-top: 2rem;
   width: 100%;
   object-fit: cover;
 }
+.image-diagram2{
+  width: 70%;
+margin: 0 auto;
+margin-top: 2rem;
+}
+
+.image-diagram2 img{
+  width: 100%;
+  object-fit: cover;
+}
