@@ -94,31 +94,38 @@ const AwrapperAssetManagement = () => {
           <h3>Expected Benefit</h3>
           By leveraging AWS-native security and Managed Services Security, companies can
           expect:
-          <br />
           • Security & Risk Reduction
-          <br />
-          Company gains 99% security system uptime for proactive threat detection
-          and real-time mitigation capabilities. This significantly 90% reduce the risk of
-          financial data breaches, fraud, and cyberattacks, ensuring the security of
-          client investments. 50% increase in security team efficiency with automated
-          incident response will further minimize business disruptions caused by
-          security threats.
-          <br />
+          <ul style={{ paddingLeft: '20px' }}>
+            <li>
+              Company gains 99% security system uptime for proactive threat detection and real-time mitigation capabilities.
+            </li>
+            <li>
+              This significantly reduces the risk of financial data breaches, fraud, and cyberattacks by 90%, ensuring the security of client investments.
+            </li>
+            <li>
+              50% increase in security team efficiency through automated incident response minimizes business disruptions caused by security threats.
+            </li>
+          </ul>
+
           • Compliance & Regulatory Readiness
-          <br />
-          With AWS-native is 100% compliance with industry security standards
-          compliance solutions will ensure continuous security posture monitoring,
-          helping the company meet regulatory obligations without extensive manual
-          intervention. Audit-ready security reports generated automatically,
-          simplifying regulatory compliance and reducing audit preparation time.
-          <br />
+          <ul style={{ paddingLeft: '20px' }}>
+            <li>
+              With AWS-native security solutions, the company achieves 100% compliance with industry standards while continuously monitoring its security posture.
+            </li>
+            <li>
+              Audit-ready security reports are generated automatically, simplifying compliance and reducing audit preparation time.
+            </li>
+          </ul>
+
           • Cost & Operational Efficiency
-          <br />
-          Leveraging AWS-native security services will reduce up to 30-40% compare
-          with third-party security tool expenses while enhancing security automation.
-          This will lower operational costs associated with manual threat detection
-          and incident response, allowing security teams to focus on strategic security
-          initiatives rather than routine monitoring.
+          <ul style={{ paddingLeft: '20px' }}>
+            <li>
+              Using AWS-native security services reduces expenses by 30–40% compared to third-party tools, while improving automation.
+            </li>
+            <li>
+              This lowers operational costs from manual detection and incident response, enabling the security team to focus on strategic initiatives.
+            </li>
+          </ul>
 
           <br /><br />
           <h3>Conclution</h3>
