@@ -20,6 +20,7 @@ import MigratingBanking from "./components/sucessStory/MigratingBanking";
 import TelekomselSuccess from "./components/sucessStory/TelkomselSukses";
 import BTPNSukses from "./components/sucessStory/BtpsSukses";
 import BRISuccess from "./components/sucessStory/BRISukses";
+import BTNSuccess from "./components/sucessStory/BTNSukses";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route  path='/journal/success-telkomsel' element={<TelekomselSuccess/>} />
           <Route  path='/journal/success-btpns' element={<BTPNSukses/>} />
           <Route  path='/journal/success-bri' element={<BRISuccess/>} />
+          <Route  path='/journal/success-btn' element={<BTNSuccess/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
