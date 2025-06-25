@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 
 
 
-const AwrapperAutomated = () => {
+const AwrapperBRI = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
