@@ -31,8 +31,8 @@ const AwrapperGovermentBank = () => {
           and competitive market.
 
           <br /> <br />
-          <h4>        Business Challenge
-          </h4>
+          <h3>        Business Challenge
+          </h3>
           Major challenge is the need for real-time security monitoring and incident response
           in a hybrid cloud environment, as financial services operate on both on-premises
           and cloud-based infrastructure. Reducing operational overhead while managing
@@ -42,60 +42,38 @@ const AwrapperGovermentBank = () => {
 
 
           <br /> <br />
-          <h4>Solution</h4>
-          <h6>Mastersystem MSSP Security Service</h6>
+          <h3>Solution</h3>
+          <h4>Mastersystem MSSP Security Service</h4>
           The client adopted Mastersystem MSSP with the following key implementations:
           <br />
-          <bold>IT Operations Management.</bold>
-          • Leveraged CI/CD Orchestration Terraform for automated infrastructure
-          provisioning and scaling.
-          • Cost Optimization with adopted AWS Savings Plans to reduce compute
-          costs for long-term workloads.
-          • AWS Backup for Disaster Recovery Enhancement to conducted daily
-          backup to ensure compliance with business continuity standards and
-          financial sector regulations.
-          • We have implemented AWS Direct Connect as the primary connection
-          between Corporate Datacenter and AWS Virtual Private Clouds (VPCs). This
-          service establishes a secure connection between local networks by
-          providing a highly available and managed private solution to secure
-          network traffic for data access to AWS Cloud.
-          <br />
-          <bold>Security and Compliance Strengthening.</bold>
-          • Provides Monitoring Team 24 hours a day and 7 days a week from
-          Mastersystem MSSP. Partnering with customers in our 24/7 service
-          monitoring provides and security appliances that continuously provide
-          protection, enabling proactive detection and rapid response to threat
-          control and analysis.
-          • To follow AWS best practices, AWS Landing Zone architecture is designed to
-          enforce separation of duties by creating distinct organization units and
-          accounts for core AWS services and applications. This structure is automated
-          using AWS Control Tower, enabling customers to adhere to AWS security
-          best practices, implement Amazon Guardrails, and apply stringent
-          organization-wide controls.
-          • Leveraged AWS GuardDuty, AWS Security Hub and AWS Trust Advisor to
-          fortify the client cybersecurity posture and protect against evolving threats.
-          • To Ensured regulatory compliance, we implemented of AWS Identity and
-          Access Management (IAM) policies, AWS CloudTrail, and AWS IAM Access
-          Analyzer for meticulous auditing and logging of activities.
-          • Leveraged AWS Config and AWS Security Hub to maintain continuous
-          compliance with NITS, AWS Foundational Security Best Practice.
-          • Integration dan collaboration with Centralized management for CDN and
-          Web Application Firewalls (WAF) to protect customer web application on
-          AWS against DDoS attacks and other internet-based threats.
-          • Integrated customer Enterprise-Grade Next-Generation Firewall (NGFW) on
-          AWS to enhance security for VPN clients, ensuring secure remote access and
-          network protection.
-          • With an AWS solution, data is protected through encryption both at rest and
-          in transit.
-          <br />
-          <bold>Service Availability and Monitoring.</bold>
-          • Deployed Amazon CloudWatch Dashboards for operational visibility and
-          provide real-time monitoring and insights into system performance.
-          • Used CloudWatch Alarms with Amazon SNS to notify IT teams of anomalies
-          or downtimes, enabling swift incident response.
+          <strong>IT Operations Management.</strong>
+          <ul style={{ paddingLeft: '30px' }}>
+            <li>Leveraged CI/CD Orchestration Terraform for automated infrastructure provisioning and scaling.</li>
+            <li>Cost Optimization with adopted AWS Savings Plans to reduce compute costs for long-term workloads.</li>
+            <li>AWS Backup for Disaster Recovery Enhancement to conducted daily backup to ensure compliance with business continuity standards and financial sector regulations.</li>
+            <li>We have implemented AWS Direct Connect as the primary connection between Corporate Datacenter and AWS Virtual Private Clouds (VPCs). This service establishes a secure connection between local networks by providing a highly available and managed private solution to secure network traffic for data access to AWS Cloud.</li>
+          </ul>
+
+          <strong>Security and Compliance Strengthening.</strong>
+          <ul style={{ paddingLeft: '30px' }}>
+            <li>Provides Monitoring Team 24 hours a day and 7 days a week from Mastersystem MSSP. Partnering with customers in our 24/7 service monitoring provides and security appliances that continuously provide protection, enabling proactive detection and rapid response to threat control and analysis.</li>
+            <li>To follow AWS best practices, AWS Landing Zone architecture is designed to enforce separation of duties by creating distinct organization units and accounts for core AWS services and applications. This structure is automated using AWS Control Tower, enabling customers to adhere to AWS security best practices, implement Amazon Guardrails, and apply stringent organization-wide controls.</li>
+            <li>Leveraged AWS GuardDuty, AWS Security Hub and AWS Trust Advisor to fortify the client cybersecurity posture and protect against evolving threats.</li>
+            <li>To Ensured regulatory compliance, we implemented of AWS Identity and Access Management (IAM) policies, AWS CloudTrail, and AWS IAM Access Analyzer for meticulous auditing and logging of activities.</li>
+            <li>Leveraged AWS Config and AWS Security Hub to maintain continuous compliance with NITS, AWS Foundational Security Best Practice.</li>
+            <li>Integration dan collaboration with Centralized management for CDN and Web Application Firewalls (WAF) to protect customer web application on AWS against DDoS attacks and other internet-based threats.</li>
+            <li>Integrated customer Enterprise-Grade Next-Generation Firewall (NGFW) on AWS to enhance security for VPN clients, ensuring secure remote access and network protection.</li>
+            <li>With an AWS solution, data is protected through encryption both at rest and in transit.</li>
+          </ul>
+
+          <strong>Service Availability and Monitoring.</strong>
+          <ul style={{ paddingLeft: '30px' }}>
+            <li>Deployed Amazon CloudWatch Dashboards for operational visibility and provide real-time monitoring and insights into system performance.</li>
+            <li>Used CloudWatch Alarms with Amazon SNS to notify IT teams of anomalies or downtimes, enabling swift incident response.</li>
+          </ul>
 
           <br /><br />
-          <h4>Business Outcome</h4>
+          <h3>Business Outcome</h3>
           Through AWS and Managed Security Services, the client gains 99% security system
           uptime for security posture, 50% improved operational efficiency, up to 75% ensure
           compliance with financial regulations, and optimized costs. This transformation
@@ -103,7 +81,7 @@ const AwrapperGovermentBank = () => {
           and scalable financial services across Indonesia.
 
           <br /><br />
-          <h4>Conclution</h4>
+          <h3>Conclution</h3>
           The successful implementation of AWS Managed Security Services marks a
           significant milestone in the client's digital transformation journey. By modernizing IT
           operations, enhancing security and compliance, and optimizing costs, the

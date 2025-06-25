@@ -50,50 +50,23 @@ const AwrapperAssetManagement = () => {
           To address its security needs, the asset management company adopted
           Mastersystem MSSP with the following key implementations:
           <br />
-          • Provide continues 24/7 Incident Response Teams Monitoring of
-          Mastersystem MSSP.
-          <br />
-          • Implemented AWS GuardDuty, AWS Security Hub, and AWS CloudTrail to
-          provide continuous security event monitoring across AWS accounts,
-          identifying potential threats such as unauthorized access, malware, or
-          abnormal network activity on production workload account.
-          <br />
-          • Automated incident response playbooks we created using AWS Lambda
-          and AWS Systems Manager, to ensuring rapid containment of security
-          incidents. This will include predefined responses for financial fraud
-          attempts, unauthorized API access, and insider threats.
-          <br />
-          • Utilize AWS Config to maintain continuous compliance with CIS, ISO 27001
-          regulations. These services will automate compliance audits, generate
-          security reports, and enforce governance policies.
-          <br />
-          • Implemented Role-based access controls using AWS IAM, enforcing least-
-          privilege policies to restrict access to critical systems. Multi-factor
-          authentication (MFA) will be required for all privileged users, and access
-          logs will be monitored via AWS CloudTrail.
-          <br />
-          • AWS Security Hub and AWS Systems Manager we used to monitor and
-          secure Amazon EC2 instances. Workload encryption and runtime protection
-          measures will be enforced to prevent unauthorized modifications.
-          <br />
-          • Web Application Firewalls (WAF) are used to protect customer web
-          application against DDoS attacks and other internet-based threats.
-          <br />
-          • Integrated Sophos Next-Generation Firewall (NGFW) on AWS to enhance
-          security for VPN clients, ensuring secure remote access and network
-          protection.
-          <br />
-          • We have implemented AWS Direct Connect as the primary connection and
-          AWS Site-to-Site VPN as the backup connection between corporate
-          datacenter and AWS Virtual Private Clouds (VPCs). This service establishes a
-          secure connection between local networks by providing a highly available
-          and managed private solution to secure network traffic for access users and
-          on-premises backup solutions to AWS Cloud.
+          <ul style={{ paddingLeft: '20px' }}>
+            <li>Provide continues 24/7 Incident Response Teams Monitoring of Mastersystem MSSP.</li>
+            <li>Implemented AWS GuardDuty, AWS Security Hub, and AWS CloudTrail to provide continuous security event monitoring across AWS accounts, identifying potential threats such as unauthorized access, malware, or abnormal network activity on production workload account.</li>
+            <li>Automated incident response playbooks we created using AWS Lambda and AWS Systems Manager, to ensuring rapid containment of security incidents. This will include predefined responses for financial fraud attempts, unauthorized API access, and insider threats.</li>
+            <li>Utilize AWS Config to maintain continuous compliance with CIS, ISO 27001 regulations. These services will automate compliance audits, generate security reports, and enforce governance policies.</li>
+            <li>Implemented Role-based access controls using AWS IAM, enforcing least- privilege policies to restrict access to critical systems. Multi-factor authentication (MFA) will be required for all privileged users, and access logs will be monitored via AWS CloudTrail.</li>
+            <li>AWS Security Hub and AWS Systems Manager we used to monitor and secure Amazon EC2 instances. Workload encryption and runtime protection measures will be enforced to prevent unauthorized modifications.</li>
+            <li>Web Application Firewalls (WAF) are used to protect customer web application against DDoS attacks and other internet-based threats.</li>
+            <li>Integrated Sophos Next-Generation Firewall (NGFW) on AWS to enhance security for VPN clients, ensuring secure remote access and network protection.</li>
+            <li>We have implemented AWS Direct Connect as the primary connection and AWS Site-to-Site VPN as the backup connection between corporate datacenter and AWS Virtual Private Clouds (VPCs). This service establishes a secure connection between local networks by providing a highly available and managed private solution to secure network traffic for access users and on-premises backup solutions to AWS Cloud.</li>
+          </ul>
 
           <br /><br />
           <h3>Expected Benefit</h3>
           By leveraging AWS-native security and Managed Services Security, companies can
           expect:
+          <br />
           • Security & Risk Reduction
           <ul style={{ paddingLeft: '20px' }}>
             <li>

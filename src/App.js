@@ -53,7 +53,7 @@ function App() {
           <Route  path='/journal/success-btn' element={<BTNSuccess/>} />
           <Route  path='/journal/success-danamon-syariah' element={<DanamonSuccess/>} />
           <Route  path='/journal/success-bsi' element={<BSISuccess/>} />
-          <Route  path='/journal/success-telco' element={<TelcoSuccess/>} />
+          <Route  path='/journal/success-telco-company' element={<TelcoSuccess/>} />
           <Route  path='/journal/success-asset-management' element={<AssetManagementSuccess/>} />
           <Route  path='/journal/success-goverment-bank' element={<GovermentBankSuccess/>} />
           <Route  path='/journal/success-private-bank' element={<PrivateBankSuccess/>} />
