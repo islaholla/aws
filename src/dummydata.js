@@ -457,6 +457,16 @@ export const cloud = [
   }
 ]
 export const blog = [
+    {
+    id: "success-bri",
+    type: "admin",
+    date: "JUN. 25, 2025",
+    com: "3 COMMENTS ",
+    title: "Secure Scalable and Cost Effective Testing Environment on AWS Cloud",
+    konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
+    desc: "In collaboration with AWS and PT Mastersystem Infotama Tbk, the AWS Landing Zone was developed, providing the fundamental framework  necessary to fulfill these objectives while ensuring security and cost-effectiveness.",
+    cover: "../images/sucess/Aws Microsite - BRI - Case-Study.png",
+  },
   {
     id: "success-btpns",
     type: "admin",
