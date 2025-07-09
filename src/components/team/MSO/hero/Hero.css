@@ -1,0 +1,83 @@
+.hero-mso {
+  background-image: url(../../../../../public/images/test1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: center;
+  top: 0;
+  left: 0;
+  /* z-index: -1; */
+  width: 100%;
+  height: 90vh;
+  padding-top: 10rem;
+  padding-right: 50px;
+  color: #000;
+}
+.hero-mso #heading h3 {
+  color: #FF9900;
+}
+.hhero-mso #heading h1 {
+  color: #1B2737  ;
+}
+.hero-mso #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.hero-mso .container{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.hero-mso.teks{
+  width: 55%;
+}
+.hero-mso .yt{
+  display: flex;
+  justify-content: start;
+}
+.hero-mso .yt img{
+  width: 520px;
+  height: 370px;
+}
+.hero-mso .yt iframe, .hero-mso img{
+  border-radius: 10px;
+
+}
+@media screen and (max-width: 768px) {
+  .paragraf{
+    padding: 2rem;
+    padding-top: 3rem;
+
+  }
+  .hero-sdp #heading {
+    margin-top: 1rem;
+}
+  .hero-sdp .yt img{
+    width: 354px;
+    height: 190px;
+  }
+  .hero-sdp .container {
+   flex-direction: column;
+}
+  .margin {
+    height: 50vh;
+  }
+  .hero-sdp, .hero-sdp.aws{
+    background-position: right;
+    position: relative;
+    height: 100vh;
+  }
+  .hero-sdp .row {
+    width: 100%;
+  }
+}
+
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+  .hero-sdp .yt img{
+    width: 550px;
+    height: 315px;
+  }
+}

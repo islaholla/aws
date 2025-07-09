@@ -10,6 +10,7 @@ import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import Sdp from "./components/team/SDP/Sdp";
 import Aws from "./components/team/AWS/Aws";
+import Mso from "./components/team/MSO/mso";
 import DetailBlog from "./components/detailBlog/DetailBlog";
 import Storage from "./components/team/Storage/storage";
 import SuksesStory from "./components/sucessStory/SuksesStory";
@@ -39,6 +40,7 @@ function App() {
          <Route  path='/courses' element={<CourseHome/>} />
           <Route  path='/solutions' element={<Team/>} />
           <Route  path='/solutions/sdp' element={<Aws/>} />
+          <Route  path='/solutions/mso' element={<Mso/>} />
           <Route  path='/solutions/aws' element={<Sdp/>} />
           <Route  path='/pricing' element={<Pricing/>} />
           <Route  path='/journal' element={<Blog/>} />
