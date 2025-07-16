@@ -1,0 +1,118 @@
+/* Container utama */
+.catalog-container {
+  max-width: 76rem; /* ~1216px */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.catalog-container table{
+    width: 100%;
+
+}
+.text-center{
+    text-align: center !important;
+}
+.catalog-container .wrap{
+    display: flex;
+    justify-content: center;
+}
+/* Judul */
+.catalog-title {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(90deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 2.5rem;
+}
+
+/* Wrapper tabel */
+.catalog-table-wrapper {
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 1.5rem; /* 24px */
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border: 1px solid #e5e7eb; /* border-gray-200 */
+}
+
+/* Header tabel */
+.catalog-thead {
+  background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 50%, #db2777 100%);
+  color: white;
+}
+
+/* Header kolom */
+.catalog-th {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Isi tabel */
+.catalog-tbody {
+  background-color: #ffffff;
+  border-collapse: collapse;
+}
+
+/* Baris tabel */
+.catalog-tr {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.catalog-tr:hover {
+  background: linear-gradient(to right, #f9fafb, #f3f4f6);
+}
+
+/* Sel kategori */
+.catalog-td-category {
+  padding: 1.5rem;
+}
+
+/* Nama kategori */
+.catalog-category-name {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 600;
+  color: #111827; /* text-gray-900 */
+}
+
+/* Deskripsi kategori */
+.catalog-category-desc {
+  font-size: 0.75rem; /* 12px */
+  color: #9ca3af; /* text-gray-500 */
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* Badge status (Yes/No) */
+.catalog-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Badge Yes (Green) */
+.catalog-badge-yes {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+/* Badge No (Red) */
+.catalog-badge-no {
+  background-color: #fee2e2;
+  color: #991b1b;
+}

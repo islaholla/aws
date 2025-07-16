@@ -17,7 +17,7 @@ const Hero = () => {
             <p>Stay focused on your business while our certified cloud experts proactively manage, monitoring, and optimize your AWS environment end-to-end for 24/7.</p>
             <div className='button'>
             <button className='primary-btn'>
-                <Link to='/contact'>Visit Our Detail Cataglog MSO <i className='fa fa-long-arrow-alt-right'></i></Link>
+                <Link to='/solutions/mso/catalog'>Visit Our Detail Catalog MSO <i className='fa fa-long-arrow-alt-right'></i></Link>
               </button>
             </div>
           </div>

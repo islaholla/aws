@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -369,4 +370,72 @@ margin-top: 2rem;
 .image-diagram2 img{
   width: 70%;
   object-fit: cover;
+}
+
+/* test
+ */
+
+ /* Container utama */
+.catalog-container {
+  @apply max-w-6xl mx-auto px-4 py-10;
+}
+
+/* Judul */
+.catalog-title {
+  @apply text-4xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mb-10;
+}
+
+/* Tabel wrapper */
+.catalog-table-wrapper {
+  @apply overflow-hidden bg-white rounded-3xl shadow-2xl border border-gray-200;
+}
+
+/* Header tabel */
+.catalog-thead {
+  @apply bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white;
+}
+
+/* Header kolom */
+.catalog-th {
+  @apply px-6 py-4 text-left text-sm font-semibold uppercase tracking-wider;
+}
+
+/* Isi tabel */
+.catalog-tbody {
+  @apply bg-white divide-y divide-gray-100;
+}
+
+/* Baris tabel */
+.catalog-tr {
+  @apply transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-50 hover:to-gray-100;
+}
+
+/* Sel kategori */
+.catalog-td-category {
+  @apply px-6 py-4;
+}
+
+/* Nama kategori */
+.catalog-category-name {
+  @apply text-sm font-bold text-gray-900;
+}
+
+/* Deskripsi kategori */
+.catalog-category-desc {
+  @apply text-xs text-gray-500 mt-1;
+}
+
+/* Badge status (Yes/No) */
+.catalog-badge {
+  @apply inline-flex items-center justify-center px-2 py-1 rounded-full text-xs font-semibold;
+}
+
+/* Badge Yes (Green) */
+.catalog-badge-yes {
+  @apply bg-green-100 text-green-800;
+}
+
+/* Badge No (Red) */
+.catalog-badge-no {
+  @apply bg-red-100 text-red-700;
 }

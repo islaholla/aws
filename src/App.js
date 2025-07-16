@@ -1,4 +1,5 @@
 import "./App.css"
+
 import Header from "./components/common/header/Header"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CourseHome from "./components/allcourses/CourseHome"
@@ -11,6 +12,7 @@ import Home from "./components/home/Home"
 import Sdp from "./components/team/SDP/Sdp";
 import Aws from "./components/team/AWS/Aws";
 import Mso from "./components/team/MSO/mso";
+import Catalog from "./components/team/MSO/Catalog";
 import DetailBlog from "./components/detailBlog/DetailBlog";
 import Storage from "./components/team/Storage/storage";
 import SuksesStory from "./components/sucessStory/SuksesStory";
@@ -35,12 +37,12 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-
           <Route path='/' element={<Home />} />
          <Route  path='/courses' element={<CourseHome/>} />
           <Route  path='/solutions' element={<Team/>} />
           <Route  path='/solutions/sdp' element={<Aws/>} />
           <Route  path='/solutions/mso' element={<Mso/>} />
+          <Route  path='/solutions/mso/catalog' element={<Catalog/>} />
           <Route  path='/solutions/aws' element={<Sdp/>} />
           <Route  path='/pricing' element={<Pricing/>} />
           <Route  path='/journal' element={<Blog/>} />
