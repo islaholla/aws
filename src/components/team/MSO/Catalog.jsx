@@ -132,9 +132,9 @@ const Catalog = () => {
           </p>
         </div>
         <div className="intro-card">
-          <h4>Service Engineer</h4>
+          <h4>Service Engineering</h4>
           <p>
-            Service Engineer is a flexible, on-demand support model designed to complement your Managed Service Operations. Engineering Services are designed to complement our CORE Proactive Monitoring & Alerting by providing flexible, expert-driven support tailored to your priorities. With predictable pricing and a dedicated team of certified professionals, this service helps accelerate transformation and maintain operational excellence.
+            Service Engineering is a flexible, on-demand support model designed to complement your Managed Service Operations. Engineering Services are designed to complement our CORE Proactive Monitoring & Alerting by providing flexible, expert-driven support tailored to your priorities. With predictable pricing and a dedicated team of certified professionals, this service helps accelerate transformation and maintain operational excellence.
           </p>
         </div>
       </div>
@@ -145,7 +145,7 @@ const Catalog = () => {
             <tr>
               <th className="catalog-th">Category</th>
               <th className="catalog-th text-center">CORE</th>
-              <th className="catalog-th text-center">SE Hourly</th>
+              <th className="catalog-th text-center">Service Engineering</th>
             </tr>
           </thead>
           <tbody className="catalog-tbody">
@@ -207,7 +207,7 @@ const Catalog = () => {
         </div>
       </div>
       <div className="why-block">
-          <h3>Why Service Engineer?</h3>
+          <h3>Why Service Engineering?</h3>
           <div className="why-list">
             {whySe.map((item, index) => (
               <div key={index} className="why-item">
