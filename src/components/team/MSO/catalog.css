@@ -31,7 +31,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  margin-bottom: 2.5rem;
+  margin-bottom: .5rem;
 }
 
 /* Wrapper tabel */
@@ -115,4 +115,120 @@
 .catalog-badge-no {
   background-color: #fee2e2;
   color: #991b1b;
+}
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 kolom */
+  gap: 24px; /* jarak antar card */
+}
+
+.benefit-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.benefit-card h4 {
+  margin: 10px 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.benefit-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 20px;
+}
+
+.benefit-description {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.benefit-card:hover .benefit-summary {
+  display: none;
+}
+.benefit-card:hover .benefit-description {
+  display: block;
+}
+@media (max-width: 1200px) {
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom di layar medium */
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-grid {
+    grid-template-columns: 1fr; /* 1 kolom di mobile */
+  }
+}
+
+
+.why-section {
+  padding: 60px 20px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: 2rem;
+
+}
+
+.why-block {
+  flex: 1 1 45%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.why-block h3 {
+  color: #007bff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.why-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.why-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.why-icon {
+  font-size: 24px;
+  min-width: 32px;
+  text-align: center;
+  color: #007bff;
+}
+
+.why-content h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.why-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
 }

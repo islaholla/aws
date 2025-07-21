@@ -5,14 +5,14 @@ const Catalog = () => {
     {
       category: "Monitoring & Alerting",
       core: true,
-      seHourly: false,
+      seHourly: true,
       description:
         "24x7 Real-time monitoring of infrastructure components and alert notifications",
     },
     {
       category: "Self Service Portal",
       core: true,
-      seHourly: false,
+      seHourly: true,
       description: "Ticket Tracking System",
     },
     {
@@ -65,10 +65,79 @@ const Catalog = () => {
       description: "Redeemable hourly for scope services",
     },
   ];
+  const whyCore = [
+    {
+      icon: "🚦",
+      title: "Real-time Monitoring",
+      desc: "Stay informed about the Customer infrastructure's status with 24/7 proactive monitoring and alert notifications, allowing swift awareness and action to act.",
+    },
+    {
+      icon: "📑",
+      title: "Essential Reporting",
+      desc: "Receive standard reports, ensuring transparency in infrastructure performance, ticket summaries, and resource utilization.",
+    },
+    {
+      icon: "🚩",
+      title: "Early Warning System",
+      desc: "Immediate alerts for infrastructure anomalies, helping you avoid disruptions and maintain operational stability.",
+    },
+    {
+      icon: "💡",
+      title: "Affordable Visibility",
+      desc: "Ideal for customers with budget constraints, CORE delivers essential infrastructure monitoring without sacrificing quality and reliability.",
+    },
+    {
+      icon: "📡",
+      title: "Reliable Infrastructure Insight",
+      desc: "Gain continuous, real-time visibility into your infrastructure, ensuring issues are identified early before impacting your business.",
+    },
+  ];
+  const whySe = [
+    {
+      icon: "🔧",
+      title: "Hands-on Troubleshooting",
+      desc: "Access dedicated engineering experts to quickly diagnose, troubleshoot, and resolve complex issues beyond basic alerts.",
+    },
+    {
+      icon: "🎯",
+      title: "Flexible Support Model",
+      desc: "Adjust engineering support hours monthly based on changing business requirements, ensuring you only pay for what you need.",
+    },
+    {
+      icon: "🚀",
+      title: "Expert Advisory",
+      desc: "Benefit from highly skilled cloud engineers capable of guiding migrations, optimizations, security enhancements, and technical best practices.",
+    },
+    {
+      icon: "📈",
+      title: "Continuous Improvement",
+      desc: "Regular comprehensive reports and insights enabling informed decisions for continuous operational and infrastructure improvement.",
+    },
+    {
+      icon: "💳",
+      title: "Budget Control & Efficiency",
+      desc: "Flexible hourly service tiers empower you to manage and control expenses effectively, aligning service hours precisely with your budget and priorities.",
+    },
+  ];
+
 
   return (
     <div className="catalog-container">
       <h3 className="catalog-title">Service Catalog</h3>
+       <div className="intro-section">
+        <div className="intro-card">
+          <h4>CORE</h4>
+          <p>
+            CORE (Proactive Monitoring & Alerting) is the foundation of our Managed Service Operations, providing real-time of 24/7 Proactive Monitoring & Alerting services for the Customer's entire cloud infrastructure. This service is designed so that every component from compute, storage, network, backup and security posture is monitored in real-time through a centralized monitoring system.
+          </p>
+        </div>
+        <div className="intro-card">
+          <h4>Service Engineer</h4>
+          <p>
+            Service Engineer is a flexible, on-demand support model designed to complement your Managed Service Operations. Engineering Services are designed to complement our CORE Proactive Monitoring & Alerting by providing flexible, expert-driven support tailored to your priorities. With predictable pricing and a dedicated team of certified professionals, this service helps accelerate transformation and maintain operational excellence.
+          </p>
+        </div>
+      </div>
 
       <div className="catalog-table-wrapper">
         <table>
@@ -116,7 +185,41 @@ const Catalog = () => {
             ))}
           </tbody>
         </table>
+
+        
       </div>
+
+      {/* section */}
+      <div >
+        <div className="why-block">
+          <h3>Why CORE?</h3>
+          <div className="why-list">
+            {whyCore.map((item, index) => (
+              <div key={index} className="why-item">
+                <div className="why-icon">{item.icon}</div>
+                <div className="why-content">
+                  <h4>{item.title}</h4>
+                  <p>{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="why-block">
+          <h3>Why Service Engineer?</h3>
+          <div className="why-list">
+            {whySe.map((item, index) => (
+              <div key={index} className="why-item">
+                <div className="why-icon">{item.icon}</div>
+                <div className="why-content">
+                  <h4>{item.title}</h4>
+                  <p>{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
     </div>
   );
 };
