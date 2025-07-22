@@ -24,30 +24,34 @@ const AwrapperFinancialService = () => {
           <h3>        Managed Services Solution
           </h3>
           The client adopted Mastersystem Managed Service Operations (MSO) with the following key implementations:
+          <br />
           <h4>1. IT Operations Management</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Used Terraform on AWS to automate infrastructure provisioning and support scalable deployments.</li>
             <li>• Utilized AWS Trusted Advisor to monitor best practices across cost optimization, performance, security, and fault tolerance, supporting proactive operations management.</li>
           </ul>
+          <br />
           <h4>2. Cost Optimization with AWS Savings Plans and Reserved Instances</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Implemented AWS Savings Plans to maximize cost savings on ongoing compute operations.</li>
           </ul>
+          <br />
           <h4>3. Backup and Disaster Recovery Enhancement</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Implemented daily backup routines to support regulatory compliance and ensure business continuity.</li>
           </ul>
+          <br />
           <h4>4. Security and Compliance Strengthening</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Utilized AWS GuardDuty and AWS WAF, integrated with Imperva Incapsula, to strengthen cybersecurity defenses and proactively mitigate emerging threats.</li>
             <li>• Implemented AWS IAM and CloudTrail, to ensure secure access control and maintain compliance through comprehensive activity logging.</li>
           </ul>
+          <br />
           <h4>5. Service Availability and Monitoring</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Enabled real-time system monitoring and performance visibility through Amazon CloudWatch Dashboards.</li>
             <li>• Integrated CloudWatch Alarms with SNS to automate notifications for system issues, enabling timely incident management.</li>
           </ul>
-
 
           <br /> <br />
           <h3>Result and Benefits</h3>

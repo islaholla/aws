@@ -25,23 +25,28 @@ const AwrapperProminentBank = () => {
           </h3>
           The client adopted Mastersystem Managed Service Operations (MSO) with the following key implementations:
           challenges:
+          <br />
           <h4>1. IT Operations Management</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Leveraged AWS Terraform for automated infrastructure provisioning and scaling.</li>
           </ul>
+          <br />
           <h4>2. Cost Optimization with AWS Savings Plans and Reserved Instances</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Adopted AWS Savings Plans to reduce compute costs for long-term workloads.</li>
           </ul>
+          <br />
           <h4>3. Backup and Disaster Recovery Enhancement</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Conducted daily backup to ensure compliance with business continuity standards and financial sector regulations.</li>
           </ul>
+          <br />
           <h4>4. Security and Compliance Strengthening</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Leveraged AWS GuardDuty, AWS Security Hub and AWS Trust Advisor to fortify the client’s cybersecurity posture and protect against evolving threats.</li>
             <li>• Ensured regulatory compliance through the implementation of AWS Identity and Access Management (IAM) policies, AWS CloudTrail, and AWS IAM Access Analyzer for meticulous auditing and logging of activities.</li>
           </ul>
+          <br />
           <h4>5. Service Availability and Monitoring</h4>
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Deployed Amazon CloudWatch Dashboards for operational visibility and provide real-time monitoring and insights into system performance.</li>
