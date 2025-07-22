@@ -30,6 +30,7 @@ import TelcoSuccess from "./components/sucessStory/TelcoSukses";
 import AssetManagementSuccess from "./components/sucessStory/AssetManagementSuccess";
 import GovermentBankSuccess from "./components/sucessStory/GovermentBankSukses";
 import PrivateBankSuccess from "./components/sucessStory/PrivateBankSukses";
+import ProminentBank from "./components/sucessStory/ProminentBank";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <Route  path='/journal/success-asset-management' element={<AssetManagementSuccess/>} />
           <Route  path='/journal/success-goverment-bank' element={<GovermentBankSuccess/>} />
           <Route  path='/journal/success-private-bank' element={<PrivateBankSuccess/>} />
+          <Route  path='/journal/success-prominent-bank' element={<ProminentBank/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
