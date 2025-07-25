@@ -458,6 +458,26 @@ export const cloud = [
 ]
 export const blog = [
   {
+    id: "success-asset-company",
+    type: "admin",
+    date: "JUL. 25, 2025",
+    com: "3 COMMENTS ",
+    title: "AWS Managed Service Operations for Asset Management Company",
+    konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
+    desc: "Our client is a major investment firm in Indonesia, managing a diverse portfolio of stocks, bonds, mutual funds, and alternative investments. As the company expanded its digital offerings, it needed a more agile, secure, and cost-efficient IT infrastructure to support its applications and financial services.",
+    cover: "../images/sucess/Aws Microsite - Asset Management.png",
+  },
+  {
+    id: "success-telecom",
+    type: "admin",
+    date: "JUL. 25, 2025",
+    com: "3 COMMENTS ",
+    title: "AWS Managed Service Operations for Telecomunication Company",
+    konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
+    desc: "Our client is a leading telecommunications provider in Indonesia, serving millions of customers with mobile, broadband, and digital services.",
+    cover: "../images/sucess/Aws Microsite - Telecom.png",
+  },
+  {
     id: "success-private-bank",
     type: "admin",
     date: "JUN. 25, 2025",
