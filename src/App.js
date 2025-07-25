@@ -63,8 +63,8 @@ function App() {
           <Route  path='/journal/success-asset-management' element={<AssetManagementSuccess/>} />
           <Route  path='/journal/success-goverment-bank' element={<GovermentBankSuccess/>} />
           <Route  path='/journal/success-private-bank' element={<PrivateBankSuccess/>} />
-          <Route  path='/journal/success-private-bank' element={<TelecomSukses/>} />
-          <Route  path='/journal/success-private-bank' element={<AssetCompanySukses/>} />
+          <Route  path='/journal/success-telecom' element={<TelecomSukses/>} />
+          <Route  path='/journal/success-asset-company' element={<AssetCompanySukses/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
