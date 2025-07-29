@@ -14,7 +14,7 @@ const Catalog = () => {
     {
       category: "Self Service Portal",
       core: true,
-      seHourly: false,
+      seHourly: true,
       description: "Ticket tracking system",
       coreDescription: "",
       seDescription: "",
