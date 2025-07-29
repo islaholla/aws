@@ -1,6 +1,5 @@
 import  { useState } from "react"
-import "../blog/blog.css"
-import Heading from "../common/heading/Heading"
+import Heading from "../../common/heading/Heading"
 
 const faqData = [
   {

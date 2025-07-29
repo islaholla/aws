@@ -7,7 +7,6 @@ import Hsection from "./HSection"
 import HAboutCard from "./Hcard"
 import sertif from '../../components/image/sertif.png'
 import HBridge from "./HBridge"
-import Faq from "./Faq"
 const Home = () => {
   return (
     <div className="home">
@@ -22,7 +21,6 @@ const Home = () => {
       <div className="wrap-image-home">
         <img src={sertif} alt="" />
       </div>
-        <Faq/>
     </div>
   )
 }
