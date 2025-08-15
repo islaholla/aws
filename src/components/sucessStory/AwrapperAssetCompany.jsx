@@ -59,14 +59,12 @@ const AwrapperAssetCompany = () => {
 
           <br /> <br />
           <h3>Result and Benefits</h3>
-          By utilizing AWS infrastructure as a core foundation, the company can efficiently develop and deploy new applications while dynamically scaling workloads to accommodate fluctuating resource demands. This strategy enhances resilience, strengthens security, and improves performance while optimizing costs, ensuring that critical financial applications remain highly available and operationally efficient.
-          <br />
-          The managed service solution delivered measurable improvements, including:
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Dynamic IT workload adjustment: The company can now dynamically adjust IT workload capacity in real-time by adopting Amazon AWS services, enabling faster service delivery.</li>
             <li>• Improved business continuity: Enhanced business continuity through Cold Backup & Restore, with Recovery Time Objective (RTO) and Recovery Point Objective (RPO) in hours.</li>
             <li>• Seamless application development: By leveraging AWS infrastructure, the company can seamlessly develop and deploy new applications faster.</li>
-            <li>• Enhanced resilience, security, and performance: The approach enhances resilience, security, and performance while optimizing costs.</li>
+            <li>• Security Posture Improvement: Enhanced AWS Security Hub score by up to 40% through continuous compliance monitoring and targeted remediation efforts.</li>
+            <li>• Service Reliability: Maintained a 99.9% uptime SLA through proactive monitoring and rapid incident response.</li>
           </ul>
 
           <br /><br />
