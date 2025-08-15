@@ -3,6 +3,7 @@ import BreakSection from "../../common/break/Section";
 import Hero from "./hero/Hero";
 import image from "../../../components/image/test2.jpg";
 import { msoBenefits } from "./benefit"; // sesuaikan path
+import Faq from "./Faq";
 
 
 const Mso = () => {
@@ -44,7 +45,7 @@ const Mso = () => {
         <BreakSection judul="Why Choose Mastersystem MSO?" />
       </div>
     
-      <div className="benefits-section">
+      <div className="benefits-section mt-3">
         <h3>8 Points of Benefit</h3>
         <div className="benefits-grid">
           {msoBenefits.map((benefit, index) => (
@@ -56,6 +57,7 @@ const Mso = () => {
           ))}
         </div>
       </div>
+      <Faq/>
       <div className="cta-section">
         <div className="cta-content">
           <h2>
