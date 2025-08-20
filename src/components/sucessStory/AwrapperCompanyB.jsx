@@ -59,7 +59,7 @@ const AwrapperCompanyB = () => {
           Key measurable benefits include:
           <ul style={{ paddingLeft: '20px' }}>
             <li>• Security Posture Monitoring: Continuous monitoring and regular reporting to customers on their overall security posture, ensuring timely identification and remediation of risks.</li>
-            <li>• Cost Optimization: Achieved 7% cloud cost savings reduction through resource rightsizing and ongoing cost monitoring.</li>
+            <li>• Cost Optimization: Achieved cloud cost savings of approximately around 16% for certain month through resource rightsizing and ongoing cost monitoring.</li>
             <li>• Service Reliability: Maintained a 99.9% uptime SLA through proactive monitoring and rapid incident response.</li>
           </ul>
           <br />
