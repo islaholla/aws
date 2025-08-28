@@ -538,7 +538,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - Telco Company.png",
   },
   {
-    id: "success-bsi",
+    id: "secure-managed-apps-multiaccount-gov-syariah-bank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",
@@ -548,7 +548,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - BSI - Case Study.png",
   },
   {
-    id: "success-danamon-syariah",
+    id: "enhance-and-improve-lz-syariahbank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",
@@ -558,7 +558,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - Danamon Syariah - MSI Partner AWS Case Study.png",
   },
   {
-    id: "success-btn",
+    id: "lz-for-gov-owned-bank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",
@@ -568,7 +568,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - BTN - MSI Partner AWS Case Study.png",
   },
   {
-    id: "success-bri",
+    id: "secure-with-multiaccount-gov-owned-bank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",

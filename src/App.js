@@ -57,10 +57,10 @@ function App() {
           <Route  path='/journal/migrating-banking' element={<MigratingBanking/>} />
           <Route  path='/journal/success-telkomsel' element={<TelekomselSuccess/>} />
           <Route  path='/journal/success-btpns' element={<BTPNSukses/>} />
-          <Route  path='/journal/success-bri' element={<BRISuccess/>} />
-          <Route  path='/journal/success-btn' element={<BTNSuccess/>} />
-          <Route  path='/journal/success-danamon-syariah' element={<DanamonSuccess/>} />
-          <Route  path='/journal/success-bsi' element={<BSISuccess/>} />
+          <Route  path='/journal/secure-with-multiaccount-gov-owned-bank' element={<BRISuccess/>} />
+          <Route  path='/journal/lz-for-gov-owned-bank' element={<BTNSuccess/>} />
+          <Route  path='/journal/enhance-and-improve-lz-syariahbank' element={<DanamonSuccess/>} />
+          <Route  path='/journal/secure-managed-apps-multiaccount-gov-syariah-bank' element={<BSISuccess/>} />
           <Route  path='/journal/success-telco-company' element={<TelcoSuccess/>} />
           <Route  path='/journal/success-asset-management' element={<AssetManagementSuccess/>} />
           <Route  path='/journal/success-goverment-bank' element={<GovermentBankSuccess/>} />
