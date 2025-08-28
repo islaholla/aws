@@ -538,7 +538,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - Telco Company.png",
   },
   {
-    id: "secure-managed-apps-multiaccount-gov-syariah-bank",
+    id: "secure-manage-apps-multiaccount-gov-syariah-bank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",
