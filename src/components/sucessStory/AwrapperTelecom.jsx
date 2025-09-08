@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import Heading from "../common/heading/Heading"
-import diagram from '../../components/image/Diagram BSI.png';
+import diagram from '../../components/image/Telecom1.png';
+import diagram2 from '../../components/image/Telecom2.png';
 import { useLocation } from "react-router-dom";
 
 
@@ -21,6 +22,17 @@ const AwrapperTelecom = () => {
           This case study explores the successful digital transformation of a leading telecommunications provider in Indonesia through the implementation of AWS Managed Services. Driven by the need for innovation, the client sought a cloud-based solution to modernize its IT operations. As an AWS Managed Service Provider (MSP), we delivered a comprehensive infrastructure optimization, cost optimization and security enhancements. By leveraging AWS technologies, the client has positioned itself for sustained growth, innovation, and enhanced service delivery in Indonesia’s competitive telecommunications landscape.
 
           <br /> <br />
+
+          <h4>Customer Topology Overview</h4>
+          <div className="image-diagram">
+          <img src={diagram} alt="" />
+          </div>
+          <br />
+          <div className="image-diagram2">
+          <img src={diagram2} alt="" />
+          </div>
+          <br /> <br />
+
           <h3>        Managed Services Solution
           </h3>
           The client adopted Mastersystem Managed Service Operations (MSO) with the following key implementations:
