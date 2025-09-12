@@ -6,9 +6,9 @@ import "./blog.css"
 const Blog = () => {
   return (
     <>
-      <Back title='Blog' />
+      <Back title='Our Blog' />
       <section className='blog padding'>
-        <h2 className="submenuTitle">Read our news in implementing AWS solutions and see how it has impacted their businesses</h2>
+        <h2 className="submenuTitle">Read Our Latest Insights on AWS Implementation and Its Business Impact</h2>
         <div className='container grid2'>
           <BlogCard />
         </div>

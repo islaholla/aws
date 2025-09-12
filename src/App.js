@@ -6,6 +6,7 @@ import CourseHome from "./components/allcourses/CourseHome"
 import Team from "./components/team/Team"
 import Pricing from "./components/pricing/Pricing"
 import Blog from "./components/blog/Blog"
+import News from "./components/news/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
@@ -14,6 +15,7 @@ import Aws from "./components/team/AWS/Aws";
 import Mso from "./components/team/MSO/mso";
 import Catalog from "./components/team/MSO/Catalog";
 import DetailBlog from "./components/detailBlog/DetailBlog";
+import DetailNews from "./components/detailNews/DetailBlog";
 import Storage from "./components/team/Storage/storage";
 import SuksesStory from "./components/sucessStory/SuksesStory";
 import BackupStory from "./components/sucessStory/Backup";
@@ -43,7 +45,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
          <Route  path='/courses' element={<CourseHome/>} />
-          <Route  path='/blog' element={<Blog/>} />
+          <Route  path='/blog' element={<News/>} />
           <Route  path='/solutions' element={<Team/>} />
           <Route  path='/solutions/sdp' element={<Aws/>} />
           <Route  path='/solutions/mso' element={<Mso/>} />
@@ -71,6 +73,7 @@ function App() {
           <Route  path='/journal/success-company-c' element={<CompanyCSukses/>} />
           <Route  path='/journal/success-company-b' element={<CompanyBSukses/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
+          <Route  path='/news/:id' element={<DetailNews/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/solutions/storage' element={<Storage />} />
         </Routes>
