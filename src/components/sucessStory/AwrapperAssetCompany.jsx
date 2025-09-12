@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import Heading from "../common/heading/Heading"
-import diagram from '../../components/image/Diagram BSI.png';
+import diagram from '../../components/image/AssetManagement.png';
 import { useLocation } from "react-router-dom";
 
 
@@ -19,6 +19,12 @@ const AwrapperAssetCompany = () => {
         <div className=" bg-white">
           <h3>Executive Summary</h3>
           One Indonesian Asset Management Company is rapidly evolving, requiring secure, cost-effective, and highly available IT operations to support financial transactions and portfolio management. This case study explores how Mastersystem Infotama AWS Managed Service Operations (MSO) helped a leading Indonesian investment company optimize daily IT operations, implement backup strategies, enhance security reporting, and improve cost efficiency through AWS Savings Plans and Reserved Instances. Additionally, the company leveraged AWS to deploy new workloads efficiently to support its growing digital investment platforms.
+
+          <br /> <br />
+          <h3>Customer High Level Topology Overview</h3>
+          <div className="image-diagram">
+          <img src={diagram} alt="" />
+          </div>
 
           <br /> <br />
           <h3>        Managed Services Solution

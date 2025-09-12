@@ -465,7 +465,7 @@ export const blog = [
     title: "Digital Transformation Journey Through Managed Service Operation in Prominent Banking Institution in Indonesia",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "The client is a prominent banking institution in Indonesia, serving millions of retail and corporate customers through a wide range of financial products and services, including savings, loans, digital banking, and wealth management.",
-    cover: "..images/sucess/Aws Microsite - Company B.png",
+    cover: "../images/sucess/Aws Microsite - Company B.png",
   },
   {
     id: "success-company-c",
@@ -475,7 +475,7 @@ export const blog = [
     title: "Cloud Transformation Strategy Through Managed Service Operation in top-tier Financial Services Provider in Indonesia",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "The client is a top-tier financial services provider in Indonesia, offering a wide range of banking, investment, and insurance products to both retail and corporate customers.",
-    cover: "..images/sucess/Aws Microsite - Company C.png",
+    cover: "../images/sucess/Aws Microsite - Company C.png",
   },
   {
     id: "success-asset-company",
@@ -538,7 +538,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - Telco Company.png",
   },
   {
-    id: "success-bsi",
+    id: "secure-manage-apps-multiaccount-gov-syariah-bank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",
@@ -548,7 +548,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - BSI - Case Study.png",
   },
   {
-    id: "success-danamon-syariah",
+    id: "enhance-and-improve-lz-syariahbank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",
@@ -558,7 +558,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - Danamon Syariah - MSI Partner AWS Case Study.png",
   },
   {
-    id: "success-btn",
+    id: "lz-for-gov-owned-bank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",
@@ -568,7 +568,7 @@ export const blog = [
     cover: "../images/sucess/Aws Microsite - BTN - MSI Partner AWS Case Study.png",
   },
   {
-    id: "success-bri",
+    id: "secure-with-multiaccount-gov-owned-bank",
     type: "admin",
     date: "JUN. 25, 2025",
     com: "3 COMMENTS ",

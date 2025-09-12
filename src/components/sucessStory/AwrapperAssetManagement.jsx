@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import Heading from "../common/heading/Heading"
-import diagram from '../../components/image/Diagram BSI.png';
+import diagram from '../../components/image/AssetManagement.png';
 import { useLocation } from "react-router-dom";
 
 
@@ -28,6 +28,14 @@ const AwrapperAssetManagement = () => {
           efficiently to support its growing digital investment platforms.
 
           <br /> <br />
+
+          <h3>Customer High Level Topology Overview</h3>
+          <div className="image-diagram">
+          <img src={diagram} alt="" />
+          </div>
+
+          <br /> <br />
+
           <h3>        Challange
           </h3>
           The company requires a comprehensive security solution that provides 24/7

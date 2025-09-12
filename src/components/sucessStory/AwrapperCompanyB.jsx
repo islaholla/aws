@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import Heading from "../common/heading/Heading"
-import diagram from '../../components/image/Diagram BSI.png';
+import diagram from '../../components/image/CompanyB.png';
 import { useLocation } from "react-router-dom";
 
 
@@ -21,6 +21,14 @@ const AwrapperCompanyB = () => {
           This case study showcases the successful digital transformation of a leading Financial Services Industry (FSI) company in Indonesia through the implementation of AWS Managed Services. Facing growing regulatory requirements, demand for real-time data, and the need to enhance operational resilience, the client sought a secure, cloud-based solution to modernize its IT operations. As an AWS Managed Service Provider (MSP), we delivered comprehensive infrastructure optimization, cost efficiency, and enhanced security. Leveraging AWS technologies, the client is now better equipped to scale securely, remain compliant, and deliver innovative financial services in Indonesia’s highly regulated and competitive market.
 
           <br /> <br />
+
+          <h3>Customer Topology Overview</h3>
+          <div className="image-diagram">
+          <img src={diagram} alt="" />
+          </div>
+
+          <br /> <br />
+
           <h3>        Managed Services Solution
           </h3>
           The client adopted Mastersystem Managed Service Operations (MSO) with the following key implementations:
