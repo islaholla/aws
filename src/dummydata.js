@@ -699,6 +699,16 @@ export const blog = [
 ]
 export const news = [
   {
+    id: "MigrasiIT",
+    type: "blog",
+    date: "SEP. 24, 2025",
+    com: "3 COMMENTS ",
+    title: "Mengapa Migrasi IT Bisa Jadi Jalan Pintas Transformasi Digital?",
+    konten : "Japan Tobacco International telah berkembang dari perusahaan importir menjadi salah satu perusahaan manufaktur terbesar di industri tembakau Indonesia yang didirikan pada tahun 2010.Dalam kurun waktu 10 tahun, JTI Indonesia telah meraih banyak prestasi sukses, mulai dari mengembangkan rokok kretek pertamanya hingga akuisisi perusahaan manufaktur besar dan kantor distribusinya dengan cakupan nasional. Namun pada proses bisnisnya, JTI Indonesia masih memiliki proses manual yang diulang setiap harinya, seperti mengambil data dari website minimarket Indonesia untuk disimpan di Server Database JTI Indonesia.  Untuk menggantikan proses manual tersebut, JTI Indonesia mencari solusi otomatisasi agar tugas rutin yang biasa dilakukan secara manual bisa dilakukan dengan cepat, mudah dan hemat biaya. Mastersystem Infotama (Mastersystem) sebagai Partner Amazon Web Service (AWS) sekaligus Partner Nintex berkolaborasi untuk membantu kebutuhan JTI Indonesia dengan menyediakan solusi Enterprise Nintex Robotic Process Automation (RPA) yang berjalan di AWS. Untuk meningkatkan akurasi, konsistensi dalam pengolahan data ini, perlu dilakukan peningkatan penggunaan RPA. Dengan RPA, volume tinggi dan pekerjaan manual berulang dapat sepenuhnya diatasi melalui otomatisasi. Sehingga waktu yang sebelumnya digunakan untuk menyelesaikan pekerjaan, dapat dialokasikan untuk pekerjaan lain.", 
+    desc: "Aplikasi semakin beragam, jumlah data terus meningkat, sementara kebutuhan pengguna berubah lebih cepat dibandingkan sebelumnya. Infrastruktur tradisional berbasis on-premise sering kali tidak lagi mampu mengimbangi kecepatan perubahan tersebut. ",
+    cover: "../images/sucess/Aws Blog - Migrasi IT.png",
+  },
+  {
     id: "InfrastrukturIT",
     type: "blog",
     date: "SEP. 24, 2025",

@@ -96,6 +96,7 @@ const AwrapperInfrastrukturIT = () => {
           <br />
           Model PAYG mendukung enam pilar AWS Well-Architected Framework:
           <br />
+          <br />
           <h4>1.	Operational Excellence (Kemudahan Operasi)</h4>
           <ul style={{ paddingLeft: '20px' }}>
           Dengan model bayar sesuai pemakaian, perusahaan bisa lebih mudah mengatur server. Menyalakan, mematikan, atau menambah kapasitas bisa dilakukan otomatis—seperti menyalakan lampu dengan saklar. Hasilnya, tim IT tidak lagi terjebak mengurus hal-hal kecil, tapi bisa fokus pada peningkatan layanan.
