@@ -1,7 +1,7 @@
 import React from "react"
 import "./detailBlog.css"
 import Back from "../common/back/Back"
-import AwrapperInfrastrukturIT from "./AwrapperTest"
+import AwrapperInfrastrukturIT from "./AwrapperInfrastrukturIT"
 
 const InfrastrukturIT = () => {
   return (
