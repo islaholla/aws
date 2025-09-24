@@ -34,7 +34,7 @@ const AwrapperMigrasiIT = () => {
           </h3>
           <br />
           Awalnya, banyak Perusahaan atau Organisasi hanya menggunakan cloud untuk aplikasi baru atau non-critical. Namun, seiring waktu, mereka menemukan manfaat besar dengan memperbaharui (jika dibutuhkan) serta memindahkan sistem lama (legacy app / system) juga ke public cloud. Ada 5 (lima) alasan utama mengapa migrasi menjadi langkah strategis.
-          <br />
+          <br /> <br />
           <h4>1.	Efisiensi Biaya</h4>
           <ul style={{ paddingLeft: '20px' }}>
             Biaya membangun dan merawat data center tidaklah kecil. Perusahaan atau Organisasi seperti pada bagian Pendahuluan di atas, mereka harus membeli server, storage, perangkat jaringan, membayar listrik, pendingin, hingga menggaji tim operasional. Migrasi ke cloud memotong biaya tersebut. Tidak ada lagi pengadaan perangkat keras besar-besaran.
@@ -74,7 +74,7 @@ const AwrapperMigrasiIT = () => {
           <h3>Strategi Migrasi: 7R yang Harus Dipahami</h3>
           <br />
           Tidak semua aplikasi bisa dipindahkan ke cloud dengan cara yang sama. AWS memperkenalkan 7 strategi migrasi (7R) yang bisa menjadi panduan.
-          <br />
+          <br /> <br />
           <h4>1.	Rehosting (Lift and Shift)</h4>
           <ul style={{ paddingLeft: '20px' }}>
             Memindahkan aplikasi apa adanya ke cloud tanpa perubahan besar. Cepat dan sederhana, cocok untuk migrasi tahap awal.
@@ -114,7 +114,7 @@ const AwrapperMigrasiIT = () => {
           <h3>Jenis-Jenis Migrasi Cloud</h3>
           <br />
           Migrasi bisa terjadi dalam berbagai bentuk, tergantung kebutuhan:
-          <br />
+          <br /> <br />
           <ul style={{ paddingLeft: '20px' }}>
             <li>•	Database Migration – memindahkan database ke cloud, dengan replikasi data untuk meminimalkan downtime.</li>
             <li>•	Application Migration – memindahkan aplikasi dari on-premises ke cloud, bisa rehosting, replatforming, atau refactoring.</li>
@@ -198,7 +198,7 @@ const AwrapperMigrasiIT = () => {
           </ul>
           <br />
           Migrasi ke cloud adalah langkah strategis yang tidak hanya menyederhanakan kompleksitas IT, tetapi juga membuka peluang besar untuk efisiensi biaya, peningkatan keamanan, dan akselerasi inovasi. Namun, perjalanan ini tidak bisa dilakukan sendiri, yang mana dibutuhkan partner berpengalaman dan terbukti. PT Mastersystem Infotama Tbk (MSTI) hadir sebagai mitra terpercaya dengan rekam jejak panjang di Indonesia. Sebagai AWS Advanced Tier Partner, MSTI telah mendukung banyak Perusahaan di Indonesia dalam melakukan transisi dari on-premises ke cloud dengan pendekatan yang sistematis dan aman.
-          <br /> 
+          <br /> <br />
           Lebih dari sekadar klaim, kapabilitas MSTI telah divalidasi melalui berbagai AWS Competencies di bidang migrasi, storage, serta modernisasi infrastruktur, ratusan sertifikasi resmi dari AWS, serta implementasi proyek nyata di berbagai industri (source: https://partners.amazonaws.com/partners/0010h00001d1hNzAAI/). Hal ini menjadikan MSTI bukan hanya penyedia layanan, melainkan partner strategis yang siap mendampingi pelanggan dari tahap perencanaan, migrasi, hingga pengelolaan harian di cloud. Dengan pengalaman di berbagai industri, MSTI menyediakan konsultasi, implementasi, hingga managed service yang akan membantu Perusahaan dalam monitoring operasional infrastruktur secara 24/7.
 
         </div>
