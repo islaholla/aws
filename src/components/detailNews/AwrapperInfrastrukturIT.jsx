@@ -36,23 +36,31 @@ const AwrapperInfrastrukturIT = () => {
             <img src={diagram2} alt="" />
           </div>
           Prinsip PAYG sangatlah sederhana: hanya bayar apa yang Anda gunakan, tidak lebih. Misalnya, jika sebuah server berjalan 10 jam, perusahaan hanya membayar 10 jam, bukan 24 jam penuh atau satu bulan penuh. Saat server dimatikan, biaya juga berhenti berjalan (kecuali untuk komponen penyimpanan seperti Elastic Block Storage/EBS yang tetap digunakan). Di AWS, PAYG hadir dalam beberapa opsi:
-          •	On-Demand Instances – bayar per jam atau per detik untuk komputasi.
-          •	Reserved Instances & Savings Plans – hemat biaya hingga 70% untuk komitmen jangka panjang (1 tahun atau 3 tahun).
-          •	Spot Instances – memanfaatkan kapasitas EC2 yang tidak terpakai di AWS dengan potongan harga hingga 90% dibandingkan harga On-Demand Instances, cocok untuk workload fleksibel (seperti stateless, fault-tolerant, atau fleksibel seperti big data, containerized workloads, CI/CD, web server, high-performance computing (HPC), serta test & development).
+          <ul style={{ paddingLeft: '20px' }}>
+          <li>•	On-Demand Instances – bayar per jam atau per detik untuk komputasi.</li>
+          <li>•	Reserved Instances & Savings Plans – hemat biaya hingga 70% untuk komitmen jangka panjang (1 tahun atau 3 tahun).</li>
+          <li>•	Spot Instances – memanfaatkan kapasitas EC2 yang tidak terpakai di AWS dengan potongan harga hingga 90% dibandingkan harga On-Demand Instances, cocok untuk workload fleksibel (seperti stateless, fault-tolerant, atau fleksibel seperti big data, containerized workloads, CI/CD, web server, high-performance computing (HPC), serta test & development).</li>
+          </ul>
           Dengan model ini membuat biaya IT menjadi sangat dinamis. Tidak ada lagi konsep “membeli server berlebihan hanya untuk jaga-jaga”.
 
           <br /> <br />
-          <h4>Fleksibilitas Infrastruktur AWS</h4>
+          <h3>Fleksibilitas Infrastruktur AWS</h3>
           <div className="image-diagram">
             <img src={diagram3} alt="" />
           </div>
           Selain hemat biaya, PAYG juga membuat infrastruktur jauh lebih fleksibel. Fleksibilitas ini hadir dalam tiga bentuk Utama
           1.	Start/Stop Instances
+          <ul style={{ paddingLeft: '20px' }}>
           Server virtual (Amazon EC2) bisa dinyalakan hanya saat dibutuhkan. Contohnya, untuk environment development yang dipakai hanya di jam kerja, server bisa otomatis mati setelah pukul 6 sore dan hidup kembali pukul 8 pagi—tanpa campur tangan manual.
+          </ul>
           2.	Resize Instance
+          <ul style={{ paddingLeft: '20px' }}>
           Kapasitas server dapat dengan mudah disesuaikan. Saat workload meningkat, perusahaan cukup melakukan scale up ke instance yang lebih besar hanya dengan beberapa klik atau satu perintah API. Begitu beban kerja menurun, server bisa kembali di-scale down.
+          </ul>
           3.	Auto Scaling Group (ASG)
+          <ul style={{ paddingLeft: '20px' }}>
           ASG secara otomatis menambah server baru saat traffic melonjak, lalu menurunkannya lagi ketika traffic reda. Hasilnya, biaya selalu sejalan dengan kebutuhan nyata—tidak ada lagi pemborosan.
+          </ul>
           Bayangkan sebuah startup e-commerce baru di Jakarta. Saat aplikasi pertama kali diluncurkan, traffic pengunjung masih kecil, cukup dilayani server sederhana dengan biaya hanya ratusan ribu rupiah per bulan. Namun, ketika mereka menggelar kampanye diskon besar-besaran seperti Harbolnas, jumlah pengunjung melonjak ribuan kali lipat. Jika masih mengandalkan server on-premise, mereka akan kewalahan. Bisa saja server error, mati, atau bahkan down karena overload. Sementara itu, menambah server baru membutuhkan waktu berminggu-minggu—terlambat untuk mengimbangi lonjakan traffic.
           Dengan AWS, mereka cukup menyiapkan ASG. Ketika traffic melonjak, server baru otomatis ditambahkan. Begitu traffic normal, server akan otomatis berkurang. Biaya pun hanya meningkat saat benar-benar dibutuhkan.
           Contoh studi kasus lainnya, sebuah perusahaan manufaktur yang sudah berdiri puluhan tahun awalnya menggunakan data center sendiri. Mereka membeli server besar setiap 5 tahun sekali. Masalah muncul ketika pandemi COVID-19: kebutuhan remote access melonjak, tetapi kapasitas server tidak cukup.
@@ -61,11 +69,12 @@ const AwrapperInfrastrukturIT = () => {
 
           <h4>Manfaat Bisnis & Teknis</h4>
           Menggunakan PAYG di AWS memberikan banyak manfaat:
-          •	Efisiensi biaya – tidak ada investasi awal besar.
-          •	Agility & inovasi – infrastruktur bisa berubah dalam hitungan menit.
-          •	Reliability – layanan AWS tersebar di banyak Availability Zone.
-          •	Sustainability – lebih ramah lingkungan karena menggunakan infrastruktur shared yang efisien energi.
-
+          <ul style={{ paddingLeft: '20px' }}>
+          <li>•	Efisiensi biaya – tidak ada investasi awal besar.</li>
+          <li>•	Agility & inovasi – infrastruktur bisa berubah dalam hitungan menit.</li>
+          <li>•	Reliability – layanan AWS tersebar di banyak Availability Zone.</li>
+          <li>•	Sustainability – lebih ramah lingkungan karena menggunakan infrastruktur shared yang efisien energi.</li>
+          </ul>
 
           <br /><br />
           <h4>6 Pilar AWS Well-Architected</h4>
@@ -73,21 +82,34 @@ const AwrapperInfrastrukturIT = () => {
             <img src={diagram4} alt="" />
           </div>
           Model PAYG mendukung enam pilar AWS Well-Architected Framework:
+          
           1.	Operational Excellence (Kemudahan Operasi)
+          <ul style={{ paddingLeft: '20px' }}>
           Dengan model bayar sesuai pemakaian, perusahaan bisa lebih mudah mengatur server. Menyalakan, mematikan, atau menambah kapasitas bisa dilakukan otomatis—seperti menyalakan lampu dengan saklar. Hasilnya, tim IT tidak lagi terjebak mengurus hal-hal kecil, tapi bisa fokus pada peningkatan layanan.
+          </ul>
           2.	Security (Keamanan Data)
+          <ul style={{ paddingLeft: '20px' }}>
           Walau biaya fleksibel, keamanan tidak dikompromikan. Data tetap terlindungi dengan sistem enkripsi, kontrol akses yang ketat, dan standar keamanan internasional. Jadi, walau tidak membeli server sendiri, data perusahaan tetap aman seolah disimpan di “brankas digital”.
+          </ul>
           3.	Reliability (Keandalan Sistem)
+          <ul style={{ paddingLeft: '20px' }}>
           Server tradisional sering bermasalah jika tiba-tiba ada lonjakan beban. Dengan PAYG, sistem bisa otomatis menambah kapasitas jika dibutuhkan. Bahkan jika ada gangguan di satu lokasi, layanan bisa dialihkan ke lokasi lain agar tetap berjalan. Seperti punya genset otomatis saat listrik padam—layanan tetap nyala tanpa henti.
+          </ul>
           4.	Performance Efficiency (Kinerja Optimal)
+          <ul style={{ paddingLeft: '20px' }}>
           PAYG memungkinkan perusahaan menaruh aplikasi di lokasi (region) yang paling dekat dengan pengguna. Artinya, akses lebih cepat, respons aplikasi lebih baik, dan pengalaman pengguna meningkat. Sama seperti memilih jalan tol terdekat untuk sampai ke tujuan lebih cepat.
+          </ul>
           5.	Cost Optimization (Biaya Efisien)
+          <ul style={{ paddingLeft: '20px' }}>
           Inilah inti dari PAYG: hanya bayar apa yang benar-benar dipakai. Tidak ada lagi biaya server yang menganggur. Ibaratnya, seperti bayar listrik atau air—tagihan muncul hanya sesuai penggunaan, bukan biaya tetap bulanan.
+          </ul>
           6.	Sustainability (Keberlanjutan & Ramah Lingkungan)
+          <ul style={{ paddingLeft: '20px' }}>
           Dengan menggunakan infrastruktur bersama yang lebih efisien, konsumsi energi berkurang dibandingkan jika tiap perusahaan membangun data center sendiri. Ini membantu mengurangi jejak karbon dan membuat perusahaan lebih ramah lingkungan.
-
+          </ul>
           <h4>Tantangan & Cara Mengatasinya</h4>
           Tentu ada tantangan karena biaya bisa melonjak tiba-tiba jika tidak dikelola dengan baik. Banyak perusahaan kaget karena lupa mematikan server atau tidak mengatur alarm biaya. Untungnya, AWS menyediakan solusi seperti Cost Explorer, Budgets, dan tagging untuk menjaga pengeluaran tetap terkendali. Dengan manajemen yang tepat, konsep PAYG di AWS membuat infrastruktur menjadi lebih murah, fleksibel, dan menguntungkan. Perusahaan tidak lagi harus terikat investasi besar di awal, melainkan cukup menyesuaikan biaya sesuai kebutuhan nyata.
+          <br />
           Di sinilah PT Mastersystem Infotama Tbk (MSTI) hadir untuk membantu customer dalam mengelola AWS, memberikan 24/7 real-time monitoring, serta konsultasi untuk memastikan penggunaan AWS selalu optimal.
 
 
