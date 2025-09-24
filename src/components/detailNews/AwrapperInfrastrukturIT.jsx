@@ -1,11 +1,14 @@
-import  { useEffect } from "react"
+import { useEffect } from "react"
 import Heading from "../common/heading/Heading"
-import diagram from '../../components/image/Diagram BSI.png';
+import diagram1 from '../../components/image/Infrastruktur IT 1.png';
+import diagram2 from '../../components/image/Infrastruktur IT 2.png';
+import diagram3 from '../../components/image/Infrastruktur IT 3.png';
+import diagram4 from '../../components/image/Infrastruktur IT 4.png';
 import { useLocation } from "react-router-dom";
 
 
 
-const AwrapperTest = () => {
+const AwrapperInfrastrukturIT = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -15,75 +18,77 @@ const AwrapperTest = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Securely Manage Apps from Multiple Business Unit on AWS' />
+        <Heading title='Infrastruktur IT Fleksibel: Dari Beban Menjadi Keunggulan' />
         <div className=" bg-white">
-          <h4>Test</h4>
-          <br /> <br />
-          <h4>        Customer Challange
-          </h4>
-          One of the customer challenge is managing multiple applications from different
-          business unit/owner. Security vulnerabilities also pose a serious risk of data
-          breaches and compliance failures, while the lack of a high-availability strategy
-          increases the likelihood of downtime, potentially eroding customer trust and
-          damaging market reputation.
-          By adopting AWS, specifically through an AWS Landing Zone, the customer can
-          establish a secure, scalable, and well-managed cloud foundation. AWS Landing
-          Zone provides a standardized multi-account setup with built-in security guardrails,
-          automated governance, and compliance best practices. Services like AWS Auto
-          Scaling ensure seamless scalability, while AWS Identity and Access Management
-          (IAM), AWS Security Hub, and AWS Control Tower enforce security and regulatory
-          policies. Additionally, AWS’s global infrastructure and multi-AZ architecture
-          enhance high availability and disaster recovery. With AWS, the customer can
-          mitigate operational risks, improve agility, and maintain market trust, ensuring
-          long-term success.
-
-
-          <br /> <br />
-          <h4>Solution</h4>
-          To address the customer's challenges, Mastersystem Infotama are implementing
-          an AWS Landing Zone with a multi-account architecture to enhance security,
-          governance, and operational efficiency. This setup enforces security best practices
-          using AWS Identity and Access Management (IAM), AWS Security Hub, and
-          automated compliance policies, ensuring a robust security posture.      <br /> <br />
+          <h4>Paradigma Lama VS Paradigma Baru</h4>
           <div className="image-diagram">
-            <img src={diagram} alt="" />
+            <img src={diagram1} alt="" />
           </div>
-          <br />
-          The AWS Landing Zone is created using AWS Control tower while AWS Organization
-          is required as the accounts orchestrator. By Using AWS Organization, customer can
-          centrally manage multiple account and apps in AWS. To ensure a secure
-          environment, an AWS Service is employed to create access rights and grant these
-          access rights to related users. This goal can be achieved by utilize the AWS IAM
-          Identity Center. Additionally, a secure environment provides protection against
-          activity logs in the environment. To address this, AWS CloudTrail Trail Log and VPC
-          Flow Log are used, which are stored in Amazon S3. Regarding network security, 3rd
-          party Firewall is deployed in Amazon EC2 to inspect network traffic in this
-          environment. Amazon GuardDuty is also used as an intelligent threat detection
-          system, monitoring malicious and unauthorized activities in existing accounts and
-          workloads. All the security and network related logs are stored in a centralize place.
-          Communication network between environment in AWS is established by using AWS
-          Transit Gateway. To connect to the on-premise data center, Amazon Direct Connect
-          and Site-to-Site VPN are the solutions that used in this case. After landing zone is
-          deployed, the next step is to create an environment to deploy the desired workload,
-          in this case is a GenAI workload.
-          One of the workload environment consists of Amazon ECS Cluster as a container
-          services that can use auto-scaling. Managed Stream for Kafka Cluster to store GenAI
-          historical data that Orchestrator generates in RDS through Kafka topics. Amazon
-          Bedrock GenAI core services to provide AWS-maintained LLMs. Database using RDS
-          PostgreSQL. AWS KMS to manage encryption keys. AWS Certificate Manager to
-          manage SSL certificate, Amazon Sagemaker as a Web-based IDE running on PVC
-          private network to run jupyter notebook for RDS connection related to data
-          processing.
+          Selama bertahun-tahun, banyak perusahaan di Indonesia maupun perusahaan global masih percaya bahwa investasi infrastruktur IT identik dengan biaya besar di awal (Capital Expenditure/CAPEX). Mereka harus membeli server fisik, storage, perangkat jaringan, lisensi perangkat lunak, hingga menyewa ruangan khusus dengan pendingin dan listrik cadangan agar sistem tetap berjalan. Belum lagi, perusahaan juga harus memperhitungkan biaya tim operasional atau Sumber Daya Manusia (SDM) untuk menjaga infrastruktur ini tetap berjalan lancar. Meskipun infrastruktur tersebut diharapkan bisa digunakan selama 3–5 tahun, pendekatan ini mulai dirasa tidak lagi selaras dengan kebutuhan bisnis yang dinamis. Tantangannya adalah biaya investasi yang tinggi mengurangi fleksibilitas keuangan seperti kapasitas infrastruktur yang tidak akurat sering berakhir dengan under-provisioning atau over-provisioning
+          Perubahan ini semakin nyata di Indonesia. Menurut survei PwC (2022), adopsi cloud di segmen usaha kecil dan menengah (SMB) telah mencapai 89%, sedangkan di kalangan perusahaan besar, 80% telah menggunakan teknologi cloud, dan sisanya berencana mengadopsinya dalam 3 tahun ke depan. Data ini menunjukkan bahwa banyak organisasi di Indonesia mulai beralih ke infrastruktur cloud, meninggalkan model on-premise tradisional. Lebih jauh, dampak ekonomi dari adopsi cloud juga signifikan. Survei PwC memperkirakan adopsi cloud dapat menambah kontribusi sekitar USD 10,7 miliar bagi perekonomian Indonesia dalam periode 2021–2025. Fakta bahwa cloud mampu mendorong produktivitas dan transformasi digital semakin menegaskan pilihan organisasi terhadap fleksibilitas dan efisiensi operasional
+          Melengkapi data tersebut, proyeksi pasar cloud Indonesia makin optimistis. Nilainya diperkirakan mencapai USD 2,09 miliar pada 2024 dan meningkat hingga USD 4,80 miliar pada 2032, dengan pertumbuhan tahunan rata-rata sekitar 14,5%. Fenomena ini menunjukkan bahwa banyak organisasi di Indonesia mulai meninggalkan pendekatan infrastruktur tradisional (murni on-premise) dan beralih ke model yang lebih fleksibel, baik public maupun hybrid cloud. Sejalan dengan tren ini, AWS (Amazon Web Services) menawarkan paradigma baru melalui model Operational Expenditure (OPEX) berbasis Pay As You Go (PAYG). Dengan model ini, perusahaan tidak perlu membeli perangkat fisik, melainkan cukup membayar sumber daya sesuai penggunaan. Hasilnya, investasi IT menjadi jauh lebih efisien, adaptif, dan menguntungkan, selaras dengan transformasi digital yang tengah berlangsung di Indonesia maupun dunia.
 
           <br /><br />
-          <h4>Outcome</h4>
-          With this solution, the customer gains a centralized and scalable environment to
-          efficiently manage multiple applications from various business owners. The AWS
-          Landing Zone with a multi-account architecture enables organized governance and
-          streamlined management while maintaining robust security and compliance across
-          diverse workloads. This structure ensures that each business owner can operate
-          independently within their own account while adhering to consistent security
-          policies.
+
+          <h4>        Konsep Pay As You Go (PAYG) di AWS
+          </h4>
+          <div className="image-diagram">
+            <img src={diagram2} alt="" />
+          </div>
+          Prinsip PAYG sangatlah sederhana: hanya bayar apa yang Anda gunakan, tidak lebih. Misalnya, jika sebuah server berjalan 10 jam, perusahaan hanya membayar 10 jam, bukan 24 jam penuh atau satu bulan penuh. Saat server dimatikan, biaya juga berhenti berjalan (kecuali untuk komponen penyimpanan seperti Elastic Block Storage/EBS yang tetap digunakan). Di AWS, PAYG hadir dalam beberapa opsi:
+          •	On-Demand Instances – bayar per jam atau per detik untuk komputasi.
+          •	Reserved Instances & Savings Plans – hemat biaya hingga 70% untuk komitmen jangka panjang (1 tahun atau 3 tahun).
+          •	Spot Instances – memanfaatkan kapasitas EC2 yang tidak terpakai di AWS dengan potongan harga hingga 90% dibandingkan harga On-Demand Instances, cocok untuk workload fleksibel (seperti stateless, fault-tolerant, atau fleksibel seperti big data, containerized workloads, CI/CD, web server, high-performance computing (HPC), serta test & development).
+          Dengan model ini membuat biaya IT menjadi sangat dinamis. Tidak ada lagi konsep “membeli server berlebihan hanya untuk jaga-jaga”.
+
+          <br /> <br />
+          <h4>Fleksibilitas Infrastruktur AWS</h4>
+          <div className="image-diagram">
+            <img src={diagram3} alt="" />
+          </div>
+          Selain hemat biaya, PAYG juga membuat infrastruktur jauh lebih fleksibel. Fleksibilitas ini hadir dalam tiga bentuk Utama
+          1.	Start/Stop Instances
+          Server virtual (Amazon EC2) bisa dinyalakan hanya saat dibutuhkan. Contohnya, untuk environment development yang dipakai hanya di jam kerja, server bisa otomatis mati setelah pukul 6 sore dan hidup kembali pukul 8 pagi—tanpa campur tangan manual.
+          2.	Resize Instance
+          Kapasitas server dapat dengan mudah disesuaikan. Saat workload meningkat, perusahaan cukup melakukan scale up ke instance yang lebih besar hanya dengan beberapa klik atau satu perintah API. Begitu beban kerja menurun, server bisa kembali di-scale down.
+          3.	Auto Scaling Group (ASG)
+          ASG secara otomatis menambah server baru saat traffic melonjak, lalu menurunkannya lagi ketika traffic reda. Hasilnya, biaya selalu sejalan dengan kebutuhan nyata—tidak ada lagi pemborosan.
+          Bayangkan sebuah startup e-commerce baru di Jakarta. Saat aplikasi pertama kali diluncurkan, traffic pengunjung masih kecil, cukup dilayani server sederhana dengan biaya hanya ratusan ribu rupiah per bulan. Namun, ketika mereka menggelar kampanye diskon besar-besaran seperti Harbolnas, jumlah pengunjung melonjak ribuan kali lipat. Jika masih mengandalkan server on-premise, mereka akan kewalahan. Bisa saja server error, mati, atau bahkan down karena overload. Sementara itu, menambah server baru membutuhkan waktu berminggu-minggu—terlambat untuk mengimbangi lonjakan traffic.
+          Dengan AWS, mereka cukup menyiapkan ASG. Ketika traffic melonjak, server baru otomatis ditambahkan. Begitu traffic normal, server akan otomatis berkurang. Biaya pun hanya meningkat saat benar-benar dibutuhkan.
+          Contoh studi kasus lainnya, sebuah perusahaan manufaktur yang sudah berdiri puluhan tahun awalnya menggunakan data center sendiri. Mereka membeli server besar setiap 5 tahun sekali. Masalah muncul ketika pandemi COVID-19: kebutuhan remote access melonjak, tetapi kapasitas server tidak cukup.
+          Mereka akhirnya pindah ke AWS dengan model PAYG. Kini, mereka tidak perlu lagi membeli server setiap 5 tahun. Infrastruktur bisa bertambah atau berkurang sesuai kebutuhan bisnis. Selain itu, keamanan data juga meningkat dengan layanan AWS Security.
+          <br /> <br />
+
+          <h4>Manfaat Bisnis & Teknis</h4>
+          Menggunakan PAYG di AWS memberikan banyak manfaat:
+          •	Efisiensi biaya – tidak ada investasi awal besar.
+          •	Agility & inovasi – infrastruktur bisa berubah dalam hitungan menit.
+          •	Reliability – layanan AWS tersebar di banyak Availability Zone.
+          •	Sustainability – lebih ramah lingkungan karena menggunakan infrastruktur shared yang efisien energi.
+
+
+          <br /><br />
+          <h4>6 Pilar AWS Well-Architected</h4>
+          <div className="image-diagram">
+            <img src={diagram4} alt="" />
+          </div>
+          Model PAYG mendukung enam pilar AWS Well-Architected Framework:
+          1.	Operational Excellence (Kemudahan Operasi)
+          Dengan model bayar sesuai pemakaian, perusahaan bisa lebih mudah mengatur server. Menyalakan, mematikan, atau menambah kapasitas bisa dilakukan otomatis—seperti menyalakan lampu dengan saklar. Hasilnya, tim IT tidak lagi terjebak mengurus hal-hal kecil, tapi bisa fokus pada peningkatan layanan.
+          2.	Security (Keamanan Data)
+          Walau biaya fleksibel, keamanan tidak dikompromikan. Data tetap terlindungi dengan sistem enkripsi, kontrol akses yang ketat, dan standar keamanan internasional. Jadi, walau tidak membeli server sendiri, data perusahaan tetap aman seolah disimpan di “brankas digital”.
+          3.	Reliability (Keandalan Sistem)
+          Server tradisional sering bermasalah jika tiba-tiba ada lonjakan beban. Dengan PAYG, sistem bisa otomatis menambah kapasitas jika dibutuhkan. Bahkan jika ada gangguan di satu lokasi, layanan bisa dialihkan ke lokasi lain agar tetap berjalan. Seperti punya genset otomatis saat listrik padam—layanan tetap nyala tanpa henti.
+          4.	Performance Efficiency (Kinerja Optimal)
+          PAYG memungkinkan perusahaan menaruh aplikasi di lokasi (region) yang paling dekat dengan pengguna. Artinya, akses lebih cepat, respons aplikasi lebih baik, dan pengalaman pengguna meningkat. Sama seperti memilih jalan tol terdekat untuk sampai ke tujuan lebih cepat.
+          5.	Cost Optimization (Biaya Efisien)
+          Inilah inti dari PAYG: hanya bayar apa yang benar-benar dipakai. Tidak ada lagi biaya server yang menganggur. Ibaratnya, seperti bayar listrik atau air—tagihan muncul hanya sesuai penggunaan, bukan biaya tetap bulanan.
+          6.	Sustainability (Keberlanjutan & Ramah Lingkungan)
+          Dengan menggunakan infrastruktur bersama yang lebih efisien, konsumsi energi berkurang dibandingkan jika tiap perusahaan membangun data center sendiri. Ini membantu mengurangi jejak karbon dan membuat perusahaan lebih ramah lingkungan.
+
+          <h4>Tantangan & Cara Mengatasinya</h4>
+          Tentu ada tantangan karena biaya bisa melonjak tiba-tiba jika tidak dikelola dengan baik. Banyak perusahaan kaget karena lupa mematikan server atau tidak mengatur alarm biaya. Untungnya, AWS menyediakan solusi seperti Cost Explorer, Budgets, dan tagging untuk menjaga pengeluaran tetap terkendali. Dengan manajemen yang tepat, konsep PAYG di AWS membuat infrastruktur menjadi lebih murah, fleksibel, dan menguntungkan. Perusahaan tidak lagi harus terikat investasi besar di awal, melainkan cukup menyesuaikan biaya sesuai kebutuhan nyata.
+          Di sinilah PT Mastersystem Infotama Tbk (MSTI) hadir untuk membantu customer dalam mengelola AWS, memberikan 24/7 real-time monitoring, serta konsultasi untuk memastikan penggunaan AWS selalu optimal.
 
 
 
@@ -94,4 +99,4 @@ const AwrapperTest = () => {
   )
 }
 
-export default AwrapperTest
+export default AwrapperInfrastrukturIT
