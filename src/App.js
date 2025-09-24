@@ -37,6 +37,7 @@ import AssetCompanySukses from "./components/sucessStory/AssetCompanySukses";
 import CompanyCSukses from "./components/sucessStory/CompanyCSukses";
 import CompanyBSukses from "./components/sucessStory/CompanyBSukses";
 import InfrastrukturIT from "./components/detailNews/InfrastrukturIT";
+import MigrasiIT from "./components/detailNews/MigrasiIT";
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
           <Route  path='/journal/success-company-c' element={<CompanyCSukses/>} />
           <Route  path='/journal/success-company-b' element={<CompanyBSukses/>} />
           <Route  path='/news/InfrastrukturIT' element={<InfrastrukturIT/>} />
+          <Route  path='/news/MigrasiIT' element={<MigrasiIT/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route  path='/news/:id' element={<DetailNews/>} />
           <Route path='/contact' element={<Contact />} />
