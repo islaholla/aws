@@ -39,14 +39,14 @@ const AwrapperInfrastrukturIT = () => {
             <img src={diagram2} alt="" />
           </div>
           <br />
-          Prinsip PAYG sangatlah sederhana: hanya bayar apa yang Anda gunakan, tidak lebih. Misalnya, jika sebuah server berjalan 10 jam, perusahaan hanya membayar 10 jam, bukan 24 jam penuh atau satu bulan penuh. Saat server dimatikan, biaya juga berhenti berjalan (kecuali untuk komponen penyimpanan seperti Elastic Block Storage/EBS yang tetap digunakan). 
+          Prinsip PAYG sangatlah sederhana: hanya bayar apa yang Anda gunakan, tidak lebih. Misalnya, jika sebuah server berjalan 10 jam, perusahaan hanya membayar 10 jam, bukan 24 jam penuh atau satu bulan penuh. Saat server dimatikan, biaya juga berhenti berjalan (kecuali untuk komponen penyimpanan seperti Elastic Block Storage/EBS yang tetap digunakan). Di AWS, PAYG hadir dalam beberapa opsi:
           <br />
-          Di AWS, PAYG hadir dalam beberapa opsi:
           <ul style={{ paddingLeft: '20px' }}>
           <li>•	On-Demand Instances – bayar per jam atau per detik untuk komputasi.</li>
           <li>•	Reserved Instances & Savings Plans – hemat biaya hingga 70% untuk komitmen jangka panjang (1 tahun atau 3 tahun).</li>
           <li>•	Spot Instances – memanfaatkan kapasitas EC2 yang tidak terpakai di AWS dengan potongan harga hingga 90% dibandingkan harga On-Demand Instances, cocok untuk workload fleksibel (seperti stateless, fault-tolerant, atau fleksibel seperti big data, containerized workloads, CI/CD, web server, high-performance computing (HPC), serta test & development).</li>
           </ul>
+          <br />
           Dengan model ini membuat biaya IT menjadi sangat dinamis. Tidak ada lagi konsep “membeli server berlebihan hanya untuk jaga-jaga”.
 
           <br /> <br />
@@ -79,6 +79,7 @@ const AwrapperInfrastrukturIT = () => {
           <br /> <br />
 
           <h3>Manfaat Bisnis & Teknis</h3>
+          <br />
           Menggunakan PAYG di AWS memberikan banyak manfaat:
           <ul style={{ paddingLeft: '20px' }}>
           <li>•	Efisiensi biaya – tidak ada investasi awal besar.</li>
@@ -126,6 +127,7 @@ const AwrapperInfrastrukturIT = () => {
           </ul>
           <br /><br />
           <h3>Tantangan & Cara Mengatasinya</h3>
+          <br />
           Tentu ada tantangan karena biaya bisa melonjak tiba-tiba jika tidak dikelola dengan baik. Banyak perusahaan kaget karena lupa mematikan server atau tidak mengatur alarm biaya. Untungnya, AWS menyediakan solusi seperti Cost Explorer, Budgets, dan tagging untuk menjaga pengeluaran tetap terkendali. Dengan manajemen yang tepat, konsep PAYG di AWS membuat infrastruktur menjadi lebih murah, fleksibel, dan menguntungkan. Perusahaan tidak lagi harus terikat investasi besar di awal, melainkan cukup menyesuaikan biaya sesuai kebutuhan nyata.
           <br />
           Di sinilah PT Mastersystem Infotama Tbk (MSTI) hadir untuk membantu customer dalam mengelola AWS, memberikan 24/7 real-time monitoring, serta konsultasi untuk memastikan penggunaan AWS selalu optimal.
