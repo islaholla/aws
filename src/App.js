@@ -36,6 +36,7 @@ import TelecomSukses from "./components/sucessStory/TelecomSukses";
 import AssetCompanySukses from "./components/sucessStory/AssetCompanySukses";
 import CompanyCSukses from "./components/sucessStory/CompanyCSukses";
 import CompanyBSukses from "./components/sucessStory/CompanyBSukses";
+import Test from "./components/detailNews/Test";
 
 function App() {
   return (
@@ -72,6 +73,7 @@ function App() {
           <Route  path='/journal/success-asset-company' element={<AssetCompanySukses/>} />
           <Route  path='/journal/success-company-c' element={<CompanyCSukses/>} />
           <Route  path='/journal/success-company-b' element={<CompanyBSukses/>} />
+          <Route  path='/news/test' element={<Test/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route  path='/news/:id' element={<DetailNews/>} />
           <Route path='/contact' element={<Contact />} />
