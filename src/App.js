@@ -38,6 +38,7 @@ import CompanyCSukses from "./components/sucessStory/CompanyCSukses";
 import CompanyBSukses from "./components/sucessStory/CompanyBSukses";
 import InfrastrukturIT from "./components/detailNews/InfrastrukturIT";
 import MigrasiIT from "./components/detailNews/MigrasiIT";
+import CompanyProfile from "./components/detailNews/CompanyProfile";
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function App() {
           <Route  path='/journal/success-company-b' element={<CompanyBSukses/>} />
           <Route  path='/news/InfrastrukturIT' element={<InfrastrukturIT/>} />
           <Route  path='/news/MigrasiIT' element={<MigrasiIT/>} />
+          <Route  path='/news/CompanyProfile' element={<CompanyProfile/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route  path='/news/:id' element={<DetailNews/>} />
           <Route path='/contact' element={<Contact />} />
