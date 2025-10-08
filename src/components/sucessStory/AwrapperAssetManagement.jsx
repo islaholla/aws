@@ -29,13 +29,6 @@ const AwrapperAssetManagement = () => {
 
           <br /> <br />
 
-          <h3>Customer High Level Topology Overview</h3>
-          <div className="image-diagram">
-          <img src={diagram} alt="" />
-          </div>
-
-          <br /> <br />
-
           <h3>        Challange
           </h3>
           The company requires a comprehensive security solution that provides 24/7
