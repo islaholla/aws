@@ -264,6 +264,11 @@ export const bridge = [
     name: "Determining the Right Size",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
+  {
+    cover: "./images/team/AWS-MSP.png",
+    name: "Manage Service Provider",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
 
 ]
 export const team = [
