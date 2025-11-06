@@ -56,8 +56,8 @@ const Contact = () => {
               <input className="button primary-btn" type="submit" value="Send"/>
             </form>
 
-            <h3>Follow us here</h3>
-            <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>
+            {/* <h3>Follow us here</h3>
+            <span>FACEBOOK TWITTER INSTAGRAM</span> */}
           </div>
         </div>
       </section>
