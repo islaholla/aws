@@ -280,7 +280,7 @@ export const bridge = [
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/SOLUTION PROVIDER.png",
+    cover: "./images/team/SP Badges.png",
     name: "Solution Provider",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
