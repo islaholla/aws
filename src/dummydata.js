@@ -269,6 +269,26 @@ export const bridge = [
     name: "Manage Service Provider",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
+  {
+    cover: "./images/team/EC2.png",
+    name: "Amazon EC2 for Windows Server Delivery",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/Migration Badges.png",
+    name: "Migration and Modernization Services",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/SOLUTION PROVIDER.png",
+    name: "Solution Provider",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/SSC Badges.png",
+    name: "Storage Services Competency",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
 
 ]
 export const team = [
