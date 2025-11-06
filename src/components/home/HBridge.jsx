@@ -12,7 +12,7 @@ const HBridge = () => {
         <div className='container'>
           <Heading subtitle='Mastersystem has proven the quality of its services ' title='' />
           <div className='grid3Home'>
-            {bridge.slice(0, 4).map((val,index) => (
+            {bridge.slice(0, 5).map((val,index) => (
               <div key={index} className='items'>
                 <div className='img badge'>
                   <img src={val.cover} alt='' />
