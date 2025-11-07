@@ -768,9 +768,9 @@ export const news = [
     type: "blog",
     date: "SEP. 24, 2025",
     com: "3 COMMENTS ",
-    title: "Infrastruktur IT Fleksibel: Dari Beban Menjadi Keunggulan",
+    title: "Flexible IT Infrastructure: From Burden to Advantage",
     konten : "Japan Tobacco International telah berkembang dari perusahaan importir menjadi salah satu perusahaan manufaktur terbesar di industri tembakau Indonesia yang didirikan pada tahun 2010.Dalam kurun waktu 10 tahun, JTI Indonesia telah meraih banyak prestasi sukses, mulai dari mengembangkan rokok kretek pertamanya hingga akuisisi perusahaan manufaktur besar dan kantor distribusinya dengan cakupan nasional. Namun pada proses bisnisnya, JTI Indonesia masih memiliki proses manual yang diulang setiap harinya, seperti mengambil data dari website minimarket Indonesia untuk disimpan di Server Database JTI Indonesia.  Untuk menggantikan proses manual tersebut, JTI Indonesia mencari solusi otomatisasi agar tugas rutin yang biasa dilakukan secara manual bisa dilakukan dengan cepat, mudah dan hemat biaya. Mastersystem Infotama (Mastersystem) sebagai Partner Amazon Web Service (AWS) sekaligus Partner Nintex berkolaborasi untuk membantu kebutuhan JTI Indonesia dengan menyediakan solusi Enterprise Nintex Robotic Process Automation (RPA) yang berjalan di AWS. Untuk meningkatkan akurasi, konsistensi dalam pengolahan data ini, perlu dilakukan peningkatan penggunaan RPA. Dengan RPA, volume tinggi dan pekerjaan manual berulang dapat sepenuhnya diatasi melalui otomatisasi. Sehingga waktu yang sebelumnya digunakan untuk menyelesaikan pekerjaan, dapat dialokasikan untuk pekerjaan lain.", 
-    desc: "Selama bertahun-tahun, banyak perusahaan di Indonesia maupun perusahaan global masih percaya bahwa investasi infrastruktur IT identik dengan biaya besar di awal (Capital Expenditure/CAPEX). ",
+    desc: "For years, many companies in Indonesia and global companies still believe that investing in IT infrastructure is synonymous with high initial costs (Capital Expenditure/CAPEX).",
     cover: "../images/sucess/Aws Blog - Infrastruktur IT.png",
   },
 

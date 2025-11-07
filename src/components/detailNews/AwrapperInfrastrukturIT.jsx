@@ -18,120 +18,120 @@ const AwrapperInfrastrukturIT = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Infrastruktur IT Fleksibel: Dari Beban Menjadi Keunggulan' />
+        <Heading title='Flexible IT Infrastructure: From Burden to Advantage' />
         <div className=" bg-white">
-          <h3>Paradigma Lama VS Paradigma Baru</h3>
+          <h3>Old Paradigm VS New Paradigm</h3>
           <div className="image-diagram">
             <img src={diagram1} alt="" />
           </div>
           <br />
-          Selama bertahun-tahun, banyak perusahaan di Indonesia maupun perusahaan global masih percaya bahwa investasi infrastruktur IT identik dengan biaya besar di awal (Capital Expenditure/CAPEX). Mereka harus membeli server fisik, storage, perangkat jaringan, lisensi perangkat lunak, hingga menyewa ruangan khusus dengan pendingin dan listrik cadangan agar sistem tetap berjalan. Belum lagi, perusahaan juga harus memperhitungkan biaya tim operasional atau Sumber Daya Manusia (SDM) untuk menjaga infrastruktur ini tetap berjalan lancar. Meskipun infrastruktur tersebut diharapkan bisa digunakan selama 3–5 tahun, pendekatan ini mulai dirasa tidak lagi selaras dengan kebutuhan bisnis yang dinamis. Tantangannya adalah biaya investasi yang tinggi mengurangi fleksibilitas keuangan seperti kapasitas infrastruktur yang tidak akurat sering berakhir dengan under-provisioning atau over-provisioning
+          For years, many companies in Indonesia and global companies still believe that investing in IT infrastructure is synonymous with high initial costs (Capital Expenditure/CAPEX). They have to purchase physical servers, storage, network devices, software licenses, and even rent special rooms with cooling and backup power to keep the system running. Not to mention, companies also have to factor in the cost of an operational team or human resources (HR) to keep this infrastructure running smoothly. Although the infrastructure is expected to be used for 3-5 years, this approach is no longer in line with dynamic business needs. The challenge is that high investment costs reduce financial flexibility, as inaccurate infrastructure capacity often results in under-provisioning or over-provisioning.
           <br /><br />
-          Perubahan ini semakin nyata di Indonesia. Menurut survei PwC (2022), adopsi cloud di segmen usaha kecil dan menengah (SMB) telah mencapai 89%, sedangkan di kalangan perusahaan besar, 80% telah menggunakan teknologi cloud, dan sisanya berencana mengadopsinya dalam 3 tahun ke depan. Data ini menunjukkan bahwa banyak organisasi di Indonesia mulai beralih ke infrastruktur cloud, meninggalkan model on-premise tradisional. Lebih jauh, dampak ekonomi dari adopsi cloud juga signifikan. Survei PwC memperkirakan adopsi cloud dapat menambah kontribusi sekitar USD 10,7 miliar bagi perekonomian Indonesia dalam periode 2021–2025. Fakta bahwa cloud mampu mendorong produktivitas dan transformasi digital semakin menegaskan pilihan organisasi terhadap fleksibilitas dan efisiensi operasional
+          This change is becoming increasingly apparent in Indonesia. According to a PwC survey (2022), cloud adoption in the small and medium-sized business (SMB) segment has reached 89%, while among large companies, 80% are already using cloud technology, with the rest planning to adopt it within the next three years. This data shows that many organizations in Indonesia are beginning to switch to cloud infrastructure, leaving behind the traditional on-premise model. Furthermore, the economic impact of cloud adoption is also significant. The PwC survey estimates that cloud adoption could add around USD 10.7 billion to Indonesia's economy in the 2021–2025 period. The fact that the cloud can drive productivity and digital transformation further reinforces organizations' choice of flexibility and operational efficiency.
           <br /><br />
-          Melengkapi data tersebut, proyeksi pasar cloud Indonesia makin optimistis. Nilainya diperkirakan mencapai USD 2,09 miliar pada 2024 dan meningkat hingga USD 4,80 miliar pada 2032, dengan pertumbuhan tahunan rata-rata sekitar 14,5%. Fenomena ini menunjukkan bahwa banyak organisasi di Indonesia mulai meninggalkan pendekatan infrastruktur tradisional (murni on-premise) dan beralih ke model yang lebih fleksibel, baik public maupun hybrid cloud. Sejalan dengan tren ini, AWS (Amazon Web Services) menawarkan paradigma baru melalui model Operational Expenditure (OPEX) berbasis Pay As You Go (PAYG). Dengan model ini, perusahaan tidak perlu membeli perangkat fisik, melainkan cukup membayar sumber daya sesuai penggunaan. Hasilnya, investasi IT menjadi jauh lebih efisien, adaptif, dan menguntungkan, selaras dengan transformasi digital yang tengah berlangsung di Indonesia maupun dunia.
+          Complementing this data, Indonesia's cloud market projections are increasingly optimistic. Its value is estimated to reach USD 2.09 billion in 2024 and increase to USD 4.80 billion in 2032, with an average annual growth of around 14.5%. This phenomenon shows that many organizations in Indonesia are beginning to abandon traditional infrastructure approaches (purely on-premise) and are shifting to more flexible models, both public and hybrid cloud. In line with this trend, AWS (Amazon Web Services) offers a new paradigm through its Pay As You Go (PAYG) based Operational Expenditure (OPEX) model. With this model, companies do not need to purchase physical devices, but only pay for resources according to usage. As a result, IT investments become much more efficient, adaptive, and profitable, in line with the digital transformation that is currently taking place in Indonesia and around the world.
 
           <br /><br />
 
-          <h3>        Konsep Pay As You Go (PAYG) di AWS
+          <h3>        The Pay As You Go (PAYG) Concept in AWS
           </h3>
           <div className="image-diagram">
             <img src={diagram2} alt="" />
           </div>
           <br />
-          Prinsip PAYG sangatlah sederhana: hanya bayar apa yang Anda gunakan, tidak lebih. Misalnya, jika sebuah server berjalan 10 jam, perusahaan hanya membayar 10 jam, bukan 24 jam penuh atau satu bulan penuh. Saat server dimatikan, biaya juga berhenti berjalan (kecuali untuk komponen penyimpanan seperti Elastic Block Storage/EBS yang tetap digunakan). Di AWS, PAYG hadir dalam beberapa opsi:
+          The PAYG principle is very simple: only pay for what you use, nothing more. For example, if a server runs for 10 hours, the company only pays for 10 hours, not the full 24 hours or a full month. When the server is turned off, the charges also stop running (except for storage components such as Elastic Block Storage/EBS, which continue to be used). In AWS, PAYG comes in several options:
           <br />
           <ul style={{ paddingLeft: '20px' }}>
-          <li>•	On-Demand Instances – bayar per jam atau per detik untuk komputasi.</li>
-          <li>•	Reserved Instances & Savings Plans – hemat biaya hingga 70% untuk komitmen jangka panjang (1 tahun atau 3 tahun).</li>
-          <li>•	Spot Instances – memanfaatkan kapasitas EC2 yang tidak terpakai di AWS dengan potongan harga hingga 90% dibandingkan harga On-Demand Instances, cocok untuk workload fleksibel (seperti stateless, fault-tolerant, atau fleksibel seperti big data, containerized workloads, CI/CD, web server, high-performance computing (HPC), serta test & development).</li>
+          <li>•	On-Demand Instances – pay per hour or per second for computing.</li>
+          <li>•	Reserved Instances & Savings Plans – save up to 70% on costs for long-term commitments (1 year or 3 years).</li>
+          <li>•	Spot Instances – take advantage of unused EC2 capacity on AWS at discounts of up to 90% compared to On-Demand Instances, suitable for flexible workloads (such as stateless, fault-tolerant, or flexible workloads like big data, containerized workloads, CI/CD, web servers, high-performance computing (HPC), and test & development).</li>
           </ul>
           <br />
-          Dengan model ini membuat biaya IT menjadi sangat dinamis. Tidak ada lagi konsep “membeli server berlebihan hanya untuk jaga-jaga”.
+          This model makes IT costs highly dynamic. Gone is the concept of “buying excess servers just in case.”
 
           <br /> <br />
-          <h3>Fleksibilitas Infrastruktur AWS</h3>
+          <h3>AWS Infrastructure Flexibility</h3>
           <div className="image-diagram">
             <img src={diagram3} alt="" />
           </div>
           <br />
-          Selain hemat biaya, PAYG juga membuat infrastruktur jauh lebih fleksibel. Fleksibilitas ini hadir dalam tiga bentuk Utama
+          In addition to being cost-effective, PAYG also makes infrastructure much more flexible. This flexibility comes in three main forms
           <br />
           <h4>1.	Start/Stop Instances</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          Server virtual (Amazon EC2) bisa dinyalakan hanya saat dibutuhkan. Contohnya, untuk environment development yang dipakai hanya di jam kerja, server bisa otomatis mati setelah pukul 6 sore dan hidup kembali pukul 8 pagi—tanpa campur tangan manual.
+          Virtual servers (Amazon EC2) can be turned on only when needed. For example, for a development environment that is only used during working hours, the server can automatically shut down after 6 p.m. and turn back on at 8 a.m.—without manual intervention.
           </ul>
           <br />
           <h4>2.	Resize Instance</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          Kapasitas server dapat dengan mudah disesuaikan. Saat workload meningkat, perusahaan cukup melakukan scale up ke instance yang lebih besar hanya dengan beberapa klik atau satu perintah API. Begitu beban kerja menurun, server bisa kembali di-scale down.
+          Server capacity can be easily adjusted. When the workload increases, the company can simply scale up to a larger instance with just a few clicks or a single API command. Once the workload decreases, the server can be scaled down again.
           </ul>
           <br />
           <h4>3.	Auto Scaling Group (ASG)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          ASG secara otomatis menambah server baru saat traffic melonjak, lalu menurunkannya lagi ketika traffic reda. Hasilnya, biaya selalu sejalan dengan kebutuhan nyata—tidak ada lagi pemborosan.
+          ASG automatically adds new servers when traffic spikes, then scales back down when traffic subsides. As a result, costs always align with actual needs—no more waste.
           </ul>
           <br />
-          Bayangkan sebuah startup e-commerce baru di Jakarta. Saat aplikasi pertama kali diluncurkan, traffic pengunjung masih kecil, cukup dilayani server sederhana dengan biaya hanya ratusan ribu rupiah per bulan. Namun, ketika mereka menggelar kampanye diskon besar-besaran seperti Harbolnas, jumlah pengunjung melonjak ribuan kali lipat. Jika masih mengandalkan server on-premise, mereka akan kewalahan. Bisa saja server error, mati, atau bahkan down karena overload. Sementara itu, menambah server baru membutuhkan waktu berminggu-minggu—terlambat untuk mengimbangi lonjakan traffic.
-          Dengan AWS, mereka cukup menyiapkan ASG. Ketika traffic melonjak, server baru otomatis ditambahkan. Begitu traffic normal, server akan otomatis berkurang. Biaya pun hanya meningkat saat benar-benar dibutuhkan.
-          Contoh studi kasus lainnya, sebuah perusahaan manufaktur yang sudah berdiri puluhan tahun awalnya menggunakan data center sendiri. Mereka membeli server besar setiap 5 tahun sekali. Masalah muncul ketika pandemi COVID-19: kebutuhan remote access melonjak, tetapi kapasitas server tidak cukup.
-          Mereka akhirnya pindah ke AWS dengan model PAYG. Kini, mereka tidak perlu lagi membeli server setiap 5 tahun. Infrastruktur bisa bertambah atau berkurang sesuai kebutuhan bisnis. Selain itu, keamanan data juga meningkat dengan layanan AWS Security.
+          Imagine a new e-commerce startup in Jakarta. When the application was first launched, visitor traffic was still low, easily handled by a simple server costing only hundreds of thousands of rupiah per month. However, when they held a major discount campaign such as Harbolnas, the number of visitors skyrocketed thousands of times. If they still relied on on-premise servers, they would be overwhelmed. The server could crash, shut down, or even go down due to overload. Meanwhile, adding new servers takes weeks—too late to keep up with the traffic surge.
+          Servers are automatically added. Once traffic returns to normal, the servers automatically decrease. Costs only increase when they are actually needed.
+          Another case study example is a manufacturing company that has been around for decades and initially used its own data center. They purchased large servers every 5 years. Problems arose during the COVID-19 pandemic: the need for remote access skyrocketed, but server capacity was insufficient.
+          They eventually moved to AWS with a PAYG model. Now, they no longer need to purchase servers every five years. Infrastructure can be scaled up or down according to business needs. In addition, data security has also improved with AWS Security services.
           <br /> <br />
 
-          <h3>Manfaat Bisnis & Teknis</h3>
+          <h3>Business & Technical Benefits</h3>
           <br />
-          Menggunakan PAYG di AWS memberikan banyak manfaat:
+          Using PAYG on AWS provides many benefits:
           <ul style={{ paddingLeft: '20px' }}>
-          <li>•	Efisiensi biaya – tidak ada investasi awal besar.</li>
-          <li>•	Agility & inovasi – infrastruktur bisa berubah dalam hitungan menit.</li>
-          <li>•	Reliability – layanan AWS tersebar di banyak Availability Zone.</li>
-          <li>•	Sustainability – lebih ramah lingkungan karena menggunakan infrastruktur shared yang efisien energi.</li>
+          <li>•	Cost efficiency – no large upfront investment.</li>
+          <li>•	Agility & innovation – infrastructure can change in minutes.</li>
+          <li>•	Reliability – AWS services are distributed across multiple Availability Zones.</li>
+          <li>•	Sustainability – more environmentally friendly because it uses energy-efficient shared infrastructure.</li>
           </ul>
 
           <br /><br />
-          <h3>6 Pilar AWS Well-Architected</h3>
+          <h3>6 Pillars of AWS Well-Architected</h3>
           <div className="image-diagram">
             <img src={diagram4} alt="" />
           </div>
           <br />
-          Model PAYG mendukung enam pilar AWS Well-Architected Framework:
+          The PAYG model supports the six pillars of the AWS Well-Architected Framework:
           <br />
           <br />
-          <h4>1.	Operational Excellence (Kemudahan Operasi)</h4>
+          <h4>1.	Operational Excellence</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          Dengan model bayar sesuai pemakaian, perusahaan bisa lebih mudah mengatur server. Menyalakan, mematikan, atau menambah kapasitas bisa dilakukan otomatis—seperti menyalakan lampu dengan saklar. Hasilnya, tim IT tidak lagi terjebak mengurus hal-hal kecil, tapi bisa fokus pada peningkatan layanan.
+          With a pay-as-you-go model, companies can more easily manage servers. Turning them on, turning them off, or adding capacity can be done automatically—like turning on a light with a switch. As a result, IT teams are no longer bogged down with minor tasks and can focus on improving services.
           </ul>
           <br />
-          <h4>2.	Security (Keamanan Data)</h4>
+          <h4>2.	Security (Data Security)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          Walau biaya fleksibel, keamanan tidak dikompromikan. Data tetap terlindungi dengan sistem enkripsi, kontrol akses yang ketat, dan standar keamanan internasional. Jadi, walau tidak membeli server sendiri, data perusahaan tetap aman seolah disimpan di “brankas digital”.
+          Even with flexible costs, security is not compromised. Data remains protected with encryption systems, strict access controls, and international security standards. So, even if you don't buy your own server, your company's data is still as secure as if it were stored in a “digital safe”.
           </ul>
           <br />
-          <h4>3.	Reliability (Keandalan Sistem)</h4>
+          <h4>3.	Reliability (System Reliability)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          Server tradisional sering bermasalah jika tiba-tiba ada lonjakan beban. Dengan PAYG, sistem bisa otomatis menambah kapasitas jika dibutuhkan. Bahkan jika ada gangguan di satu lokasi, layanan bisa dialihkan ke lokasi lain agar tetap berjalan. Seperti punya genset otomatis saat listrik padam—layanan tetap nyala tanpa henti.
+          Traditional servers often experience problems when there is a sudden surge in load. With PAYG, the system can automatically increase capacity when needed. Even if there is a disruption in one location, the service can be transferred to another location to keep running. It's like having an automatic generator when the power goes out—services stay up and running without interruption.
           </ul>
           <br />
-          <h4>4.	Performance Efficiency (Kinerja Optimal)</h4>
+          <h4>4.	Performance Efficiency</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          PAYG memungkinkan perusahaan menaruh aplikasi di lokasi (region) yang paling dekat dengan pengguna. Artinya, akses lebih cepat, respons aplikasi lebih baik, dan pengalaman pengguna meningkat. Sama seperti memilih jalan tol terdekat untuk sampai ke tujuan lebih cepat.
+          PAYG allows companies to place applications in the location (region) closest to users. This means faster access, better application response, and an improved user experience. It's like choosing the closest highway to reach your destination faster.
           </ul>
           <br />
-          <h4>5.	Cost Optimization (Biaya Efisien)</h4>
+          <h4>5.	Cost Optimization</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          Inilah inti dari PAYG: hanya bayar apa yang benar-benar dipakai. Tidak ada lagi biaya server yang menganggur. Ibaratnya, seperti bayar listrik atau air—tagihan muncul hanya sesuai penggunaan, bukan biaya tetap bulanan.
+          This is the essence of PAYG: only pay for what you actually use. No more idle server costs. It's like paying for electricity or water—you only get billed for what you use, not a fixed monthly fee.
           </ul>
           <br />
-          <h4>6.	Sustainability (Keberlanjutan & Ramah Lingkungan)</h4>
+          <h4>6.	Sustainability (Sustainability & Environmentally Friendly)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-          Dengan menggunakan infrastruktur bersama yang lebih efisien, konsumsi energi berkurang dibandingkan jika tiap perusahaan membangun data center sendiri. Ini membantu mengurangi jejak karbon dan membuat perusahaan lebih ramah lingkungan.
+          By using more efficient shared infrastructure, energy consumption is reduced compared to if each company built its own data center. This helps reduce carbon footprints and makes companies more environmentally friendly.
           </ul>
           <br /><br />
-          <h3>Tantangan & Cara Mengatasinya</h3>
+          <h3>Challenges & How to Overcome Them</h3>
           <br />
-          Tentu ada tantangan karena biaya bisa melonjak tiba-tiba jika tidak dikelola dengan baik. Banyak perusahaan kaget karena lupa mematikan server atau tidak mengatur alarm biaya. Untungnya, AWS menyediakan solusi seperti Cost Explorer, Budgets, dan tagging untuk menjaga pengeluaran tetap terkendali. Dengan manajemen yang tepat, konsep PAYG di AWS membuat infrastruktur menjadi lebih murah, fleksibel, dan menguntungkan. Perusahaan tidak lagi harus terikat investasi besar di awal, melainkan cukup menyesuaikan biaya sesuai kebutuhan nyata.
+          Of course, there are challenges because costs can suddenly skyrocket if not managed properly. Many companies are surprised because they forget to turn off servers or don't set cost alarms. Fortunately, AWS provides solutions such as Cost Explorer, Budgets, and tagging to keep expenses under control. With proper management, the PAYG concept in AWS makes infrastructure cheaper, more flexible, and more profitable. Companies no longer have to be tied to large upfront investments, but can simply adjust costs according to actual needs.
           <br />
-          Di sinilah PT Mastersystem Infotama Tbk (MSTI) hadir untuk membantu customer dalam mengelola AWS, memberikan 24/7 real-time monitoring, serta konsultasi untuk memastikan penggunaan AWS selalu optimal.
+          This is where PT Mastersystem Infotama Tbk (MSTI) comes in to help customers manage AWS, providing 24/7 real-time monitoring and consultation to ensure optimal AWS usage.
 
 
 
