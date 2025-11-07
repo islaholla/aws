@@ -40,6 +40,7 @@ import InfrastrukturIT from "./components/detailNews/InfrastrukturIT";
 import MigrasiIT from "./components/detailNews/MigrasiIT";
 import CompanyProfile from "./components/detailNews/CompanyProfile";
 import InvestmentSukses from "./components/sucessStory/InvestmentSukses";
+import AwsMsp from "./components/detailNews/AwsMsp";
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
           <Route  path='/news/InfrastrukturIT' element={<InfrastrukturIT/>} />
           <Route  path='/news/MigrasiIT' element={<MigrasiIT/>} />
           <Route  path='/news/CompanyProfile' element={<CompanyProfile/>} />
+          <Route  path='/news/AwsMsp' element={<AwsMsp/>} />
           <Route  path='/journal/:id' element={<DetailBlog/>} />
           <Route  path='/news/:id' element={<DetailNews/>} />
           <Route path='/contact' element={<Contact />} />

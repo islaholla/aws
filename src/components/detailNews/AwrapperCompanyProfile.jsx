@@ -18,137 +18,137 @@ const AwrapperCompanyProfile = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Evolusi Company Profile: Dari Dokumen Statis ke Akses Digital Instan' />
+        <Heading title='Evolution of Company Profiles: From Static Documents to Instant Digital Access' />
         <div className=" bg-white">
-          <h3>Dari File Statis ke Profil Dinamis</h3>
+          <h3>From Static Files to Dynamic Profiles</h3>
           <br />
-          Company profile adalah wajah pertama perusahaan. Sayangnya, format tradisional seperti PDF atau PowerPoint sering merepotkan: file terlalu besar, tampilan tidak responsif di mobile, dan cepat kadaluarsa saat ada update.
+          A company profile is the first impression of a company. Unfortunately, traditional formats such as PDF or PowerPoint are often inconvenient: the files are too large, the display is not responsive on mobile devices, and they quickly become outdated when there are updates.
           <br /><br />
-          Hasilnya, compro yang seharusnya menjadi alat branding dinamis justru sering berakhir sebagai dokumen statis yang cepat kadaluarsa. Di sinilah cloud computing menawarkan solusi. Dengan memanfaatkan Amazon S3, compro yang tadinya berbentuk file statis bisa diubah menjadi situs web sederhana, modern, interaktif, dan selalu up-to-date. Tidak perlu infrastruktur rumit, tidak perlu biaya besar. Cukup unggah file ke cloud, lakukan beberapa pengaturan, dan compro digital siap digunakan.
+          As a result, compros, which should be dynamic branding tools, often end up as static documents that quickly become outdated. This is where cloud computing offers a solution. By utilizing Amazon S3, compros that were previously static files can be converted into simple, modern, interactive, and always up-to-date websites. No complicated infrastructure is needed, and there are no huge costs involved. Simply upload the files to the cloud, make a few settings, and your digital compro is ready to use.
           <br /><br />
 
-          <h3>        Mengapa Memilih Amazon S3 untuk Compro Digital?
+          <h3>        Why Choose Amazon S3 for Compro Digital?
           </h3>
           <div className="image-diagram">
             <img src={diagram1} alt="" />
           </div>
           <br />
-          Amazon Simple Storage Service (S3) adalah layanan penyimpanan data di cloud yang digunakan oleh jutaan perusahaan di seluruh dunia. Banyak yang mengenalnya hanya sebagai “tempat simpan file”, padahal S3 memiliki fitur yang jauh lebih luas.
+          Amazon Simple Storage Service (S3) is a cloud data storage service used by millions of companies around the world. Many people know it only as a “file storage place,” when in fact S3 has much broader features.
           <br /> <br />
-          Salah satu fitur paling relevan untuk company profile digital adalah Static Website Hosting. Dengan fitur ini, bucket (wadah penyimpanan di S3) bisa berfungsi layaknya web server. File HTML, CSS, gambar, hingga video yang diunggah ke bucket dapat langsung ditampilkan sebagai website yang bisa diakses siapa saja.
+          One of the most relevant features for digital company profiles is Static Website Hosting. With this feature, buckets (storage containers in S3) can function like web servers. HTML files, CSS, images, and even videos uploaded to buckets can be directly displayed as websites that anyone can access.
           <br /> <br />
-          Kenapa S3 cocok untuk compro digital?
+          Why is S3 suitable for digital company profiles?
           <br /> <br />
-          <h4>1.	Hemat biaya </h4>
+          <h4>1.	Cost-effective </h4>
           <ul style={{ paddingLeft: '20px' }}>
-            hanya bayar penyimpanan dan Data Transfer Out (DTO). Untuk satu compro digital, biayanya sering kali cuma puluhan ribu rupiah per bulan.
+            You only pay for storage and Data Transfer Out (DTO). For one digital compro, the cost is often only tens of thousands of rupiah per month.
           </ul>
           <br />
-          <h4>2.	Mudah digunakan </h4>
+          <h4>2.	Easy to use </h4>
           <ul style={{ paddingLeft: '20px' }}>
-            tanpa server, tanpa instalasi rumit. Cukup unggah file, aktifkan hosting, compro langsung online.
+            No servers, no complicated installation. Just upload your files, activate hosting, and your compro is online.
           </ul>
           <br />
-          <h4>3.	Aman</h4>
+          <h4>3.	Secure</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            dilengkapi enkripsi, kontrol akses (IAM), dan kepatuhan standar keamanan global.
+            Equipped with encryption, access control (IAM), and global security standards compliance.
           </ul>
           <br />
-          <h4>4.	Andal</h4>
+          <h4>4.	Reliable</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            AWS menjamin daya tahan data hingga 11 nines durability (99,999999999%), membuat data hampir mustahil hilang.
+            AWS guarantees data durability of up to 11 nines (99.999999999%), making data loss virtually impossible.
           </ul>
           <br />
-          <h4>5.  Profesional</h4>
+          <h4>5.  Professional</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            dengan domain perusahaan dan SSL, compro tampil lebih modern dan terpercaya.
+            With a company domain and SSL, compro appears more modern and trustworthy.
           </ul>
           <br />
-          Dengan Static Website Hosting di S3, company profile tidak lagi sekadar file statis, tapi hadir sebagai website interaktif, mudah diakses, dan selalu up-to-date.
+          With Static Website Hosting on S3, company profiles are no longer just static files, but interactive, easily accessible, and always up-to-date websites.
 
           <br /> <br />
-          <h3>Tahapan Implementasi Compro Digital di Amazon S3</h3>
+          <h3>Stages of Compro Digital Implementation in Amazon S3</h3>
           <br />
-          Berikut adalah langkah-langkah praktis, berdasarkan panduan resmi AWS dan best practice yang umum dipakai perusahaan:
+          Here are practical steps based on official AWS guidelines and best practices commonly used by companies:
           <br /> <br />
-          <h4>1.	Persiapan Konten</h4>
+          <h4>1.	Content Preparation</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Sebelum menyentuh sisi teknis, siapkan konten compro kita. Susun materi seperti:
-            <li>•	Profil perusahaan (visi, misi, sejarah singkat).</li>
-            <li>•	Daftar layanan atau produk unggulan.</li>
-            <li>•	Portofolio proyek beserta gambar pendukung.</li>
-            <li>•	Profil tim inti dengan foto profesional.</li>
-            <li>•	Kontak & alamat perusahaan.</li>
-            <li>•	Dan atau konten lainnya yang disesuaikan dengan kebutuhan masing-masing.</li>
-            Semua materi ini sebaiknya dibuat dalam format web-friendly: teks dalam HTML, gambar dalam JPG/PNG, dan video dalam MP4. Jika belum terbiasa membuat HTML, cukup gunakan template website statis gratis atau ringan.
+            Before touching on the technical side, prepare our compro content. Organize materials such as:
+            <li>•	Company profile (vision, mission, brief history).</li>
+            <li>•	List of services or flagship products.</li>
+            <li>•	Project portfolio with supporting images.</li>
+            <li>•	Core team profiles with professional photos.</li>
+            <li>•	Company contact details and address.</li>
+            <li>•	And/or other content tailored to individual needs.</li>
+            All of this material should be created in a web-friendly format: text in HTML, images in JPG/PNG, and videos in MP4. If you are not familiar with HTML, simply use a free or lightweight static website template.
           </ul>
           <br />
-          <h4>2.	Buat Bucket S3</h4>
+          <h4>2.	Create an S3 Bucket</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Dari AWS Console, buat bucket baru dengan nama unik (contoh: compro-perusahaan-kita). Pilih region terdekat agar akses lebih cepat dan menjangkau audiens Indonesia dengan baik dengan tahapan, sebagai berikut:
-            <li>•	Login ke AWS Management Console.</li>
-            <li>•	Cari dan pilih layanan S3.</li>
-            <li>•	Klik Create Bucket dan beri nama unik, misalnya “compro-namaperusahaan-kita”.</li>
-            <li>•	Pilih region terdekat dengan target audiens, misalnya Asia Pacific (Jakarta / ap-southeast-3) agar akses lebih cepat untuk user / audiens dari wilayah Indonesia.</li>
+            From the AWS Console, create a new bucket with a unique name (example: compro-our-company). Select the nearest region for faster access and to better reach Indonesian audiences, as follows:
+            <li>•	Log in to the AWS Management Console.</li>
+            <li>•	Search for and select the S3 service.</li>
+            <li>•	Click Create Bucket and give it a unique name, for example, “compro-ourcompanyname”.</li>
+            <li>•	Select the region closest to your target audience, for example, Asia Pacific (Jakarta / ap-southeast-3) for faster access for users / audiences from the Indonesian region. </li>
             (https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html).
           </ul>
           <br />
-          <h4>3.	Aktifkan Static Website Hosting</h4>
+          <h4>3.	Enable Static Website Hosting</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Di pengaturan bucket, aktifkan Static Website Hosting, dan tetapkan index.html sebagai halaman default, dengan tahapan sebagai berikut:
-            <li>•	Masuk ke tab Properties bucket.</li>
-            <li>•	Aktifkan opsi Static Website Hosting.</li>
-            <li>•	Masukkan index.html sebagai default document.</li>
-            Langkah ini membuat bucket Anda bisa berfungsi sebagai web server.
+            In the bucket settings, enable Static Website Hosting and set index.html as the default page, following these steps:
+            <li>•	Go to the bucket Properties tab.</li>
+            <li>•	Enable the Static Website Hosting option.</li>
+            <li>•	Enter index.html as the default document.</li>
+            This step enables your bucket to function as a web server.
             (https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
           </ul>
           <br />
-          <h4>4.	Mengizinkan Akses Publik</h4>
+          <h4>4.	Allow Public Access</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Secara default, bucket S3 bersifat private / tidak bisa diakses oleh semua orang. Nah, agar website dapat diakses orang lain, maka diperlukan:
-            <li>•	Me-nonaktifkan Block All Public Access.</li>
-            <li>•	Tambahkan Bucket Policy yang memberikan akses GetObject untuk semua orang (read-only).</li>
-            Catatan: Kebijakan ini tidak berbahaya karena hanya memberikan akses baca, sementara hak edit tetap terbatas untuk pemilik akun AWS.
+            By default, S3 buckets are private / cannot be accessed by everyone. To make the website accessible to others, you need to:
+            <li>•	Disable Block All Public Access.</li>
+            <li>•	Add a Bucket Policy that grants GetObject access to everyone (read-only).</li>
+            Note: This policy is not dangerous because it only grants read access, while edit rights remain restricted to AWS account owners.
             (https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
 
           </ul>
           <br />
-          <h4>5.	Upload Konten</h4>
+          <h4>5.	Upload Content</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Unggah semua file ke bucket dan pastikan juga struktur file disusun secara rapi, seperti Upload semua file yang dibutuhkan: index.html, folder /images untuk gambar, /videos untuk video.
+            Upload all files to the bucket and ensure that the file structure is organized neatly, such as Upload all necessary files: index.html, the /images folder for images, /videos for videos.
             (https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
           </ul>
           <br />
-          <h4>6.	Hubungkan dengan Domain (Opsional tapi akan terlihat lebih profesional)</h4>
+          <h4>6.	Connect to a Domain (Optional but will look more professional)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Untuk mendapatkan hasil yang lebih terlihat profesional, kita dapat menggunakan domain perusahaan (misalnya profile.namaperusahaan-kita.co.id), dengan:
-            <li>•	Perlu membeli domain (jika belum punya) atau bisa menggunakan domain yang sudah ada.</li>
-            <li>•	Arahkan domain atau subdomain ke bucket S3 menggunakan Amazon Route 53.</li>
+            To get a more professional look, we can use a company domain (for example, profile.ourcompanyname.co.id), with:
+            <li>•	You need to purchase a domain (if you don't already have one) or you can use an existing domain.</li>
+            <li>•	Point your domain or subdomain to your S3 bucket using Amazon Route 53.</li>
             (https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html).
           </ul>
           <br />
-          <h4>7.	Percepat & Amankan Akses dengan CloudFront</h4>
+          <h4>7.	Accelerate & Secure Access with CloudFront</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Amazon CloudFront berfungsi sebagai Content Delivery Network (CDN) yang mana:
-            <li>•	Dengan CloudFront, website compro bisa diakses lebih cepat dari seluruh dunia.</li>
-            <li>•	CloudFront juga memungkinkan penggunaan SSL/TLS, sehingga compro bisa diakses dengan alamat “https://”.</li>
-            <li>•	Hal ini penting agar klien merasa aman saat membuka link kita.</li>
+            Amazon CloudFront functions as a Content Delivery Network (CDN) which:
+            <li>•	With CloudFront, compro websites can be accessed more quickly from all over the world.</li>
+            <li>•	CloudFront also enables the use of SSL/TLS, so compro can be accessed with the address “https://”.</li>
+            <li>•	This is important so that clients feel secure when opening our links.</li>
             (https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html).
           </ul>
           <br />
-          <h4>8.	Optimasi Konten & Responsif</h4>
+          <h4>8.	Content Optimization & Responsiveness</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Kompres gambar, pastikan desain responsif agar tampil optimal di desktop maupun mobile. Jika ingin lebih interaktif, tambahkan form kontak menggunakan AWS Lambda + API Gateway—opsional tapi bisa meningkatkan engagement.
+            Compress images, ensure responsive design for optimal display on desktop and mobile. For added interactivity, include a contact form using AWS Lambda + API Gateway—optional but can boost engagement.
           </ul>
           <br />
-          <h4>9.	Bagikan dengan QR Code</h4>
+          <h4>9.	Share with QR Code</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Setelah compro digital kita memiliki domain khusus, langkah berikutnya adalah membuatnya lebih mudah dibagikan. Caranya sederhana: ubah link https://profile.namaperusahaan-kita.co.id menjadi QR Code. QR Code ini bisa dicetak di kartu nama, brosur, bahkan dipasang di booth pameran. Dengan begitu, calon klien tinggal memindai barcode untuk langsung membuka compro digital kita, tanpa harus mengetik alamat website.
+            Once our digital compro has a dedicated domain, the next step is to make it easier to share. It's simple: convert the link https://profile.namaperusahaan-kita.co.id into a QR Code. This QR Code can be printed on business cards, brochures, or even displayed at exhibition booths. That way, potential clients can simply scan the barcode to directly open our digital compro, without having to type in the website address.
           </ul>
           <br /> <br />
-          Company profile kini bukan lagi file PDF yang cepat kadaluarsa. Dengan Amazon S3, compro menjadi wajah digital perusahaan yang dinamis, hemat, dan selalu terlihat profesional.
+          Company profiles are no longer PDF files that quickly become outdated. With Amazon S3, compro becomes a dynamic, cost-effective, and always professional digital face of the company.
           <br /> <br />
-          PT Mastersystem Infotama Tbk (MSTI) siap membantu mewujudkannya. Lewat layanan Managed Service 24/7, kami mendampingi mulai dari desain hingga implementasi, memastikan solusi cloud—including compro digital—berjalan lancar dan memberi nilai nyata bagi bisnis Anda.
+          PT Mastersystem Infotama Tbk (MSTI) is ready to help make it happen. Through our 24/7 Managed Service, we assist you from design to implementation, ensuring that cloud solutions—including digital compro—run smoothly and provide real value for your business.
 
         </div>
 
