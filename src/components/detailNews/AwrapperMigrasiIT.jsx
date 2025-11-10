@@ -18,86 +18,86 @@ const AwrapperMigrasiIT = () => {
   return (
     <>
       <section className='homeAbout' id="sukses_aws">
-        <Heading title='Mengapa Migrasi IT Bisa Jadi Jalan Pintas Transformasi Digital?' />
+        <Heading title='Why Can IT Migration Be a Shortcut to Digital Transformation?' />
         <div className=" bg-white">
-          <h3>Kompleksitas IT yang Semakin Sulit Dikelola</h3>
+          <h3>The Increasing Complexity of IT Management</h3>
           <br />
-          Banyak perusahaan saat ini menghadapi tantangan dalam mengelola infrastruktur IT yang semakin kompleks. Aplikasi semakin beragam, jumlah data terus meningkat, sementara kebutuhan pengguna berubah lebih cepat dibandingkan sebelumnya. Infrastruktur tradisional berbasis on-premise sering kali tidak lagi mampu mengimbangi kecepatan perubahan tersebut.
+          Many companies today face challenges in managing increasingly complex IT infrastructures. Applications are becoming more diverse, data volumes continue to grow, and user needs are changing faster than ever before. Traditional on-premise infrastructures are often unable to keep pace with these rapid changes.
           <br /><br />
-          Di sisi pengguna on-premise, dalam menambah kapasitas, perusahaan harus membeli server baru, menyiapkan storage tambahan, hingga menambah lisensi piranti lunak (software). Semua ini tidak hanya memakan waktu dan biaya, tetapi juga mengurangi fleksibilitas bisnis. Ketika skala bisnis tumbuh, tantangan yang dihadapi semakin besar: downtime, performa sistem yang menurun, keterbatasan kapasitas, serta tingginya risiko keamanan. Tidak jarang, pengadaan ini membutuhkan waktu berminggu-minggu bahkan berbulan-bulan.
+          On the on-premise side, in order to increase capacity, companies must purchase new servers, set up additional storage, and add software licenses. All of this not only takes time and money, but also reduces business flexibility. As the scale of the business grows, the challenges faced become even greater: downtime, decreased system performance, capacity limitations, and high security risks. Often, this procurement process takes weeks or even months.
           <br /><br />
-          Kompleksitas inilah yang membuat banyak Perusahaan atau Organisasi mencari cara baru. Sebagian besar dari mereka ingin keluar dari lingkaran biaya besar, keterbatasan skala, dan lambatnya inovasi. Jawaban yang muncul adalah migrasi ke public cloud yang terpercaya. Menurut AWS, cloud migration adalah proses memindahkan aset digital seperti data, aplikasi, dan infrastruktur IT dari data center on-premises ke infrastruktur cloud. Proses ini tidak dilakukan sembarangan; harus ada perencanaan matang, strategi migrasi yang tepat, serta pengujian agar operasional bisnis tidak terganggu (source: https://aws.amazon.com/what-is/cloud-migration/). Migrasi cloud bukan lagi sekadar tren. Kini berkembang menjadi strategi transformasi digital yang membantu banyak Perusahaan atau Organisasi menyederhanakan kompleksitas IT sekaligus membuka jalan menuju inovasi.
+          This complexity has led many companies and organizations to seek new solutions. Most of them want to break out of the cycle of high costs, limited scale, and slow innovation. The answer that has emerged is migration to a trusted public cloud. According to AWS, cloud migration is the process of moving digital assets such as data, applications, and IT infrastructure from on-premises data centers to cloud infrastructure. This process cannot be done carelessly; it requires careful planning, the right migration strategy, and testing to ensure that business operations are not disrupted (source: https://aws.amazon.com/what-is/cloud-migration/). Cloud migration is no longer just a trend. It has now evolved into a digital transformation strategy that helps many companies and organizations simplify IT complexity while paving the way for innovation.
 
           <br /><br />
 
-          <h3>        Mengapa Migrasi ke Cloud Itu Penting?
+          <h3>        Why is Migrating to the Cloud Important?
           </h3>
           <br />
-          Awalnya, banyak Perusahaan atau Organisasi hanya menggunakan cloud untuk aplikasi baru atau non-critical. Namun, seiring waktu, mereka menemukan manfaat besar dengan memperbaharui (jika dibutuhkan) serta memindahkan sistem lama (legacy app / system) juga ke public cloud. Ada 5 (lima) alasan utama mengapa migrasi menjadi langkah strategis.
+          Initially, many companies or organizations only used the cloud for new or non-critical applications. However, over time, they discovered the enormous benefits of updating (if necessary) and migrating legacy applications and systems to the public cloud as well. There are five main reasons why migration is a strategic move.
           <br /> <br />
-          <h4>1.	Efisiensi Biaya</h4>
+          <h4>1.	Cost Efficiency</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Biaya membangun dan merawat data center tidaklah kecil. Perusahaan atau Organisasi seperti pada bagian Pendahuluan di atas, mereka harus membeli server, storage, perangkat jaringan, membayar listrik, pendingin, hingga menggaji tim operasional. Migrasi ke cloud memotong biaya tersebut. Tidak ada lagi pengadaan perangkat keras besar-besaran.
-            Dengan model Pay-As-You-Go (Ref. Artikel 1 - Infrastruktur IT Fleksibel: Dari Beban Menjadi Keunggulan - bisa dimasukkan link Artikel 1), perusahaan hanya membayar sumber daya yang dipakai. Jika server berjalan 10 jam, maka bayar 10 jam saja. Jika traffic menurun, kapasitas akan otomatis berkurang, sehingga dari segi biaya juga ikut turun.
-            Selain itu, migrasi membebaskan tim operasional atau tenaga ahli dari tugas rutin seperti mengganti hard disk yang kerap rusak atau memperbarui piranti lunak (firmware server).
+            The cost of building and maintaining a data center is not insignificant. Companies or organizations, as mentioned in the Introduction above, must purchase servers, storage, network devices, pay for electricity and cooling, and hire an operational team. Migrating to the cloud cuts these costs. There is no longer a need for large-scale hardware procurement.
+            With the Pay-As-You-Go model (Ref. Article 1 - Flexible IT Infrastructure: From Burden to Advantage - link to Article 1 can be inserted), companies only pay for the resources they use. If the server runs for 10 hours, then only 10 hours are paid for. If traffic decreases, capacity will automatically decrease, so costs will also decrease.
+            In addition, migration frees operational teams or experts from routine tasks such as replacing frequently damaged hard disks or updating software (server firmware).
           </ul>
           <br />
-          <h4>2.	Skalabilitas Dinamis</h4>
+          <h4>2.	Dynamic Scalability</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Salah satu keunggulan cloud adalah skalabilitas hampir tanpa batas. Perusahaan bisa menambah kapasitas ketika traffic melonjak, dan menurunkannya kembali saat kondisi normal.
-            Katakanlah sebuah Perusahaan e-commerce saat event Harbolnas. Dengan infrastruktur tradisional, server bisa down akibat traffic ribuan kali lipat. Dengan cloud, kapasitas otomatis bertambah, dan begitu traffic normal, kapasitas kembali menurun. Tidak ada lagi server idle yang membebani biaya.
+            One of the advantages of the cloud is its almost unlimited scalability. Companies can increase capacity when traffic spikes and reduce it again when conditions return to normal.
+            Take an e-commerce company during the Harbolnas event, for example. With traditional infrastructure, servers could crash due to a thousand-fold increase in traffic. With the cloud, capacity automatically increases, and once traffic returns to normal, capacity decreases again. There are no more idle servers weighing down costs.
           </ul>
           <br />
-          <h4>3.	Keamanan yang Lebih Tinggi</h4>
+          <h4>3.	Enhanced Security</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Banyak orang berpikir memindahkan data ke cloud berarti kehilangan kontrol keamanan. Faktanya adalah penyedia public cloud seperti AWS berinvestasi miliaran dolar untuk keamanan, seperti halnya ucapan dari CISO AWS, “the culture that Security is Job Zero, https://aws.amazon.com/blogs/enterprise-strategy/security-at-aws/”.
-            Model pembagian tanggung jawabnya (Shared Responsibility, https://aws.amazon.com/compliance/shared-responsibility-model/) jelas. AWS mengamankan infrastruktur cloud, sementara Customer mengatur konfigurasi dan akses data. Dengan kombinasi ini, data justru lebih aman daripada dibiarkan di ruang server dengan kunci fisik.
+            Many people think that moving data to the cloud means losing control over security. The fact is that public cloud providers such as AWS invest billions of dollars in security, as stated by AWS CISO, “the culture that Security is Job Zero, https://aws.amazon.com/blogs/enterprise-strategy/security-at-aws/”.
+            The shared responsibility model (https://aws.amazon.com/compliance/shared-responsibility-model/) is clear. AWS secures the cloud infrastructure, while customers manage data configuration and access. With this combination, data is actually more secure than if it were left in a server room with a physical key.
           </ul>
           <br />
-          <h4>4.	Performa dan Keandalan</h4>
+          <h4>4.	Performance and Reliability</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Migrasi ke cloud memberikan akses ke teknologi server dan jaringan terbaru. Aplikasi berjalan lebih cepat, latensi berkurang, dan pengguna merasakan pengalaman yang lebih baik.
-            Dengan data center yang tersebar secara global, pengguna mengakses konten dari lokasi terdekat. Hal ini meningkatkan produktivitas dan daya saing bisnis.
+            Migrating to the cloud provides access to the latest server and network technologies. Applications run faster, latency is reduced, and users enjoy a better experience.
+            With data centers spread across the globe, users access content from the nearest location. This increases business productivity and competitiveness.
           </ul>
           <br />
-          <h4>5.  Keberlanjutan / Sustainability</h4>
+          <h4>5.  Sustainability</h4>
           <div className="image-diagram">
             <img src={diagram1} alt="" />
           </div>
           <ul style={{ paddingLeft: '20px' }}>
-            Public Cloud juga membantu Perusahaan / Organisasi lebih ramah lingkungan. Skala besar memungkinkan AWS menggunakan perangkat yang hemat energi dan teknologi pendingin canggih. Dibandingkan ribuan Perusahaan membangun data center sendiri, model ini jauh lebih efisien dan mengurangi jejak polusi (source: https://aws.amazon.com/sustainability/).
+            Public Cloud also helps companies/organizations become more environmentally friendly. Its large scale allows AWS to use energy-efficient devices and advanced cooling technology. Compared to thousands of companies building their own data centers, this model is much more efficient and reduces the pollution footprint (source: https://aws.amazon.com/sustainability/).
           </ul>
           <br />
-          Dengan model ini membuat biaya IT menjadi sangat dinamis. Tidak ada lagi konsep “membeli server berlebihan hanya untuk jaga-jaga”.
+          This model makes IT costs very dynamic. There is no longer a concept of “buying excess servers just in case.”
 
           <br /> <br />
-          <h3>Strategi Migrasi: 7R yang Harus Dipahami</h3>
+          <h3>Migration Strategy: The 7Rs You Need to Understand</h3>
           <br />
-          Tidak semua aplikasi bisa dipindahkan ke cloud dengan cara yang sama. AWS memperkenalkan 7 strategi migrasi (7R) yang bisa menjadi panduan.
+          Not all applications can be migrated to the cloud in the same way. AWS introduces 7 migration strategies (7R) that can serve as a guide.
           <br /> <br />
           <h4>1.	Rehosting (Lift and Shift)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Memindahkan aplikasi apa adanya ke cloud tanpa perubahan besar. Cepat dan sederhana, cocok untuk migrasi tahap awal.
+            Move the application as-is to the cloud without major changes. Fast and simple, suitable for initial migration.
           </ul>
           <br />
           <h4>2.	Relocating (Lift and Optimize)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Sama seperti rehosting, tetapi setelah pindah, aplikasi dioptimalkan menggunakan layanan cloud, misalnya pindah dari VM ke database terkelola oleh AWS, seperti RDS (Relational Database Services).
+            Similar to rehosting, but after relocation, the application is optimized using cloud services, for example, moving from a VM to a database managed by AWS, such as RDS (Relational Database Services).
           </ul>
           <br />
           <h4>3.	Refactoring</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Mendesain ulang aplikasi agar sepenuhnya memanfaatkan kemampuan cloud. Cocok untuk aplikasi yang ingin diskalakan atau ditambah fitur baru.
+            Redesign the application to take full advantage of cloud capabilities. Suitable for applications that want to scale or add new features.
           </ul>
           <br />
           <h4>4.	Replatforming (Lift, Tinker, Shift)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Perpaduan rehosting dan refactoring. Ada optimasi tertentu, misalnya memindahkan database ke layanan cloud dengan otomatisasi berbasis machine learning.
+            A combination of rehosting and refactoring. There are certain optimizations, such as moving the database to a cloud service with machine learning-based automation.
           </ul>
           <br />
           <h4>5.	Repurchasing</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Mengganti aplikasi lama dengan aplikasi berbasis cloud. Misalnya, pindah dari VDI on-premises ke VDI native cloud.
+            Replacing old applications with cloud-based applications. For example, moving from on-premises VDI to native cloud VDI.
           </ul>
           <br />
           <h4>6.	Retiring</h4>
@@ -107,99 +107,99 @@ const AwrapperMigrasiIT = () => {
           <br />
           <h4>7.	Retaining (Revisiting)</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Menunda migrasi untuk aplikasi tertentu. Biasanya karena aplikasi baru saja diperbarui atau masih ada alasan regulasi.
+            Delaying migration for certain applications. This is usually because the application has just been updated or there are still regulatory reasons.
           </ul>
           <br /> <br />
 
-          <h3>Jenis-Jenis Migrasi Cloud</h3>
+          <h3>Types of Cloud Migration</h3>
           <br />
-          Migrasi bisa terjadi dalam berbagai bentuk, tergantung kebutuhan:
+          Migration can take various forms, depending on your needs:
           <br /> <br />
           <ul style={{ paddingLeft: '20px' }}>
-            <li>•	Database Migration – memindahkan database ke cloud, dengan replikasi data untuk meminimalkan downtime.</li>
-            <li>•	Application Migration – memindahkan aplikasi dari on-premises ke cloud, bisa rehosting, replatforming, atau refactoring.</li>
-            <li>•	Hybrid Migration – sebagian sistem tetap on-premises, sebagian pindah ke cloud. Cocok untuk transisi bertahap.</li>
-            <li>•	Data Center Migration – memindahkan seluruh infrastruktur data center ke cloud. Kompleks, tapi sangat mengurangi biaya operasional.</li>
-            <li>•	Cloud-to-Cloud Migration – memindahkan workload antar penyedia cloud, misalnya karena biaya lebih murah atau layanan lebih sesuai.</li>
+            <li>•	Database Migration – moving databases to the cloud, with data replication to minimize downtime.</li>
+            <li>•	Application Migration – moving applications from on-premises to the cloud, which can involve rehosting, replatforming, or refactoring.</li>
+            <li>•	Hybrid Migration – part of the system remains on-premises, while part is moved to the cloud. Suitable for gradual transitions.</li>
+            <li>•	Data Center Migration – moving the entire data center infrastructure to the cloud. Complex, but greatly reduces operational costs.</li>
+            <li>•	Cloud-to-Cloud Migration – moving workloads between cloud providers, for example, because of lower costs or more suitable services.</li>
           </ul>
 
           <br /><br />
-          <h3>Tahapan Migrasi AWS Best Practices</h3>
+          <h3>AWS Migration Best Practices</h3>
           <br />
-          Model PAYG mendukung enam pilar AWS Well-Architected Framework:
+          The PAYG model supports the six pillars of the AWS Well-Architected Framework:
           <br />
           <br />
-          <h4>1.	Assessment (Menilai)</h4>
+          <h4>1.	Assessment</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Perusahaan / Organisasi harus memahami kondisi IT saat ini. Identifikasi aplikasi, data, dan workload yang ada. Tentukan prioritas, biaya, dan potensi penghematan.
+            Companies/organizations must understand their current IT environment. Identify existing applications, data, and workloads. Determine priorities, costs, and potential savings.
           </ul>
           <br />
-          <h4>2.	Mobilize (Mempersiapkan)</h4>
+          <h4>2.	Mobilize</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Bentuk tim migrasi inti, buat rencana detail, siapkan lingkungan cloud, dan jalankan migrasi pilot untuk menguji strategi.
+            Form a core migration team, create a detailed plan, prepare the cloud environment, and run a pilot migration to test the strategy.
           </ul>
           <br />
-          <h4>3.	Migrate and Modernize (Migrasi dan Modernisasi)</h4>
+          <h4>3.	Migrate and Modernize</h4>
           <ul style={{ paddingLeft: '20px' }}>
-            Setelah uji coba berhasil, mulai migrasi skala besar. Optimalkan arsitektur aplikasi agar sesuai dengan layanan cloud. Monitoring dilakukan untuk keamanan, performa, dan biaya.
+            After a successful trial, begin large-scale migration. Optimize the application architecture to suit cloud services. Monitoring is performed for security, performance, and cost.
           </ul>
           <br />
-          Migrasi bukanlah langkah sekali jadi, tetapi proses berkelanjutan yang terus diperbarui sesuai perkembangan teknologi.
+          Migration is not a one-time step, but a continuous process that is constantly updated in line with technological developments.
           <br /><br />
-          <h3>Use Case: Migrasi ERP di Perusahaan Manufaktur</h3>
+          <h3>Use Case: ERP Migration in a Manufacturing Company</h3>
           <br />
-          Sebuah perusahaan manufaktur besar di Indonesia menjalankan ERP (Enterprise Resource Planning) di data center internal. Sistem ERP ini kritikal karena mendukung produksi, keuangan, dan distribusi. Namun, setiap akhir bulan saat proses closing keuangan, sistem sering melambat karena kapasitas server tidak mencukupi.
+           A large manufacturing company in Indonesia runs ERP (Enterprise Resource Planning) in an internal data center. This ERP system is critical because it supports production, finance, and distribution. However, at the end of each month during the financial closing process, the system often slows down due to insufficient server capacity.
           <br />
-          Setelah migrasi ke AWS:
+           After migrating to AWS:
           <br /> <br />
           <ul style={{ paddingLeft: '20px' }}>
-            <li>•	Database ERP dipindahkan ke Amazon RDS.</li>
-            <li>•	Aplikasi ERP dijalankan di Amazon EC2 dengan mengaktifkan fitur ASG.</li>
-            <li>•	Data backup langsung tersimpan di Amazon S3, yang menjamin durabilitas 11 s (99,999999999%).</li>
+            <li>•	The ERP database was moved to Amazon RDS.</li>
+            <li>•	The ERP application runs on Amazon EC2 with ASG enabled.</li>
+            <li>•	Data backups are stored directly in Amazon S3, which guarantees 11 nines (99.999999999%) durability.</li>
           </ul>
           <br />
-          Hasilnya, performa ERP meningkat drastis. Proses laporan keuangan akhir bulan yang dulu butuh waktu berjam-jam kini bisa selesai lebih cepat. Downtime berkurang, kapasitas tidak lagi menjadi masalah, dan tim IT bisa fokus pada inovasi, bukan sekadar memadamkan masalah infrastruktur.
+          As a result, ERP performance has improved dramatically. The month-end financial reporting process, which used to take hours, can now be completed much faster. Downtime has been reduced, capacity is no longer an issue, and the IT team can focus on innovation rather than just putting out infrastructure fires.
           <br /> <br />
 
-          <h3>Use Case 2: Kelancaran Aplikasi Bisnis Perusahaan Finansial</h3>
+          <h3>Use Case 2: Business Application Smoothness for Financial Companies</h3>
           <br />
-          Sebuah perusahaan asuransi mengalami tantangan dalam menjaga disaster recovery (DR). Mereka memiliki data center cadangan, tetapi biaya operasionalnya tinggi. 
+          An insurance company faced challenges in maintaining disaster recovery (DR). They had a backup data center, but the operational costs were high.
           <br />
-          Migrasi ke AWS memberi solusi:
+          Migrating to AWS provided the solution:
           <br /> <br />
           <ul style={{ paddingLeft: '20px' }}>
-            <li>•	Sistem utama tetap di data center lokal.</li>
-            <li>•	Sistem cadangan dipindahkan ke AWS dengan AWS Elastic Disaster Recovery (DRS).</li>
-            <li>•	Uji DR (Drill Test) bisa dilakukan lebih sering atau sesuai jadwal yang disepakati, dengan biaya yang jauh lebih terukur.</li>
+            <li>•	The main system remains in the local data center.</li>
+            <li>•	The backup system is moved to AWS with AWS Elastic Disaster Recovery (DRS).</li>
+            <li>•	DR tests (Drill Tests) can be conducted more frequently or according to an agreed schedule, at a much more measurable cost.</li>
           </ul>
           <br />
-          Kini, perusahaan memiliki DR yang lebih tangguh, dengan RPO (Recovery Point Objective) dan RTO (Recovery Time Objective) lebih baik, tanpa biaya besar untuk menjaga data center cadangan.
+           Now, the company has a more robust DR, with better RPO (Recovery Point Objective) and RTO (Recovery Time Objective), without the high costs of maintaining a backup data center.
           <br /> <br />
 
-          <h3>Tantangan Migrasi dan Cara Mengatasinya</h3>
+          <h3>Migration Challenges and How to Overcome Them</h3>
           <br />
-          Migrasi tentu tidak lepas dari tantangan:
+          Migration certainly comes with challenges:
           <br /> <br />
           <ul style={{ paddingLeft: '20px' }}>
-            <li>•	Kompleksitas teknis: Bagi aplikasi yang saling terhubung sehingga migrasi tidak bisa parsial.</li>
-            <li>•	Skalabilitas: data besar membutuhkan strategi replikasi agar tidak mengganggu bisnis.</li>
-            <li>•	Skill gap: tim internal perlu belajar teknologi cloud.</li>
+            <li>•	Technical complexity: For interconnected applications, migration cannot be partial.</li>
+            <li>•	Scalability: Large data requires a replication strategy so as not to disrupt business.</li>
+            <li>•	Skill gap: Internal teams need to learn cloud technology.</li>
           </ul>
           <br />
           <br />
-          AWS menawarkan berbagai tools native untuk membantu:
+          AWS offers a variety of native tools to help:
           <br /> <br />
           <ul style={{ paddingLeft: '20px' }}>
-            <li>•	Application Discovery Service – memetakan server sumber.</li>
-            <li>•	Application Migration Service (MGN) – otomatisasi rehosting.</li>
-            <li>•	Database Migration Service (DMS) – migrasi database cepat dan aman.</li>
-            <li>•	DataSync – memindahkan file / data antar sistem.</li>
-            <li>•	Migration Acceleration Program (MAP) – metodologi dalam mempercepat dan mengamankan proses migrasi yang terbukti dari pengalaman ribuan migrasi.</li>
+            <li>•	Application Discovery Service – maps source servers.</li>
+            <li>•	Application Migration Service (MGN) – automates rehosting.</li>
+            <li>•	Database Migration Service (DMS) – fast and secure database migration.</li>
+            <li>•	DataSync – move files/data between systems.</li>
+            <li>•	Migration Acceleration Program (MAP) – a proven methodology for accelerating and securing the migration process based on thousands of migrations.</li>
           </ul>
           <br />
-          Migrasi ke cloud adalah langkah strategis yang tidak hanya menyederhanakan kompleksitas IT, tetapi juga membuka peluang besar untuk efisiensi biaya, peningkatan keamanan, dan akselerasi inovasi. Namun, perjalanan ini tidak bisa dilakukan sendiri, yang mana dibutuhkan partner berpengalaman dan terbukti. PT Mastersystem Infotama Tbk (MSTI) hadir sebagai mitra terpercaya dengan rekam jejak panjang di Indonesia. Sebagai AWS Advanced Tier Partner, MSTI telah mendukung banyak Perusahaan di Indonesia dalam melakukan transisi dari on-premises ke cloud dengan pendekatan yang sistematis dan aman.
+          Migrating to the cloud is a strategic move that not only simplifies IT complexity, but also opens up huge opportunities for cost efficiency, increased security, and accelerated innovation. However, this journey cannot be undertaken alone, as it requires an experienced and proven partner. PT Mastersystem Infotama Tbk (MSTI) is a trusted partner with a long track record in Indonesia. As an AWS Advanced Tier Partner, MSTI has supported many companies in Indonesia in transitioning from on-premises to the cloud with a systematic and secure approach.
           <br /> <br />
-          Lebih dari sekadar klaim, kapabilitas MSTI telah divalidasi melalui berbagai AWS Competencies di bidang migrasi, storage, serta modernisasi infrastruktur, ratusan sertifikasi resmi dari AWS, serta implementasi proyek nyata di berbagai industri (source: https://partners.amazonaws.com/partners/0010h00001d1hNzAAI/). Hal ini menjadikan MSTI bukan hanya penyedia layanan, melainkan partner strategis yang siap mendampingi pelanggan dari tahap perencanaan, migrasi, hingga pengelolaan harian di cloud. Dengan pengalaman di berbagai industri, MSTI menyediakan konsultasi, implementasi, hingga managed service yang akan membantu Perusahaan dalam monitoring operasional infrastruktur secara 24/7.
+          More than just claims, MSTI's capabilities have been validated through various AWS Competencies in migration, storage, and infrastructure modernization, hundreds of official certifications from AWS, and real project implementations in various industries (source: https://partners.amazonaws.com/partners/0010h00001d1hNzAAI/). This makes MSTI not just a service provider, but a strategic partner ready to accompany customers from the planning stage, migration, to daily management in the cloud. With experience in various industries, MSTI provides consulting, implementation, and managed services that will help companies monitor their infrastructure operations 24/7.
 
         </div>
 
