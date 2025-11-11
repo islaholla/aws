@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import Heading from "../common/heading/Heading"
-import diagram1 from '../components/image/Aws Blog - AWS MSP (2).jpeg';
+import diagram1 from '../components/image/Aws Blog - AWS MSP.jpeg';
 import { useLocation } from "react-router-dom";
 
 
