@@ -640,7 +640,7 @@ export const blog = [
     title: "Migrating Banking Support System to the Cloud",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "IT consultancy and an Amazon Web Services (AWS) Partner, to help prepare the infrastructure to migrate workload of their Corporate Banking Application.",
-    cover: "../images/sucess/migrastionbank.png",
+    cover: "../images/sucess/Aws Microsite - Migration Bank.png",
   },
   {
     id: "coal-mining",
@@ -650,7 +650,7 @@ export const blog = [
     title: "Disaster Recovery Solution for Coal Mining Industry",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "Mastersystem Infotama, a major IT consultant and Amazon Web Services (AWS) Partner, to provide solution for Disaster Recovery Strategy solutions on AWS",
-    cover: "../images/sucess/sukses.jpg",
+    cover: "../images/sucess/Aws Microsite - Coal Mining.png",
   },
   {
     id: "backup-solution",
@@ -660,7 +660,7 @@ export const blog = [
     title: "Backup Solution on AWS for IT Solution and Digital Transformation Company",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "One of IT solution and Digital transformation Company engage with Mastersystem Infotama a major IT consultancy and an Amazon Web Services (AWS) Partner, to help create solution for Backup with Commvault Backup Software",
-    cover: "../images/sucess/backupsolution.jpeg",
+    cover: "../images/sucess/Aws Microsite - Digital Transformation Company.png",
   },
   {
     id: "automated-backup",
@@ -670,7 +670,7 @@ export const blog = [
     title: "Automated Backup on AWS for Resilience of Cross-zone Disaster Recovery",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "One of Water Supply and Distribution Industries in Indonesia who partnering with Mastersystem Infotama as one of Amazon Web Services (AWS) partner to help them solve their most cost-effective DR strategy.",
-    cover: "../images/sucess/automated.jpeg",
+    cover: "../images/sucess/Aws Microsite - Automated Backup.png",
   },
   {
     id: "1",
@@ -728,7 +728,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "IT Hybrid Datacenter & Backup Solution for Asset Management Company",
     konten : "Japan Tobacco International telah berkembang dari perusahaan importir menjadi salah satu perusahaan manufaktur terbesar di industri tembakau Indonesia yang didirikan pada tahun 2010.Dalam kurun waktu 10 tahun, JTI Indonesia telah meraih banyak prestasi sukses, mulai dari mengembangkan rokok kretek pertamanya hingga akuisisi perusahaan manufaktur besar dan kantor distribusinya dengan cakupan nasional. Namun pada proses bisnisnya, JTI Indonesia masih memiliki proses manual yang diulang setiap harinya, seperti mengambil data dari website minimarket Indonesia untuk disimpan di Server Database JTI Indonesia.  Untuk menggantikan proses manual tersebut, JTI Indonesia mencari solusi otomatisasi agar tugas rutin yang biasa dilakukan secara manual bisa dilakukan dengan cepat, mudah dan hemat biaya. Mastersystem Infotama (Mastersystem) sebagai Partner Amazon Web Service (AWS) sekaligus Partner Nintex berkolaborasi untuk membantu kebutuhan JTI Indonesia dengan menyediakan solusi Enterprise Nintex Robotic Process Automation (RPA) yang berjalan di AWS. Untuk meningkatkan akurasi, konsistensi dalam pengolahan data ini, perlu dilakukan peningkatan penggunaan RPA. Dengan RPA, volume tinggi dan pekerjaan manual berulang dapat sepenuhnya diatasi melalui otomatisasi. Sehingga waktu yang sebelumnya digunakan untuk menyelesaikan pekerjaan, dapat dialokasikan untuk pekerjaan lain.", desc: "One of Investment Management Financial engage with Mastersystem Infotama a major IT consultancy and an Amazon Web Services (AWS) Partner, to help migrate, backup on-premises server and application workloads ",
-    cover: "../images/sucess/AWS Success Story Banner.jpg",
+    cover: "../images/sucess/Aws Microsite - IT Hybrid DataCenter.png",
   },
 
 ]
