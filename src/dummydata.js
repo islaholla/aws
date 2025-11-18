@@ -620,7 +620,7 @@ export const blog = [
     title: "Cloud Datawarehouse Migration",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "PT Bank BTPN Syariah, need to modernize their current data warehouse system. They choose AWS as their new data warehouse platform due to it’s resilience, scalability and agility.",
-    cover: "../images/sucess/rds thumbnail.png",
+    cover: "../images/sucess/Aws Microsite - Btpns.png",
   },
   {
     id: "success-telkomsel",
@@ -630,7 +630,7 @@ export const blog = [
     title: 'Telkomsel "Dunia Games" Migration',
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "PT Telekomunikasi Selular, trading as Telkomsel, is an Indonesian wireless network provider. Founded in 1995 and is a subsidiary of Telkom Indonesia. It is headquartered in South Jakarta.",
-    cover: "../images/sucess/Telkomsel Dunia Games Migration.jpg",
+    cover: "../images/sucess/Aws Microsite - Telkomsel Dunia Games.png",
   },
   {
     id: "migrating-banking",
@@ -680,7 +680,7 @@ export const blog = [
     title: "Perjalanan Transformasi Digital PT. Matahari Sakti, Implementasikan AWS",
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "PT Matahari Sakti mendapatkan layanan cloud handal dengan bantuan technical dari mastersystem dan system di pindahkan dari Heroku ke AWS",
-    cover: "../images/sucess/matahari.jpg",
+    cover: "../images/sucess/Aws Microsite - Matahari Sakti.png",
   },
   {
     id: "2",
@@ -690,7 +690,7 @@ export const blog = [
     title: "Mempercepat Inovasi Menggunakan AWS - PT. Bentoel Prima",
     desc: "Teknologi cloud saat ini menjadi kunci untuk mempercepat transformasi digital",
     konten : "Teknologi cloud saat ini menjadi kunci untuk mempercepat transformasi digital. PT. Bentoel Prima - Bentoel Group  sebagai salah satu perusahaan rokok terbesar di Indonesia telah memanfaatkan teknologi cloud ini untuk menyederhanakan operasional di IT mereka. Namun dalam perjalanannya, teknologi cloud yang ada masih belum optimal dan membutuhkan biaya yang terbilang besar. Mastersystem bersama AWS membantu Bentoel Group untuk mengadopsi teknologi Workload Database dan AWS Lightsail sebagai sebuah solusi yang dapat mengoptimalkan pengembangan teknologi mereka karena penggunaannya yang lebih mudah, harga yang dapat diestimasi, dan skalabilitas yang sederhana. Hasilnya, ketika database di naikan ke AWS cloud, user mendapatkan: Visibilitas terhadap detail penggunaan, Performa yang maksimal, Biaya operasional yang lebih rendah, Tingginya kecepatan penarikan data, Rendahnya kemungkinan terjadi bugs “Kami menyadari bahwa kami perlu bertransformasi untuk menjalankan inovasi-inovasi kami kedepan. Solusi yang ditawarkan Mastersystem dan AWS sangatlah membantu operasional kami karena memberikan hasil yang lebih baik dari segi performa dan biaya. Kami juga berencana untuk menaikkan beberapa server lagi ke AWS cloud” – Arry Widyanto, DBS Service Analyst PT. Bentoel Prima",
-    cover: "../images/sucess/bentoel.jpg",
+    cover: "../images/sucess/Aws Microsite - Bentoel Prima.png",
   },
   {
     id: "3",
@@ -700,7 +700,7 @@ export const blog = [
     title: "Transformasi Website Nissin Food Indonesia Bersama AWS Lightsail ",
     desc: "Mastersystem Bersama AWS Membantu Nissin Foods untuk Mengadopsi Teknologi Workload AWS Lightsail Sebagai Sebuah Solusi yang Dapat Memodernisasi Pengembangan Teknologi    ",
     konten : "Kemajuan teknologi cloud saat ini dimanfaatkan oleh PT. Nissin Food Indonesia untuk memodernisasi website sebagai pintu masuk komunikasi dengan customer agar bisa menghasilkan customer exprience yang lebih maksimal. Mastersystem bersama AWS membantu Nissin Foods mengadopsi teknologi Workload AWS Lightsail sebagai sebuah solusi yang dapat memodernisasi pengembangan teknologi mereka karena penggunaannya yang lebih mudah, harga yang dapat diestimasi, dan skalabilitas yang sederhana. Hasilnya, ketika website di naikan ke AWS cloud, user mendapatkan: Visibilitas terhadap detail penggunaan, Performa yang maksimal, Biaya operasional yang lebih optimal, Kemungkinan terjadi spam yang lebih rendah“Kami menyadari perlunya modernisasi website untuk menjalankan inovasi-inovasi kami kedepan. Solusi yang ditawarkan Mastersystem dan AWS sangatlah membantu operasional kami karena memberikan hasil yang lebih baik dari segi performa dan biaya. Kami juga berencana untuk menaikkan beberapa server lagi ke AWS cloud” – ucap Rico Lanjar Winata, IT Sr. Supervisor Nissin Foods Indonesia.    Kedepannya, Mastersystem dan AWS akan membantu Nissin Food memaksimalkan penggunaan cloud untuk meningkatkan kinerja operasional dan mengakselerasi bisnis dengan solusi cloud lainnya. ",
-    cover: "../images/sucess/AWS Success Story Nissin.jpg",
+    cover: "../images/sucess/Aws Microsite - Nissin Food.png",
   },
   {
     id: "4",
@@ -710,7 +710,7 @@ export const blog = [
     title: "Mengatasi Spam dan Bugs dengan Menggunakan Layanan AWS - PT Crown Sign Supply Indonesia ",
     konten : "PT Crown Sign Supply Indonesia memiliki website dan mail server di VPS local Indonesia, tetapi memiliki kendala karena storage selalu full karena banyak spam masuk ke dalam server. Tim MSI membantu memberikan solusi untuk menjawab kebutuhan dari PT Crown Sign Supply Indonesia. Mastersystem Bersama AWS membantu PT Crown Sign Supply Indonesia untuk memindahkan Web server dan Email Server ke AWS dengan menggunakan EC2 dan dilengkapi dengan security WAF. Secara penggunaannya lebih mudah dan tahu harga yang lebih jelas.Hasilnya, Ketika email server dan web server ada di AWS cloud, user mendapatkan: Performan yang maksimal, Rendahnya kemungkinan terjadi spam Tidak report dalam masalah memory dan storage.",
     desc: "Mastersystem Bersama AWS Membantu PT Crown Sign Supply Indonesia untuk Memindahkan Web Server dan Email Server ke AWS ",
-    cover: "../images/sucess/crownsign.png",
+    cover: "../images/sucess/Aws Microsite - Crown.png",
   },
   {
     id: "5",
@@ -719,7 +719,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Keberhasilan JTI Indonesia Implementasikan Robotics Process Automation (RPA) di Amazon Web Service (AWS) ",
     konten : "Japan Tobacco International telah berkembang dari perusahaan importir menjadi salah satu perusahaan manufaktur terbesar di industri tembakau Indonesia yang didirikan pada tahun 2010.Dalam kurun waktu 10 tahun, JTI Indonesia telah meraih banyak prestasi sukses, mulai dari mengembangkan rokok kretek pertamanya hingga akuisisi perusahaan manufaktur besar dan kantor distribusinya dengan cakupan nasional. Namun pada proses bisnisnya, JTI Indonesia masih memiliki proses manual yang diulang setiap harinya, seperti mengambil data dari website minimarket Indonesia untuk disimpan di Server Database JTI Indonesia.  Untuk menggantikan proses manual tersebut, JTI Indonesia mencari solusi otomatisasi agar tugas rutin yang biasa dilakukan secara manual bisa dilakukan dengan cepat, mudah dan hemat biaya. Mastersystem Infotama (Mastersystem) sebagai Partner Amazon Web Service (AWS) sekaligus Partner Nintex berkolaborasi untuk membantu kebutuhan JTI Indonesia dengan menyediakan solusi Enterprise Nintex Robotic Process Automation (RPA) yang berjalan di AWS. Untuk meningkatkan akurasi, konsistensi dalam pengolahan data ini, perlu dilakukan peningkatan penggunaan RPA. Dengan RPA, volume tinggi dan pekerjaan manual berulang dapat sepenuhnya diatasi melalui otomatisasi. Sehingga waktu yang sebelumnya digunakan untuk menyelesaikan pekerjaan, dapat dialokasikan untuk pekerjaan lain.", desc: "Mastersystem Infotama (Mastersystem) sebagai Partner Amazon Web Service (AWS) sekaligus Partner Nintex berkolaborasi untuk membantu kebutuhan JTI Indonesia ",
-    cover: "../images/sucess/japan.jpg",
+    cover: "../images/sucess/Aws Microsite - Japan Tobacco.png",
   },
   {
     id: "sukses-story",
