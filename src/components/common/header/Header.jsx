@@ -32,7 +32,7 @@ const Header = () => {
               onMouseLeave={handleMouseLeave}> 
               <Link  to='/solutions'  
             
-              >AWS  Solution</Link>
+              >Our Solution</Link>
                {isDropdownVisible && <DropdownMenu />}
             </li>
             <li>

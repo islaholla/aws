@@ -5,10 +5,10 @@ const DropdownMenu = () => {
   return (
     <div className="dropdown-menu">
       <ul>
-        <Link to='/solutions/aws'>Windows Migration</Link>
-        <Link to='/solutions/sdp'> AWS Migration</Link>
-        <Link to='/solutions/storage'>AWS Storage Services</Link>
-        <Link to='/solutions/mso'>Managed Service Operations</Link>
+        <Link to='/solutions/aws'>AWS Service Delivery: Amazon EC2 for Windows</Link>
+        <Link to='/solutions/sdp'> AWS Migration and Modernization Consulting</Link>
+        <Link to='/solutions/storage'>AWS Storage Consulting</Link>
+        <Link to='/solutions/mso'>AWS Managed Service Provider</Link>
       </ul>
     </div>
   );
