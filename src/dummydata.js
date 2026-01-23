@@ -511,18 +511,6 @@ export const blog = [
     konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
     desc: "The client is a top-tier financial services provider in Indonesia, offering a wide range of banking, investment, and insurance products to both retail and corporate customers.",
     cover: "../images/sucess/Aws Microsite - Company C.png",
-  },
-  {
-    id: "success-asset-company",
-    type: "admin",
-    date: "JUL. 25, 2025",
-    com: "3 COMMENTS ",
-    title: "AWS Managed Service Operations for Asset Management Company",
-    konten : "Di era mobile dimana informasi harus disampaikan secara cepat dan akurat, PT Matahari Sakti memerlukan sarana dimana team sales yang berada di lapangan bisa mengakses data pelanggan di HQ secara detail, Untuk itu diperlukan layanan cloud yang handal. bisa di deploy dengan mudah, technical support yang ok dan tentu saja dengan harga yang reasonable. Dengan dibantu technical dari MSI dalam waktu kurang dari seminggu system kami sudah bisa di pindahkan dari Heroku ke AWS Saat ini sistem informasi sales yang kami develop selama setahun ini tidak pernah sama sekali mengalami kendala dari sisi infrastruktur sehingga kami bisa lebih fokus ke pengembangan aplikasinya Kedepannya sistem informasi sales ini selain di akses oleh team sales juga akan di akses oleh semua customer PT Matahari Sakti yang secara infrastruktur cloud akan dibutuhkan banyak pengembangan. Implementasi sekarang bersama Mastersystem!",
-    desc: "Our client is a major investment firm in Indonesia, managing a diverse portfolio of stocks, bonds, mutual funds, and alternative investments. As the company expanded its digital offerings, it needed a more agile, secure, and cost-efficient IT infrastructure to support its applications and financial services.",
-    cover: "../images/sucess/Aws Microsite - Asset Management.png",
-  },
-  {
     id: "success-telecom",
     type: "admin",
     date: "JUL. 25, 2025",
